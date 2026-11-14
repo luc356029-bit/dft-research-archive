@@ -1,0 +1,329 @@
+{
+  "created_for": "C1 2.4学习实践；没有新增DFT计算",
+  "source_folder": "https://drive.google.com/drive/folders/1owJdKL4KhiW4XY3HQj812t10UZLLILsU",
+  "source_archives": [
+    {
+      "name": "01_原始计算输出_03.zip",
+      "bytes": 25669000,
+      "sha256": "a72150a84ccd870bfec79217b0e9698157c59df213f52e50537ba0a763357b1f",
+      "md5": "ade3940d8cf5852da456226c0da9ce9b"
+    },
+    {
+      "name": "02_输运网络_后处理脚本_输入与证据.zip",
+      "bytes": 25032504,
+      "sha256": "3ce02dd75bcdcd5ec77654222e20a1e5226e807f8194d68dd84200d6e76abd6a",
+      "md5": "9177057d2a5bb05638eed5526610d323"
+    }
+  ],
+  "note": "复制文件保留原字节；路径重排仅为教学。未包含POTCAR/WAVECAR/CHGCAR，不是可提交VASP的新作业包。所有原文件以2026-10-16归档MANIFEST逐项校验。",
+  "files": [
+    {
+      "practice_path": "path0_CI/INCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/INCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "b9a31465faac7db27c463806973e1689b98fe3ab5bb4678c304bf35696a92561",
+      "bytes": 475
+    },
+    {
+      "practice_path": "path0_CI/KPOINTS",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/KPOINTS",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+      "bytes": 55
+    },
+    {
+      "practice_path": "path0_CI/POTCAR.sha256",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/POTCAR.sha256",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "002e5b092b9086b43b05dcebc7da7e17bc23b06ce6b9ff44366d84747344e1cf",
+      "bytes": 73
+    },
+    {
+      "practice_path": "path0_CI/potential_metadata.txt",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/potential_metadata.txt",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "251f99718ad1862896cefc17c0247da41ea9454773c326d2d82eea7a8e73e233",
+      "bytes": 273
+    },
+    {
+      "practice_path": "path0_CI/neb_metadata.json",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/neb_metadata.json",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "80b06dd24f30bd0639323f827f9d6d777c3a4e78bc2e83cf0700aca909509759",
+      "bytes": 8962
+    },
+    {
+      "practice_path": "path0_CI/execution_exit_code.txt",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/execution_exit_code.txt",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2
+    },
+    {
+      "practice_path": "path0_CI/00/POSCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/00/POSCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "cef7289647dce9f1e4c5519c35c43e571cef7b0e21747564e59d17dc25a6026d",
+      "bytes": 8086
+    },
+    {
+      "practice_path": "path0_CI/00/OUTCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/00/OUTCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "948dd02dbb7effc59744e724e7355424ab0192d02bd824bbec6dc461acd8e6f5",
+      "bytes": 667864
+    },
+    {
+      "practice_path": "path0_CI/00/OSZICAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/00/OSZICAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "f77cf5150e13d3de47aacd139b3c58a0b7be4afe932a8551e55fc968142229ad",
+      "bytes": 3344
+    },
+    {
+      "practice_path": "path0_CI/01/POSCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/01/POSCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "2958e30fae1afeac592f704a39fd8eec05797d59d38fb8c19f136a0b1e7a1cba",
+      "bytes": 8086
+    },
+    {
+      "practice_path": "path0_CI/01/OUTCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/01/OUTCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "f20e3bace83f73242e4cbb6ece334e6870e985d26fd195b27bc25e9cbe406986",
+      "bytes": 2668089
+    },
+    {
+      "practice_path": "path0_CI/01/OSZICAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/01/OSZICAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "5db63601c1462078e6b2375b51d81b968863b558b299961f10c233f80ab04127",
+      "bytes": 9074
+    },
+    {
+      "practice_path": "path0_CI/01/CONTCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/01/CONTCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "fb66755cddff3439fb8ca467a8c0c66a27f4054765534f15ea8ceeffa156e1b7",
+      "bytes": 7233
+    },
+    {
+      "practice_path": "path0_CI/01/vasprun.xml",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/01/vasprun.xml",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "03fcb8d4ff40008fa2b5d370952658040bd39917f7196456f523d737218f4610",
+      "bytes": 369622
+    },
+    {
+      "practice_path": "path0_CI/02/POSCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/02/POSCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "316433ab0562cfbea234b09e985d2dcd19516298c10ada5b8af60021dd454fe3",
+      "bytes": 8086
+    },
+    {
+      "practice_path": "path0_CI/02/OUTCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/02/OUTCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "4eceba4d8ff6eea4c81e75a7e5520b59fec0ea35363f842cbdb346a2a994fa82",
+      "bytes": 2685240
+    },
+    {
+      "practice_path": "path0_CI/02/OSZICAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/02/OSZICAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "3df82b2f3a15a0a27ed698fb99b19a52957d8475ebddd461212c33436447689c",
+      "bytes": 9911
+    },
+    {
+      "practice_path": "path0_CI/02/CONTCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/02/CONTCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "6172d69d8224a00815311e10adedb3703df6818c08bd0fb776b6bd0156d0b376",
+      "bytes": 7233
+    },
+    {
+      "practice_path": "path0_CI/02/vasprun.xml",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/02/vasprun.xml",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "dd889ee7c2d2b353b7beee36a11bf39b83aec38f00cb5591eab845feb64b3235",
+      "bytes": 372142
+    },
+    {
+      "practice_path": "path0_CI/03/POSCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/03/POSCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "1123e3509b7e4042a2e485745003e9778eb147eaef7ba85773e743f7c43e2715",
+      "bytes": 8086
+    },
+    {
+      "practice_path": "path0_CI/03/OUTCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/03/OUTCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "3501a36b209c860722cf42e17a1410b11a4f6cf9340e82b49be60f763d519fc0",
+      "bytes": 2693614
+    },
+    {
+      "practice_path": "path0_CI/03/OSZICAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/03/OSZICAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "a3dd8eae69063dd391b3d87685e7c571991b1c3187c9277ab46fa7435859d54b",
+      "bytes": 10283
+    },
+    {
+      "practice_path": "path0_CI/03/CONTCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/03/CONTCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "aa97f3f2155f1bc8cff57d7a6d0aeebaac618427b084e9618b42e1bc914adc1c",
+      "bytes": 7233
+    },
+    {
+      "practice_path": "path0_CI/03/vasprun.xml",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/03/vasprun.xml",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "992c05d01313e0b3644229693781fa0acc37cc75d3969deb32d5f03ca4e5915a",
+      "bytes": 373262
+    },
+    {
+      "practice_path": "path0_CI/04/POSCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/04/POSCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "1103cbf063b0ef5dff32b300fc52a4e59021bf4201074eb6059f5b62679d0a26",
+      "bytes": 8086
+    },
+    {
+      "practice_path": "path0_CI/04/OUTCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/04/OUTCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "52c6ec27cb387cc151aa72c6a1a7dadfa14f6cf39256790e48d4e2a738881411",
+      "bytes": 2677669
+    },
+    {
+      "practice_path": "path0_CI/04/OSZICAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/04/OSZICAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "c390b3942be2b3f319ecf18497b5024b47856aa389c0e70258af282f64285918",
+      "bytes": 9539
+    },
+    {
+      "practice_path": "path0_CI/04/CONTCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/04/CONTCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "0a1712f9320072e551fbad2604028a579ad860718539dbd79af1f89bee10ead4",
+      "bytes": 7233
+    },
+    {
+      "practice_path": "path0_CI/04/vasprun.xml",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/04/vasprun.xml",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "28d80d754bcd8074704d5b01b49e0cdd23e8738d7c274c0c3051c8c83e123b2e",
+      "bytes": 371022
+    },
+    {
+      "practice_path": "path0_CI/05/POSCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/05/POSCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "d3e49d809b6553146e0b690a1e7f30cfe5bcc2d0d72bebff0de75ce2b0e30084",
+      "bytes": 8086
+    },
+    {
+      "practice_path": "path0_CI/05/OUTCAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/05/OUTCAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "cd7ffa04d7abae027818ca61b4735b8d8c258ae07c5daa12831f71bf527c56b7",
+      "bytes": 289535
+    },
+    {
+      "practice_path": "path0_CI/05/OSZICAR",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/05/OSZICAR",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "229168c97fe28b6ea2e8181d79b1f9e9abfa448658436b42622a4e6822fa8243",
+      "bytes": 1948
+    },
+    {
+      "practice_path": "原始核验记录/neb_analysis.json",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/neb_analysis.json",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "ea461f0d493d451bdb3e80401e378f39236c1b0948993b02aeb7ca8840330fd3",
+      "bytes": 1431185
+    },
+    {
+      "practice_path": "原始核验记录/ordinary_NEB_analysis.json",
+      "original_path": "hpc/results/20261014-203629-82353ebf0211/20261015-004430-c799a2d90af1/restart_source_neb_analysis_at_preparation.json",
+      "archive": "01_原始计算输出_03.zip",
+      "sha256": "7b41975f4831b2cf8dea9fc8da01dc21760ab6b60a9c3b1a1afaf225329c517b",
+      "bytes": 838114
+    },
+    {
+      "practice_path": "原始核验记录/参考源码_勿单独运行/prepare_neb.py",
+      "original_path": "C阶段自主预验证/round1/scripts/prepare_neb.py",
+      "archive": "02_输运网络_后处理脚本_输入与证据.zip",
+      "sha256": "dc8b120dc2f603632ec888783056095c7899667073b379ca1956f67e2ea68c71",
+      "bytes": 8558
+    },
+    {
+      "practice_path": "原始核验记录/参考源码_勿单独运行/neb_geometry.py",
+      "original_path": "C阶段自主预验证/round1/scripts/neb_geometry.py",
+      "archive": "02_输运网络_后处理脚本_输入与证据.zip",
+      "sha256": "e445c3ed7bd83cf3d2c4c12cd5570377e17b4b909e58234135880d78fcbcc695",
+      "bytes": 2650
+    },
+    {
+      "practice_path": "原始核验记录/ordinary_NEB_input/INCAR",
+      "original_path": "cases/lisi-r1-neb00-preopt-k4-v1/INCAR",
+      "archive": "02_输运网络_后处理脚本_输入与证据.zip",
+      "sha256": "d19a4a5d472e7a0baf3c4f3b50cb9e9006abc5e3cb98ef73225de931ec1c5f34",
+      "bytes": 454
+    },
+    {
+      "practice_path": "原始核验记录/ordinary_NEB_input/neb_metadata.json",
+      "original_path": "cases/lisi-r1-neb00-preopt-k4-v1/neb_metadata.json",
+      "archive": "02_输运网络_后处理脚本_输入与证据.zip",
+      "sha256": "e6dc120a0a018e99840ac385602e949a08fe0e9ab6300e46f99fde41b9677b51",
+      "bytes": 6699
+    },
+    {
+      "practice_path": "原始核验记录/ordinary_NEB_input/00/POSCAR",
+      "original_path": "cases/lisi-r1-neb00-preopt-k4-v1/00/POSCAR",
+      "archive": "02_输运网络_后处理脚本_输入与证据.zip",
+      "sha256": "cef7289647dce9f1e4c5519c35c43e571cef7b0e21747564e59d17dc25a6026d",
+      "bytes": 8086
+    },
+    {
+      "practice_path": "原始核验记录/ordinary_NEB_input/01/POSCAR",
+      "original_path": "cases/lisi-r1-neb00-preopt-k4-v1/01/POSCAR",
+      "archive": "02_输运网络_后处理脚本_输入与证据.zip",
+      "sha256": "ab19ce8c081a7bc0bdb54d1defd8e7212ea3578fec64ebbd129e76b141cb29da",
+      "bytes": 8086
+    },
+    {
+      "practice_path": "原始核验记录/ordinary_NEB_input/02/POSCAR",
+      "original_path": "cases/lisi-r1-neb00-preopt-k4-v1/02/POSCAR",
+      "archive": "02_输运网络_后处理脚本_输入与证据.zip",
+      "sha256": "c50c25adc098fbc23862f24ebb544d28f72053069ef79f9a22cf9c72e013b527",
+      "bytes": 8086
+    },
+    {
+      "practice_path": "原始核验记录/ordinary_NEB_input/03/POSCAR",
+      "original_path": "cases/lisi-r1-neb00-preopt-k4-v1/03/POSCAR",
+      "archive": "02_输运网络_后处理脚本_输入与证据.zip",
+      "sha256": "a5d2c1e4372148e9d67c7c04f2e4fc05ea0d9a67ea73e878b2e1a7f8a3514827",
+      "bytes": 8086
+    },
+    {
+      "practice_path": "原始核验记录/ordinary_NEB_input/04/POSCAR",
+      "original_path": "cases/lisi-r1-neb00-preopt-k4-v1/04/POSCAR",
+      "archive": "02_输运网络_后处理脚本_输入与证据.zip",
+      "sha256": "194399c85c095b09689074ca3176b9c99a9837ecfb64c43fe73dc615988f2f65",
+      "bytes": 8086
+    },
+    {
+      "practice_path": "原始核验记录/ordinary_NEB_input/05/POSCAR",
+      "original_path": "cases/lisi-r1-neb00-preopt-k4-v1/05/POSCAR",
+      "archive": "02_输运网络_后处理脚本_输入与证据.zip",
+      "sha256": "d3e49d809b6553146e0b690a1e7f30cfe5bcc2d0d72bebff0de75ce2b0e30084",
+      "bytes": 8086
+    }
+  ]
+}

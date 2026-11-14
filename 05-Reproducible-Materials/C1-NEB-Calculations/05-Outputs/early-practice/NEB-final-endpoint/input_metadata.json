@@ -1,0 +1,18 @@
+{
+  "structure": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\vacancy63_endpoints_k4\\POSCAR.B00",
+  "destination": "C:\\Users\\28307\\Documents\\\u590d\u523b\\cases\\lisi-r1-endpointB00-k4",
+  "k": [
+    4,
+    4,
+    4
+  ],
+  "ecut": 520,
+  "sigma": 0.1,
+  "relax": 0,
+  "isif": 2,
+  "fmax": 0.01,
+  "isym": 0,
+  "source_sha256": "7c7dfd9b7cf614b295b3905b4ba5954ea5ab5a947874c63615efaf30be36865b",
+  "nat": 63,
+  "status": "PREPARED_NOT_EXECUTED"
+}

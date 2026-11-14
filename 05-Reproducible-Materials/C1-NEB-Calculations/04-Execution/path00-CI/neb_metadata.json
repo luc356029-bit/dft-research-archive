@@ -1,0 +1,219 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "arguments": {
+    "initial_result": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7",
+    "final_result": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-181033-f3bb5b608e2c\\20261014-183423-c7f4ec08e278",
+    "destination": "cases\\lisi-r1-neb00-ci-k4-v1",
+    "images": 4,
+    "steps": 24,
+    "climb": true,
+    "fmax": 0.02,
+    "optimizer": 1,
+    "model_gates": "C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\defect_checks_audit_k4.json",
+    "parameter_gates": "C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\neb_preoptimization_parameter_gates_k4.json",
+    "restart_result": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-185852-db265980660a\\20261014-203439-c82a525b9b0e"
+  },
+  "endpoint_Efr_split_eV": 7.369999991624354e-06,
+  "geometry_preflight": {
+    "status": "GEOMETRY_ONLY_NO_DFT_BARRIER",
+    "n_intermediate_images": 4,
+    "initializer": "restart CONTCAR, MIC unfolded relative to original image; not newly interpolated",
+    "minima": [
+      {
+        "image": 0,
+        "min_pair_A": 2.4018980170430724,
+        "min_species_pairs_A": {
+          "LiLi": 2.6611299240163357,
+          "LiSi": 2.599901052011343,
+          "SiSi": 2.4018980170430724
+        }
+      },
+      {
+        "image": 1,
+        "min_pair_A": 2.400837544179904,
+        "min_species_pairs_A": {
+          "LiLi": 2.673831916411005,
+          "LiSi": 2.5999597666943313,
+          "SiSi": 2.400837544179904
+        }
+      },
+      {
+        "image": 2,
+        "min_pair_A": 2.3972821115507643,
+        "min_species_pairs_A": {
+          "LiLi": 2.677927787970706,
+          "LiSi": 2.5497048958833597,
+          "SiSi": 2.3972821115507643
+        }
+      },
+      {
+        "image": 3,
+        "min_pair_A": 2.397258957424421,
+        "min_species_pairs_A": {
+          "LiLi": 2.6779567500962487,
+          "LiSi": 2.5496413269427958,
+          "SiSi": 2.397258957424421
+        }
+      },
+      {
+        "image": 4,
+        "min_pair_A": 2.4008143936068405,
+        "min_species_pairs_A": {
+          "LiLi": 2.67404879596573,
+          "LiSi": 2.6000825734649675,
+          "SiSi": 2.4008143936068405
+        }
+      },
+      {
+        "image": 5,
+        "min_pair_A": 2.401898017043069,
+        "min_species_pairs_A": {
+          "LiLi": 2.661129924016334,
+          "LiSi": 2.5999010520113446,
+          "SiSi": 2.401898017043069
+        }
+      }
+    ],
+    "max_image_atom_step_A": 0.47632256357386316,
+    "cumulative_configuration_arc_A": [
+      0.0,
+      0.4808523198287467,
+      0.9626552161590375,
+      1.4437067885028991,
+      1.9255105318656858,
+      2.4063536171702755
+    ],
+    "endpoints_unchanged": true,
+    "restart_source": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-185852-db265980660a\\20261014-203439-c82a525b9b0e",
+    "restart_images": [
+      {
+        "image": 1,
+        "source_CONTCAR_sha256": "7387820243fef6864a72203dd622f32c5e889886844b75b73ef6fc88c5e20316",
+        "max_difference_from_evaluated_geometry_A": 7.816088873434726e-08,
+        "geometry_is_evaluated": true,
+        "usage": "Restart guess; the new run must re-evaluate energy and force"
+      },
+      {
+        "image": 2,
+        "source_CONTCAR_sha256": "d69f43d8990838f1096df6612a8d5a7507c78c0e8c92ad4bc911aac7aaff0e76",
+        "max_difference_from_evaluated_geometry_A": 7.28441350380846e-08,
+        "geometry_is_evaluated": true,
+        "usage": "Restart guess; the new run must re-evaluate energy and force"
+      },
+      {
+        "image": 3,
+        "source_CONTCAR_sha256": "e379d2c8187b59ca66558f1575969c1f62c8b21b406a481df26b033910c7d505",
+        "max_difference_from_evaluated_geometry_A": 7.709199446331833e-08,
+        "geometry_is_evaluated": true,
+        "usage": "Restart guess; the new run must re-evaluate energy and force"
+      },
+      {
+        "image": 4,
+        "source_CONTCAR_sha256": "ef4681ef36cae5448bf1e4caec60842ce778ddef1e195eb714d4a4e381cf6d15",
+        "max_difference_from_evaluated_geometry_A": 7.819540021658549e-08,
+        "geometry_is_evaluated": true,
+        "usage": "Restart guess; the new run must re-evaluate energy and force"
+      }
+    ],
+    "source_neb_analysis_sha256": "7b41975f4831b2cf8dea9fc8da01dc21760ab6b60a9c3b1a1afaf225329c517b",
+    "remote_wavecar_restart": {
+      "reuse_allowed": true,
+      "remote_source": "/public/home/scnf2i3kj5/codex-dft-fuke/20261014-185852-db265980660a",
+      "image_sha256": {
+        "2": "16dc540b47573fb95fb96d2da3d3a13fb8b6fe09a62327074e15d057b2f21573",
+        "4": "fe3867f5402d923f2ad90be265e34b5c958ab7c7d5b0853d4f6970375cc7e1be",
+        "1": "88da29d84ae66962a5fbeb02bed5b538552c08e399940a68973a3231034d74b5",
+        "3": "592d725242801766c61270b2868c9eff5542326a81224c30983cb330e8559206"
+      },
+      "wavecar_manifest_sha256": "f11daaf8ceceecf966b1f29afdfc28c8eca691e64c0116a54a387402a9a34411"
+    }
+  },
+  "endpoints": [
+    {
+      "path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7",
+      "sha256": {
+        "OUTCAR": "948dd02dbb7effc59744e724e7355424ab0192d02bd824bbec6dc461acd8e6f5",
+        "vasprun.xml": "50147fe5dfda33bb139b3310b8df82ebb47059c651baeac2a2c1552ef9f048c5",
+        "POSCAR": "c8c3b7c3865835e2b47b810dfaf5230f900268a7acf3ad51d76a3a74dd27fdeb",
+        "CONTCAR": "6dda4adcfb2638ea9e0b8651e62b8218089cde5d5d695df07ed189f6fdd2302a",
+        "INCAR": "38be135bcab456371623acf2542ea6e3461a2006b4d1ec0f708902548a2b4706",
+        "KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+        "POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+      },
+      "association": {
+        "OUTCAR_ENCUT_eV": 520.0,
+        "XML_ENMAX_eV": 520.0,
+        "OUTCAR_energy_frames": 3,
+        "OUTCAR_force_frames": 3,
+        "max_force_component_difference_eV_A": 5.000000000000664e-07,
+        "max_position_difference_A": 8.321597994246513e-06,
+        "XML_kmesh": [
+          4,
+          4,
+          4
+        ],
+        "XML_kmesh_kind": "Monkhorst-Pack",
+        "input_manifest_verified": true,
+        "SlurmJobId": "124421809",
+        "local_job_id": "20261014-171257-b59fb640bbc6",
+        "errors": [],
+        "cross_format_association_passed": true
+      },
+      "Fmax_eV_A": 0.006234066759908815,
+      "energies_eV": {
+        "e_fr_energy": -244.71186692,
+        "e_wo_entrp": -244.67632926,
+        "e_0_energy": -244.69409809
+      }
+    },
+    {
+      "path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-181033-f3bb5b608e2c\\20261014-183423-c7f4ec08e278",
+      "sha256": {
+        "OUTCAR": "cd7ffa04d7abae027818ca61b4735b8d8c258ae07c5daa12831f71bf527c56b7",
+        "vasprun.xml": "389a46197700db495afb02cd89d1607221d0847d3acd6952b9dc27873d332c38",
+        "POSCAR": "ac9f89f8dc9ef0f83ee128969dbd4594ac9f08e0d8ea63c87e70a4807b4e27b6",
+        "CONTCAR": "a15932cb513382500f4865f4dd243882ed10e0137fd9aa0c1cf6115e0e63ef76",
+        "INCAR": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2",
+        "KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+        "POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+      },
+      "association": {
+        "OUTCAR_ENCUT_eV": 520.0,
+        "XML_ENMAX_eV": 520.0,
+        "OUTCAR_energy_frames": 1,
+        "OUTCAR_force_frames": 1,
+        "max_force_component_difference_eV_A": 5.000000000000664e-07,
+        "max_position_difference_A": 7.2781380143678654e-06,
+        "XML_kmesh": [
+          4,
+          4,
+          4
+        ],
+        "XML_kmesh_kind": "Monkhorst-Pack",
+        "input_manifest_verified": true,
+        "SlurmJobId": "124424614",
+        "local_job_id": "20261014-181033-f3bb5b608e2c",
+        "errors": [],
+        "cross_format_association_passed": true
+      },
+      "Fmax_eV_A": 0.006529727909415522,
+      "energies_eV": {
+        "e_fr_energy": -244.71185955,
+        "e_wo_entrp": -244.67632187,
+        "e_0_energy": -244.69409071
+      }
+    }
+  ],
+  "optimizer_evidence": "VTST maintainer: https://theory.cm.utexas.edu/henkelman/forum/viewtopic.php?p=18465",
+  "endpoint_energy_reference": "Explicit physical free energy Efr in EFIRST/ELAST; consistent with force derivative (VTST maintainer https://theory.cm.utexas.edu/henkelman/forum/viewtopic.php?t=108)",
+  "precision_scope": {
+    "kmesh": [
+      4,
+      4,
+      4
+    ],
+    "ENCUT_eV": 520.0,
+    "SIGMA_eV": 0.1,
+    "scope": "Preoptimization precision; final saddle barrier sensitivity gates remain required"
+  }
+}
