@@ -4,7 +4,7 @@ Published to the public repository on 2026-11-14.
 
 ## Current repository contents
 
-- 218 files in the GitHub tree.
+- 224 files in the GitHub tree.
 - 77 Materials Project CIF structures.
 - 54 Markdown documents.
 - 22 Python scripts.
@@ -23,7 +23,7 @@ The repository is organized in the A → B → C1 → supplementary-validation s
 
 ## What is not mirrored into GitHub
 
-The GitHub tree is a curated public mirror, not a byte-for-byte copy of the 05 ZIP package. Large raw-output files and large nested evidence ZIP bundles have not been uploaded in this pass. The underlying source archives remain in the original Google Drive folders and the separately prepared local package.
+The GitHub tree is a curated public mirror, not a byte-for-byte copy of the 05 ZIP package. Six compact supplementary evidence ZIPs are included. Large raw-output files and several larger nested evidence bundles have not been uploaded in this pass. The underlying source archives remain in the original Google Drive folders and the separately prepared local package.
 
 The following are also intentionally excluded:
 - VASP POTCAR files and embedded copies.
