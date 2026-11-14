@@ -35,4 +35,4 @@
 - [C1 · NEB 与输运](../05-Reproducible-Materials/C1-NEB-Calculations/README.md)
 - [补充检验](../05-Reproducible-Materials/Supplementary-Validation/README.md)
 
-笔记中的历史判断保留其形成时的语境；后续修正和最终证据以 05 中相应的验证材料为准。特别是 C1 2.6 中的早期解释，不应脱离后续同口径对照与差异归因单独引用。
+
