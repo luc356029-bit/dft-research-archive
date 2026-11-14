@@ -1,0 +1,33 @@
+{
+  "status": "PAIRED_COMPARISONS_VALIDATED_WITH_COVARIANCE_FREE_ERROR_BOUND",
+  "source_statistical_audit": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_statistical_admission.json",
+  "source_statistical_audit_sha256": "b38add91e2e93a3f82ca76730d20d8e4a3ba0edb7c6bad9cf4094ef3dc3a3c13",
+  "paired_block_checks": [
+    {
+      "nsites": 32,
+      "SE_of_difference_upper_bound_cm2_s": 3.383293238536632e-11,
+      "difference_over_SE_upper_bound": 0.21381255574100608,
+      "passed_3SE": true,
+      "covariance_assumption": "No cross-blocking independence assumed; triangle/Cauchy bound SE(delta)<=SE(a)+SE(b)"
+    },
+    {
+      "nsites": 128,
+      "SE_of_difference_upper_bound_cm2_s": 3.906455074427986e-12,
+      "difference_over_SE_upper_bound": 1.1776033954694156,
+      "passed_3SE": true,
+      "covariance_assumption": "No cross-blocking independence assumed; triangle/Cauchy bound SE(delta)<=SE(a)+SE(b)"
+    }
+  ],
+  "paired_box_comparison": {
+    "fLi_difference_32_minus_128": 0.012782325250574184,
+    "SE_difference_upper_bound": 0.0018358805762988587,
+    "difference_over_SE_upper_bound": 6.962503670224233,
+    "normalized_ratio_128_over_32": 0.9003733303138708,
+    "scope": "Common seeds can correlate boxes. The original9.2447 combined-SE z is descriptive only; this bound does not assume independent box estimates. It still resolves a finite-concentration/box difference, not DFT size convergence."
+  },
+  "temperature_fit_scope": "Descriptive250-400K fit, not a300K local LiEa proof. Same numeric seeds acrossT may correlate estimates; diagonal SE is not claimed as an independent-temperature uncertainty. The absolute-coefficient SE bound is given conservatively; non-Arrhenius curvature remains possible.",
+  "temperature_SE_bound_eV": 0.0019390189961809865,
+  "original_audit_preserved": true,
+  "analyzer_path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\correlation_error_supplement_phase34_20261015.py",
+  "analyzer_sha256": "df5fd1803f0a72a3260b9d6fb0517c2bb560324e7e0deaad90edec46add97ae4"
+}

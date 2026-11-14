@@ -1,0 +1,841 @@
+{
+  "status": "FINITE_MODEL_KMC_STATISTICAL_GATES_PASSED",
+  "criteria": {
+    "primary_300K_combined_relative_SE_max": 0.05,
+    "seed_agreement_combined_SE": 3,
+    "block_agreement_combined_SE": 3,
+    "vacancy_exact_comparison_combined_SE": 3,
+    "positive_rate_directed_edges_all_sampled_at_300K": true
+  },
+  "checks": [
+    {
+      "check": "32_block_agreement",
+      "passed": true
+    },
+    {
+      "check": "32_primary_relative_SE",
+      "passed": true
+    },
+    {
+      "check": "32_long_seed_agreement",
+      "passed": true
+    },
+    {
+      "check": "32_long_vacancy_exact",
+      "passed": true
+    },
+    {
+      "check": "32_long_edge_coverage",
+      "passed": true
+    },
+    {
+      "check": "32_long_reversible_upper_bound",
+      "passed": true
+    },
+    {
+      "check": "32_short_seed_agreement",
+      "passed": true
+    },
+    {
+      "check": "32_short_vacancy_exact",
+      "passed": true
+    },
+    {
+      "check": "32_short_edge_coverage",
+      "passed": true
+    },
+    {
+      "check": "32_short_reversible_upper_bound",
+      "passed": true
+    },
+    {
+      "check": "128_block_agreement",
+      "passed": true
+    },
+    {
+      "check": "128_primary_relative_SE",
+      "passed": true
+    },
+    {
+      "check": "128_long_seed_agreement",
+      "passed": true
+    },
+    {
+      "check": "128_long_vacancy_exact",
+      "passed": true
+    },
+    {
+      "check": "128_long_edge_coverage",
+      "passed": true
+    },
+    {
+      "check": "128_long_reversible_upper_bound",
+      "passed": true
+    },
+    {
+      "check": "128_short_seed_agreement",
+      "passed": true
+    },
+    {
+      "check": "128_short_vacancy_exact",
+      "passed": true
+    },
+    {
+      "check": "128_short_edge_coverage",
+      "passed": true
+    },
+    {
+      "check": "128_short_reversible_upper_bound",
+      "passed": true
+    }
+  ],
+  "primary_300K": {
+    "family": "Efr",
+    "T_K": 300.0,
+    "nsites": 32,
+    "blocks_per_seed": 160,
+    "seeds": [
+      137,
+      991
+    ],
+    "events_per_seed": 8000000,
+    "total_elapsed_time_s": 0.004601388917948783,
+    "DLi_cm2_s": 2.012311292523404e-09,
+    "DLi_SE_cm2_s": 1.9675695863184353e-11,
+    "relative_SE": 0.009777660114659182,
+    "Dvac_KMC_cm2_s": 1.682418203166e-07,
+    "Dvac_KMC_SE_cm2_s": 9.244103909203494e-09,
+    "Dvac_exact_cm2_s": 1.697203183622051e-07,
+    "Duncorr_cm2_s": 4.862085672200864e-07,
+    "vacancy_exact_z": 0.1599395744711516,
+    "seed_agreement_z": 0.05479898534426743,
+    "unsampled_positive_edges_pooled": 0,
+    "unsampled_positive_edges_per_seed": [
+      0,
+      0
+    ],
+    "vacancy_fraction": 0.03125,
+    "population_ratio": 0.03225806451612903,
+    "f_v": 0.34906895888854167,
+    "f_Li": 0.12830224367475604,
+    "f_eff": 0.36755558008732353,
+    "f_eff_SE": 0.003593833535340242,
+    "raw_counts_by_family": [
+      2541107,
+      10047961,
+      3404898,
+      6034
+    ],
+    "files": [
+      "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_00.json",
+      "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_02.json"
+    ],
+    "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+    "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+  },
+  "box_300K": {
+    "family": "Efr",
+    "T_K": 300.0,
+    "nsites": 128,
+    "blocks_per_seed": 160,
+    "seeds": [
+      137,
+      991
+    ],
+    "events_per_seed": 8000000,
+    "total_elapsed_time_s": 0.004601388917948783,
+    "DLi_cm2_s": 4.4225806316852534e-10,
+    "DLi_SE_cm2_s": 2.2257818333129104e-12,
+    "relative_SE": 0.005032767107436008,
+    "Dvac_KMC_cm2_s": 1.682418203166e-07,
+    "Dvac_KMC_SE_cm2_s": 9.244103909203494e-09,
+    "Dvac_exact_cm2_s": 1.697203183622051e-07,
+    "Duncorr_cm2_s": 4.862085672200864e-07,
+    "vacancy_exact_z": 0.1599395744711516,
+    "seed_agreement_z": 0.8691575730297554,
+    "unsampled_positive_edges_pooled": 0,
+    "unsampled_positive_edges_per_seed": [
+      0,
+      0
+    ],
+    "vacancy_fraction": 0.0078125,
+    "population_ratio": 0.007874015748031496,
+    "f_v": 0.34906895888854167,
+    "f_Li": 0.11551991842418186,
+    "f_eff": 0.3309372417186701,
+    "f_eff_SE": 0.0016655300647473222,
+    "raw_counts_by_family": [
+      2541107,
+      10047961,
+      3404898,
+      6034
+    ],
+    "files": [
+      "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_04.json",
+      "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_06.json"
+    ],
+    "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+    "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+  },
+  "blocking_comparisons": [
+    {
+      "nsites": 32,
+      "relative_change_short_to_long": -0.0035819479295351453,
+      "conservative_combined_SE_z": 0.2984328344592141,
+      "paired_trajectory": true,
+      "scope": "Paired blocking diagnostic, not an independent hypothesis test"
+    },
+    {
+      "nsites": 128,
+      "relative_change_short_to_long": -0.010294660690711388,
+      "conservative_combined_SE_z": 1.6494019097546662,
+      "paired_trajectory": true,
+      "scope": "Paired blocking diagnostic, not an independent hypothesis test"
+    }
+  ],
+  "box_comparison": {
+    "D128_over_D32": 0.21977616724196844,
+    "population_ratio_128_over_32": 0.2440944881889764,
+    "fLi_128_over_32": 0.9003733303138708,
+    "normalized_difference_z": 9.244688541817556,
+    "scope": "One vacancy in each box with the same64-host DFT barriers: kinetic finite-concentration/box comparison, not fixed-cv or DFT-size convergence. Resolved difference is retained, not forced to disappear."
+  },
+  "temperature_fit": {
+    "T_range_K": [
+      250,
+      400
+    ],
+    "apparent_Li_Ea_eV": 0.2516111091680379,
+    "diagonal_fit_SE_eV": 0.0010679782742213924,
+    "conservative_SE_upper_bound_for_unknown_cross_temperature_covariance_eV": 0.0019390189961809865,
+    "weighted_residual_chi2": 1.2274154673846813,
+    "degrees_of_freedom": 2,
+    "logD_residuals": [
+      0.004514792652045685,
+      -0.00813421538253678,
+      0.005131353280255269,
+      0.009875167695913234
+    ],
+    "scope": "Descriptive250-400K fit, not a300K local LiEa proof. Same numeric seeds acrossT may correlate estimates; diagonal SE is not claimed as an independent-temperature uncertainty. The absolute-coefficient SE bound is given conservatively; non-Arrhenius curvature remains possible.",
+    "temperature_rows": [
+      {
+        "family": "Efr",
+        "T_K": 250.0,
+        "nsites": 32,
+        "blocks_per_seed": 160,
+        "seeds": [
+          137,
+          991
+        ],
+        "events_per_seed": 8000000,
+        "total_elapsed_time_s": 0.029606309844205793,
+        "DLi_cm2_s": 2.9094603249378024e-10,
+        "DLi_SE_cm2_s": 2.9561925301053818e-12,
+        "relative_SE": 0.010160621558462318,
+        "Dvac_KMC_cm2_s": 2.32299953860825e-08,
+        "Dvac_KMC_SE_cm2_s": 1.0951590313726566e-09,
+        "Dvac_exact_cm2_s": 2.4417111990853168e-08,
+        "Duncorr_cm2_s": 7.573362488170739e-08,
+        "vacancy_exact_z": 1.0839673241636454,
+        "seed_agreement_z": 0.7777702624165465,
+        "unsampled_positive_edges_pooled": 0,
+        "unsampled_positive_edges_per_seed": [
+          0,
+          0
+        ],
+        "vacancy_fraction": 0.03125,
+        "population_ratio": 0.03225806451612903,
+        "f_v": 0.32240780801119223,
+        "f_Li": 0.119092767860973,
+        "f_eff": 0.3693854953315484,
+        "f_eff_SE": 0.003753186227249013,
+        "raw_counts_by_family": [
+          2301006,
+          10428471,
+          3269103,
+          1420
+        ],
+        "files": [
+          "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_08.json",
+          "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_09.json"
+        ],
+        "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+        "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+      },
+      {
+        "family": "Efr",
+        "T_K": 300.0,
+        "nsites": 32,
+        "blocks_per_seed": 160,
+        "seeds": [
+          137,
+          991
+        ],
+        "events_per_seed": 8000000,
+        "total_elapsed_time_s": 0.004601388917948783,
+        "DLi_cm2_s": 2.012311292523404e-09,
+        "DLi_SE_cm2_s": 1.9675695863184353e-11,
+        "relative_SE": 0.009777660114659182,
+        "Dvac_KMC_cm2_s": 1.682418203166e-07,
+        "Dvac_KMC_SE_cm2_s": 9.244103909203494e-09,
+        "Dvac_exact_cm2_s": 1.697203183622051e-07,
+        "Duncorr_cm2_s": 4.862085672200864e-07,
+        "vacancy_exact_z": 0.1599395744711516,
+        "seed_agreement_z": 0.05479898534426743,
+        "unsampled_positive_edges_pooled": 0,
+        "unsampled_positive_edges_per_seed": [
+          0,
+          0
+        ],
+        "vacancy_fraction": 0.03125,
+        "population_ratio": 0.03225806451612903,
+        "f_v": 0.34906895888854167,
+        "f_Li": 0.12830224367475604,
+        "f_eff": 0.36755558008732353,
+        "f_eff_SE": 0.003593833535340242,
+        "raw_counts_by_family": [
+          2541107,
+          10047961,
+          3404898,
+          6034
+        ],
+        "files": [
+          "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_00.json",
+          "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_02.json"
+        ],
+        "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+        "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+      },
+      {
+        "family": "Efr",
+        "T_K": 350.0,
+        "nsites": 32,
+        "blocks_per_seed": 40,
+        "seeds": [
+          137,
+          991
+        ],
+        "events_per_seed": 1000000,
+        "total_elapsed_time_s": 0.00015175481750471977,
+        "DLi_cm2_s": 8.19023594118931e-09,
+        "DLi_SE_cm2_s": 1.522222747464317e-10,
+        "relative_SE": 0.01858582290418454,
+        "Dvac_KMC_cm2_s": 6.550123115441989e-07,
+        "Dvac_KMC_SE_cm2_s": 7.0149138921585e-08,
+        "Dvac_exact_cm2_s": 6.790779951667648e-07,
+        "Duncorr_cm2_s": 1.8388703472511059e-06,
+        "vacancy_exact_z": 0.34306456205353103,
+        "seed_agreement_z": 1.0137459091125354,
+        "unsampled_positive_edges_pooled": 0,
+        "unsampled_positive_edges_per_seed": [
+          0,
+          0
+        ],
+        "vacancy_fraction": 0.03125,
+        "population_ratio": 0.03225806451612903,
+        "f_v": 0.3692908508649923,
+        "f_Li": 0.13807243917789808,
+        "f_eff": 0.3738853504073824,
+        "f_eff_SE": 0.006948966909140591,
+        "raw_counts_by_family": [
+          339877,
+          1220996,
+          437016,
+          2111
+        ],
+        "files": [
+          "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_10.json",
+          "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_11.json"
+        ],
+        "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+        "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+      },
+      {
+        "family": "Efr",
+        "T_K": 400.0,
+        "nsites": 32,
+        "blocks_per_seed": 40,
+        "seeds": [
+          137,
+          991
+        ],
+        "events_per_seed": 1000000,
+        "total_elapsed_time_s": 5.5793558274696504e-05,
+        "DLi_cm2_s": 2.3347301373634545e-08,
+        "DLi_SE_cm2_s": 4.5072435183880447e-10,
+        "relative_SE": 0.019305201257554968,
+        "Dvac_KMC_cm2_s": 2.1238863674256606e-06,
+        "Dvac_KMC_SE_cm2_s": 2.2479134226274193e-07,
+        "Dvac_exact_cm2_s": 1.927518430315149e-06,
+        "Duncorr_cm2_s": 4.995596964203792e-06,
+        "vacancy_exact_z": 0.8735564952541259,
+        "seed_agreement_z": 0.16017952811191832,
+        "unsampled_positive_edges_pooled": 0,
+        "unsampled_positive_edges_per_seed": [
+          0,
+          0
+        ],
+        "vacancy_fraction": 0.03125,
+        "population_ratio": 0.03225806451612903,
+        "f_v": 0.38584346257852303,
+        "f_Li": 0.14488085163171807,
+        "f_eff": 0.3754912696032355,
+        "f_eff_SE": 0.007248934530145293,
+        "raw_counts_by_family": [
+          357261,
+          1193017,
+          445063,
+          4659
+        ],
+        "files": [
+          "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_12.json",
+          "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_13.json"
+        ],
+        "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+        "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+      }
+    ]
+  },
+  "E0_sensitivity_300K": {
+    "family": "E0",
+    "T_K": 300.0,
+    "nsites": 32,
+    "blocks_per_seed": 160,
+    "seeds": [
+      137,
+      991
+    ],
+    "events_per_seed": 4000000,
+    "total_elapsed_time_s": 0.0022520359930352334,
+    "DLi_cm2_s": 2.1025663067302738e-09,
+    "DLi_SE_cm2_s": 2.0994041320650063e-11,
+    "relative_SE": 0.009984960404553496,
+    "Dvac_KMC_cm2_s": 1.5857673264020257e-07,
+    "Dvac_KMC_SE_cm2_s": 8.406519032605523e-09,
+    "Dvac_exact_cm2_s": 1.750595766846674e-07,
+    "Duncorr_cm2_s": 4.963837349546537e-07,
+    "vacancy_exact_z": 1.9607216709478053,
+    "seed_agreement_z": 1.3996168257426524,
+    "unsampled_positive_edges_pooled": 0,
+    "unsampled_positive_edges_per_seed": [
+      0,
+      0
+    ],
+    "vacancy_fraction": 0.03125,
+    "population_ratio": 0.03225806451612903,
+    "f_v": 0.35266984866186174,
+    "f_Li": 0.13130880590717353,
+    "f_eff": 0.37232784828473336,
+    "f_eff_SE": 0.003717678822635664,
+    "raw_counts_by_family": [
+      1287325,
+      4969623,
+      1740045,
+      3007
+    ],
+    "files": [
+      "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_10.json",
+      "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_11.json"
+    ],
+    "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+    "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+  },
+  "E0_over_Efr_DLi": 1.0448514176420942,
+  "pooled_estimates": {
+    "('Efr', 300.0, 32, 160)": {
+      "family": "Efr",
+      "T_K": 300.0,
+      "nsites": 32,
+      "blocks_per_seed": 160,
+      "seeds": [
+        137,
+        991
+      ],
+      "events_per_seed": 8000000,
+      "total_elapsed_time_s": 0.004601388917948783,
+      "DLi_cm2_s": 2.012311292523404e-09,
+      "DLi_SE_cm2_s": 1.9675695863184353e-11,
+      "relative_SE": 0.009777660114659182,
+      "Dvac_KMC_cm2_s": 1.682418203166e-07,
+      "Dvac_KMC_SE_cm2_s": 9.244103909203494e-09,
+      "Dvac_exact_cm2_s": 1.697203183622051e-07,
+      "Duncorr_cm2_s": 4.862085672200864e-07,
+      "vacancy_exact_z": 0.1599395744711516,
+      "seed_agreement_z": 0.05479898534426743,
+      "unsampled_positive_edges_pooled": 0,
+      "unsampled_positive_edges_per_seed": [
+        0,
+        0
+      ],
+      "vacancy_fraction": 0.03125,
+      "population_ratio": 0.03225806451612903,
+      "f_v": 0.34906895888854167,
+      "f_Li": 0.12830224367475604,
+      "f_eff": 0.36755558008732353,
+      "f_eff_SE": 0.003593833535340242,
+      "raw_counts_by_family": [
+        2541107,
+        10047961,
+        3404898,
+        6034
+      ],
+      "files": [
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_00.json",
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_02.json"
+      ],
+      "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+      "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+    },
+    "('Efr', 300.0, 32, 320)": {
+      "family": "Efr",
+      "T_K": 300.0,
+      "nsites": 32,
+      "blocks_per_seed": 320,
+      "seeds": [
+        137,
+        991
+      ],
+      "events_per_seed": 8000000,
+      "total_elapsed_time_s": 0.004601388917948784,
+      "DLi_cm2_s": 2.019545198264932e-09,
+      "DLi_SE_cm2_s": 1.4157236522181971e-11,
+      "relative_SE": 0.007010111253932317,
+      "Dvac_KMC_cm2_s": 1.699248539124831e-07,
+      "Dvac_KMC_SE_cm2_s": 6.5000915872793904e-09,
+      "Dvac_exact_cm2_s": 1.697203183622051e-07,
+      "Duncorr_cm2_s": 4.862085672200864e-07,
+      "vacancy_exact_z": 0.031466564360150495,
+      "seed_agreement_z": 0.2634684323783712,
+      "unsampled_positive_edges_pooled": 0,
+      "unsampled_positive_edges_per_seed": [
+        0,
+        0
+      ],
+      "vacancy_fraction": 0.03125,
+      "population_ratio": 0.03225806451612903,
+      "f_v": 0.34906895888854167,
+      "f_Li": 0.12876346771132438,
+      "f_eff": 0.36887687785621404,
+      "f_eff_SE": 0.0025858679527752627,
+      "raw_counts_by_family": [
+        2541107,
+        10047961,
+        3404898,
+        6034
+      ],
+      "files": [
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_01.json",
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_03.json"
+      ],
+      "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+      "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+    },
+    "('Efr', 300.0, 128, 160)": {
+      "family": "Efr",
+      "T_K": 300.0,
+      "nsites": 128,
+      "blocks_per_seed": 160,
+      "seeds": [
+        137,
+        991
+      ],
+      "events_per_seed": 8000000,
+      "total_elapsed_time_s": 0.004601388917948783,
+      "DLi_cm2_s": 4.4225806316852534e-10,
+      "DLi_SE_cm2_s": 2.2257818333129104e-12,
+      "relative_SE": 0.005032767107436008,
+      "Dvac_KMC_cm2_s": 1.682418203166e-07,
+      "Dvac_KMC_SE_cm2_s": 9.244103909203494e-09,
+      "Dvac_exact_cm2_s": 1.697203183622051e-07,
+      "Duncorr_cm2_s": 4.862085672200864e-07,
+      "vacancy_exact_z": 0.1599395744711516,
+      "seed_agreement_z": 0.8691575730297554,
+      "unsampled_positive_edges_pooled": 0,
+      "unsampled_positive_edges_per_seed": [
+        0,
+        0
+      ],
+      "vacancy_fraction": 0.0078125,
+      "population_ratio": 0.007874015748031496,
+      "f_v": 0.34906895888854167,
+      "f_Li": 0.11551991842418186,
+      "f_eff": 0.3309372417186701,
+      "f_eff_SE": 0.0016655300647473222,
+      "raw_counts_by_family": [
+        2541107,
+        10047961,
+        3404898,
+        6034
+      ],
+      "files": [
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_04.json",
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_06.json"
+      ],
+      "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+      "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+    },
+    "('Efr', 300.0, 128, 320)": {
+      "family": "Efr",
+      "T_K": 300.0,
+      "nsites": 128,
+      "blocks_per_seed": 320,
+      "seeds": [
+        137,
+        991
+      ],
+      "events_per_seed": 8000000,
+      "total_elapsed_time_s": 0.004601388917948784,
+      "DLi_cm2_s": 4.4685831792842046e-10,
+      "DLi_SE_cm2_s": 1.6806732411150755e-12,
+      "relative_SE": 0.003761087516299277,
+      "Dvac_KMC_cm2_s": 1.699248539124831e-07,
+      "Dvac_KMC_SE_cm2_s": 6.5000915872793904e-09,
+      "Dvac_exact_cm2_s": 1.697203183622051e-07,
+      "Duncorr_cm2_s": 4.862085672200864e-07,
+      "vacancy_exact_z": 0.031466564360150495,
+      "seed_agreement_z": 0.23246162406545712,
+      "unsampled_positive_edges_pooled": 0,
+      "unsampled_positive_edges_per_seed": [
+        0,
+        0
+      ],
+      "vacancy_fraction": 0.0078125,
+      "population_ratio": 0.007874015748031496,
+      "f_v": 0.34906895888854167,
+      "f_Li": 0.11672152693932393,
+      "f_eff": 0.33437956589142975,
+      "f_eff_SE": 0.001257630810979828,
+      "raw_counts_by_family": [
+        2541107,
+        10047961,
+        3404898,
+        6034
+      ],
+      "files": [
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_05.json",
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_07.json"
+      ],
+      "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+      "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+    },
+    "('Efr', 250.0, 32, 160)": {
+      "family": "Efr",
+      "T_K": 250.0,
+      "nsites": 32,
+      "blocks_per_seed": 160,
+      "seeds": [
+        137,
+        991
+      ],
+      "events_per_seed": 8000000,
+      "total_elapsed_time_s": 0.029606309844205793,
+      "DLi_cm2_s": 2.9094603249378024e-10,
+      "DLi_SE_cm2_s": 2.9561925301053818e-12,
+      "relative_SE": 0.010160621558462318,
+      "Dvac_KMC_cm2_s": 2.32299953860825e-08,
+      "Dvac_KMC_SE_cm2_s": 1.0951590313726566e-09,
+      "Dvac_exact_cm2_s": 2.4417111990853168e-08,
+      "Duncorr_cm2_s": 7.573362488170739e-08,
+      "vacancy_exact_z": 1.0839673241636454,
+      "seed_agreement_z": 0.7777702624165465,
+      "unsampled_positive_edges_pooled": 0,
+      "unsampled_positive_edges_per_seed": [
+        0,
+        0
+      ],
+      "vacancy_fraction": 0.03125,
+      "population_ratio": 0.03225806451612903,
+      "f_v": 0.32240780801119223,
+      "f_Li": 0.119092767860973,
+      "f_eff": 0.3693854953315484,
+      "f_eff_SE": 0.003753186227249013,
+      "raw_counts_by_family": [
+        2301006,
+        10428471,
+        3269103,
+        1420
+      ],
+      "files": [
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_08.json",
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_09.json"
+      ],
+      "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+      "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+    },
+    "('E0', 300.0, 32, 160)": {
+      "family": "E0",
+      "T_K": 300.0,
+      "nsites": 32,
+      "blocks_per_seed": 160,
+      "seeds": [
+        137,
+        991
+      ],
+      "events_per_seed": 4000000,
+      "total_elapsed_time_s": 0.0022520359930352334,
+      "DLi_cm2_s": 2.1025663067302738e-09,
+      "DLi_SE_cm2_s": 2.0994041320650063e-11,
+      "relative_SE": 0.009984960404553496,
+      "Dvac_KMC_cm2_s": 1.5857673264020257e-07,
+      "Dvac_KMC_SE_cm2_s": 8.406519032605523e-09,
+      "Dvac_exact_cm2_s": 1.750595766846674e-07,
+      "Duncorr_cm2_s": 4.963837349546537e-07,
+      "vacancy_exact_z": 1.9607216709478053,
+      "seed_agreement_z": 1.3996168257426524,
+      "unsampled_positive_edges_pooled": 0,
+      "unsampled_positive_edges_per_seed": [
+        0,
+        0
+      ],
+      "vacancy_fraction": 0.03125,
+      "population_ratio": 0.03225806451612903,
+      "f_v": 0.35266984866186174,
+      "f_Li": 0.13130880590717353,
+      "f_eff": 0.37232784828473336,
+      "f_eff_SE": 0.003717678822635664,
+      "raw_counts_by_family": [
+        1287325,
+        4969623,
+        1740045,
+        3007
+      ],
+      "files": [
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_10.json",
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_11.json"
+      ],
+      "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+      "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+    },
+    "('Efr', 350.0, 32, 40)": {
+      "family": "Efr",
+      "T_K": 350.0,
+      "nsites": 32,
+      "blocks_per_seed": 40,
+      "seeds": [
+        137,
+        991
+      ],
+      "events_per_seed": 1000000,
+      "total_elapsed_time_s": 0.00015175481750471977,
+      "DLi_cm2_s": 8.19023594118931e-09,
+      "DLi_SE_cm2_s": 1.522222747464317e-10,
+      "relative_SE": 0.01858582290418454,
+      "Dvac_KMC_cm2_s": 6.550123115441989e-07,
+      "Dvac_KMC_SE_cm2_s": 7.0149138921585e-08,
+      "Dvac_exact_cm2_s": 6.790779951667648e-07,
+      "Duncorr_cm2_s": 1.8388703472511059e-06,
+      "vacancy_exact_z": 0.34306456205353103,
+      "seed_agreement_z": 1.0137459091125354,
+      "unsampled_positive_edges_pooled": 0,
+      "unsampled_positive_edges_per_seed": [
+        0,
+        0
+      ],
+      "vacancy_fraction": 0.03125,
+      "population_ratio": 0.03225806451612903,
+      "f_v": 0.3692908508649923,
+      "f_Li": 0.13807243917789808,
+      "f_eff": 0.3738853504073824,
+      "f_eff_SE": 0.006948966909140591,
+      "raw_counts_by_family": [
+        339877,
+        1220996,
+        437016,
+        2111
+      ],
+      "files": [
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_10.json",
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_11.json"
+      ],
+      "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+      "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+    },
+    "('Efr', 400.0, 32, 40)": {
+      "family": "Efr",
+      "T_K": 400.0,
+      "nsites": 32,
+      "blocks_per_seed": 40,
+      "seeds": [
+        137,
+        991
+      ],
+      "events_per_seed": 1000000,
+      "total_elapsed_time_s": 5.5793558274696504e-05,
+      "DLi_cm2_s": 2.3347301373634545e-08,
+      "DLi_SE_cm2_s": 4.5072435183880447e-10,
+      "relative_SE": 0.019305201257554968,
+      "Dvac_KMC_cm2_s": 2.1238863674256606e-06,
+      "Dvac_KMC_SE_cm2_s": 2.2479134226274193e-07,
+      "Dvac_exact_cm2_s": 1.927518430315149e-06,
+      "Duncorr_cm2_s": 4.995596964203792e-06,
+      "vacancy_exact_z": 0.8735564952541259,
+      "seed_agreement_z": 0.16017952811191832,
+      "unsampled_positive_edges_pooled": 0,
+      "unsampled_positive_edges_per_seed": [
+        0,
+        0
+      ],
+      "vacancy_fraction": 0.03125,
+      "population_ratio": 0.03225806451612903,
+      "f_v": 0.38584346257852303,
+      "f_Li": 0.14488085163171807,
+      "f_eff": 0.3754912696032355,
+      "f_eff_SE": 0.007248934530145293,
+      "raw_counts_by_family": [
+        357261,
+        1193017,
+        445063,
+        4659
+      ],
+      "files": [
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_12.json",
+        "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_13.json"
+      ],
+      "block_pooling": "Independent seeds only; nested block-length variants never pooled together",
+      "statistical_error_scope": "Ratio jackknife across long event blocks; does not include DFT, defect concentration, model completeness, or prefactor uncertainty"
+    }
+  },
+  "source_raw_KMC_sha256": {
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_00.json": "599343cd5ceb3a0e04bfe572dec118adf46370b09e07dcb8a44c0ffb8e0d15d5",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_01.json": "95af65c814f4d568b97e3c4c5fa281086e00148dfd1d9e18125563aa2df8f374",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_02.json": "8cf8ce710c20731b672adbef0d4e63f42b529605f8d5a7488e92dec99e79c393",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_03.json": "39409d94ec2daedb003e9ba41fcd0bc4e7c73425d3cae74402898d6a3e2b3a2d",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_04.json": "ddd62ae518b0e262de81d0a7b78a6a12d17ae25b6bc3ad624a27ad5676b6d8e7",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_05.json": "0b53738d6e5f238c28813e9ae0df54c815a3feb7569ebf98717e916353a5e914",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_06.json": "8bde7da8fe47cd70d9d684b69285daf491379fec7f19ad38e41fec5a7f4e5a01",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_07.json": "e43cf8589b58d3ba714fea7cbd5fa6b7031e6cbf2818c7135d6615d3301d14cf",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_08.json": "02856a420bdf74b1379133ae6018984ff10d9f041bd8ab076c7a4532ab4dc299",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_09.json": "f3c6859b6191abd91c56499afbea46bb4c6e1b77e17235ad954ffed836a5d327",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_10.json": "1f367334bad494d29e8bf2c794dd8b9ac3882820ec86a5054d51d8227fb8c565",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_11.json": "2b3b77794ad3f8a8effb7a22e8c7bc8d993e72d7f41d0eab3f1db9c4b30ade8c",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_10.json": "f8e7a09beefa01e2224d83d00eb7a27acd0d1cf00ebaa3a5f9896071fabe3c41",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_11.json": "6216f48f08e7f248c56c5c4f502918e82a807d29b897716aebf933ea0dd45f38",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_12.json": "95424ba62acfc98f43c4a8651c5fbfbde41ae0633123c12bf6d6d17283bcd76e",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_13.json": "8f4df63963b278ffa7f9041bd85ee1b726553b5f3d7e5c56099b94f2784e7f0c"
+  },
+  "model_sha256": "fb29cfd6ba4caa3df2ba3ab2013c438843587e311fac5cc211fc4ad56cc48927",
+  "network_certificate_sha256": "e361cccb193dd936d66d14cc1a6273c4a308af97ecbc1001fff60dde4119ebf4",
+  "analyzer_path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\aggregate_KMC_phase34_20261015.py",
+  "analyzer_sha256": "9cc51b9e6544b5907c9de27406ef5a24d09f01690315106f1aea91af2e26ebe4",
+  "pooling_analyzer_path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\scripts\\run_tracer_validation.py",
+  "pooling_analyzer_sha256": "cd3c2fd7a86bb29fb0206240d0dcedf165e723f4d8de9242881c09c6e96abaab",
+  "intrinsic_D_reported": false,
+  "local_300K_Li_Ea_proven": false,
+  "frequency_sensitivity": {
+    "1000000000000.0": {
+      "DLi300_cm2_s": 2.012311292523404e-10,
+      "DLi300_SE_cm2_s": 1.967569586318435e-12,
+      "scope": "Exact time-rescaling of the same assumed constant common frequency; no new physical prefactor evidence"
+    },
+    "10000000000000.0": {
+      "DLi300_cm2_s": 2.012311292523404e-09,
+      "DLi300_SE_cm2_s": 1.9675695863184353e-11,
+      "scope": "Exact time-rescaling of the same assumed constant common frequency; no new physical prefactor evidence"
+    },
+    "100000000000000.0": {
+      "DLi300_cm2_s": 2.012311292523404e-08,
+      "DLi300_SE_cm2_s": 1.9675695863184353e-10,
+      "scope": "Exact time-rescaling of the same assumed constant common frequency; no new physical prefactor evidence"
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "status": "ADAPTIVE_SAMPLING_EXTENSION_DECLARED_BEFORE_EXTENSION_RESULTS",
+  "reason": "128-site pilot1M has53 unsampled positive directed edges for seed137;250K andE0 pilots also have rare-edge flags. More physical exchange events and blocks, no rate/model/frequency/criterion tuning and no DFT.",
+  "original_design": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_design.json",
+  "original_design_sha256": "98b5431f774f8c745ee4ea4428422b2a455b07d6374ac3c7e8f7da8551769f8a",
+  "pilot_sha256": {
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_00.json": "f8e4d6f1e8ec480aff3c9c23892fceb4be13d3384e3b42a6190a66bd35d3f8d3",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_01.json": "a8dadbe2a1e9df01ea44805e2374699348009811eb44fd07e848b2149ab30bc8",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_02.json": "501f676e581ddd0094edf0c05c74eb24a160ac6ec595e30de66f79cc8593b53e",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_03.json": "65e0135be975403c19f7821dde463cb59c6464dcfd496316fb41fca9476f30f4",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_04.json": "a701c09dfd9ca2ebd3588ee79fc107eba365e5fa5aff3a20713834adae77460d",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_05.json": "6b2a9995db3727cce8bc9ba29c6da3b30a89716c014507f9d59b5ac5201fd1d5",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_06.json": "11884191b4a9b5899d657c808189cdf6279220b5b5afc90e2a32bcdfc56243bd",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_07.json": "17477c36ad391824e003629b4836f33964ccf7bf7a3aa06af6b1578bee7a2123",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_08.json": "6fedf8ab461ca875e621beb43e4dfef570703e88ac5a35dfb412f5d9063eef93",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_09.json": "849255d79b1b0fb8f697327ad81e599933a57bc4ce464976f37a889b63d83eb2",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_10.json": "f8e7a09beefa01e2224d83d00eb7a27acd0d1cf00ebaa3a5f9896071fabe3c41",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_11.json": "6216f48f08e7f248c56c5c4f502918e82a807d29b897716aebf933ea0dd45f38",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_12.json": "95424ba62acfc98f43c4a8651c5fbfbde41ae0633123c12bf6d6d17283bcd76e",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_13.json": "8f4df63963b278ffa7f9041bd85ee1b726553b5f3d7e5c56099b94f2784e7f0c",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_14.json": "eec823acfd5b63e6e06901c08acc191ffe4179760dcaab50dfe2bd68a1ecdd4e",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_15.json": "7b1e79dc9738b069edc5ace8bd67b7b8e9740491a859501666a067d494284161"
+  },
+  "model": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\transport_model.json",
+  "model_sha256": "fb29cfd6ba4caa3df2ba3ab2013c438843587e311fac5cc211fc4ad56cc48927",
+  "certificate": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\network_admission_certificate.json",
+  "certificate_sha256": "e361cccb193dd936d66d14cc1a6273c4a308af97ecbc1001fff60dde4119ebf4",
+  "analyzer_path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\extend_KMC_phase34_20261015.py",
+  "analyzer_sha256": "a1a71e7ebcd205fa18d3b4bbbf381c5674c1dcdbdc2d7e333831a8b422f5f459",
+  "experiments": [
+    {
+      "energy_family": "Efr",
+      "temperature": 300.0,
+      "replication": [
+        1,
+        1,
+        1
+      ],
+      "nevents": 8000000,
+      "nblocks": 160,
+      "seed": 137,
+      "mode": "auto"
+    },
+    {
+      "energy_family": "Efr",
+      "temperature": 300.0,
+      "replication": [
+        1,
+        1,
+        1
+      ],
+      "nevents": 8000000,
+      "nblocks": 320,
+      "seed": 137,
+      "mode": "auto"
+    },
+    {
+      "energy_family": "Efr",
+      "temperature": 300.0,
+      "replication": [
+        1,
+        1,
+        1
+      ],
+      "nevents": 8000000,
+      "nblocks": 160,
+      "seed": 991,
+      "mode": "auto"
+    },
+    {
+      "energy_family": "Efr",
+      "temperature": 300.0,
+      "replication": [
+        1,
+        1,
+        1
+      ],
+      "nevents": 8000000,
+      "nblocks": 320,
+      "seed": 991,
+      "mode": "auto"
+    },
+    {
+      "energy_family": "Efr",
+      "temperature": 300.0,
+      "replication": [
+        2,
+        2,
+        1
+      ],
+      "nevents": 8000000,
+      "nblocks": 160,
+      "seed": 137,
+      "mode": "auto"
+    },
+    {
+      "energy_family": "Efr",
+      "temperature": 300.0,
+      "replication": [
+        2,
+        2,
+        1
+      ],
+      "nevents": 8000000,
+      "nblocks": 320,
+      "seed": 137,
+      "mode": "auto"
+    },
+    {
+      "energy_family": "Efr",
+      "temperature": 300.0,
+      "replication": [
+        2,
+        2,
+        1
+      ],
+      "nevents": 8000000,
+      "nblocks": 160,
+      "seed": 991,
+      "mode": "auto"
+    },
+    {
+      "energy_family": "Efr",
+      "temperature": 300.0,
+      "replication": [
+        2,
+        2,
+        1
+      ],
+      "nevents": 8000000,
+      "nblocks": 320,
+      "seed": 991,
+      "mode": "auto"
+    },
+    {
+      "energy_family": "Efr",
+      "temperature": 250.0,
+      "replication": [
+        1,
+        1,
+        1
+      ],
+      "nevents": 8000000,
+      "nblocks": 160,
+      "seed": 137,
+      "mode": "auto"
+    },
+    {
+      "energy_family": "Efr",
+      "temperature": 250.0,
+      "replication": [
+        1,
+        1,
+        1
+      ],
+      "nevents": 8000000,
+      "nblocks": 160,
+      "seed": 991,
+      "mode": "auto"
+    },
+    {
+      "energy_family": "E0",
+      "temperature": 300.0,
+      "replication": [
+        1,
+        1,
+        1
+      ],
+      "nevents": 4000000,
+      "nblocks": 160,
+      "seed": 137,
+      "mode": "auto"
+    },
+    {
+      "energy_family": "E0",
+      "temperature": 300.0,
+      "replication": [
+        1,
+        1,
+        1
+      ],
+      "nevents": 4000000,
+      "nblocks": 160,
+      "seed": 991,
+      "mode": "auto"
+    }
+  ],
+  "criteria": {
+    "primary_300K_combined_relative_SE_max": 0.05,
+    "seed_agreement_combined_SE": 3,
+    "block_agreement_combined_SE": 3,
+    "vacancy_exact_comparison_combined_SE": 3,
+    "positive_rate_directed_edges_all_sampled_at_300K": true
+  },
+  "scope": "300K8M/160vs320blocks compares50kvs25k-event blocks in both boxes, two seeds.250K8M andE0 4M address observed rare-edge coverage. Pilot and extended nested trajectories are not independent and must not be pooled. Separate seed estimates may be combined using physical elapsed time."
+}

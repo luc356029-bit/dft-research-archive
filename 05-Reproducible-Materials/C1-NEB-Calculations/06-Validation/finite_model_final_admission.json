@@ -1,0 +1,33 @@
+{
+  "status": "FIRST_ROUND_FINITE_NEUTRAL_VACANCY_NEB_NETWORK_CONDITIONAL_TRACER_LOOP_PASSED",
+  "timestamp": "2026-10-15T17:41:01.758903+08:00",
+  "scope": "LiSi mp795/PBE/Li31Si32 neutral vacancy/fixed64-host DFT cell/four selected hop orbits/common constant assumed1e13s^-1/300K/trace3. Finite model, not intrinsic diffusivity or global MEP completeness.",
+  "actual_results": {
+    "network_Ea_slope_300K_eV": 0.2507039658086127,
+    "network_Ea_eff_300K_eV": 0.27571716428473464,
+    "Dvac_300K_cm2_s": 1.697203183622051e-07,
+    "conditional_LiD300_cm2_s": 2.012311292523404e-09,
+    "conditional_LiD300_KMC_1SE_cm2_s": 1.9675695863184353e-11,
+    "vacancy_fraction": 0.03125,
+    "attempt_frequency_s": 10000000000000.0,
+    "Li_250_400K_apparent_Ea_eV": 0.2516111091680379,
+    "Li_fit_SE_covariance_free_upper_bound_eV": 0.0019390189961809865
+  },
+  "admitted_evidence": {
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\CI6_acceptance_phase34_20261015.json": "f2b1852dffe49ad73657bf579c3802de5060384bd592d83ecf6a24dbe6568454",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\network_admission_certificate.json": "e361cccb193dd936d66d14cc1a6273c4a308af97ecbc1001fff60dde4119ebf4",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\transport_model.json": "fb29cfd6ba4caa3df2ba3ab2013c438843587e311fac5cc211fc4ad56cc48927",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_design.json": "98b5431f774f8c745ee4ea4428422b2a455b07d6374ac3c7e8f7da8551769f8a",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_extension_design.json": "3adff67a4689ca664409230c20b39e1bf655b36792bf1823d569bae768488e29",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\KMC_statistical_admission.json": "b38add91e2e93a3f82ca76730d20d8e4a3ba0edb7c6bad9cf4094ef3dc3a3c13",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\correlation_error_supplement.json": "06098bb03996d4f3936fb2464fce3f0d27270e851ab3e686b801eb360c00024e",
+    "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\figure_provenance.json": "242191f8d57a187c579df132259fd2d086fbbd8963a32d59a42c698f7ecaa89c"
+  },
+  "intrinsic_D_proven": false,
+  "DFT_supercell_size_converged": false,
+  "all_paths_full_parameter_bound_proven": false,
+  "local300K_Li_Ea_proven": false,
+  "resource_CPU32_benchmark_pending": true,
+  "analyzer_path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\deliver_phase34_20261015.py",
+  "analyzer_sha256": "e28e623124514827f7221af084ae920dd84f2e244edd31fbbfec10d39e0e9f10"
+}

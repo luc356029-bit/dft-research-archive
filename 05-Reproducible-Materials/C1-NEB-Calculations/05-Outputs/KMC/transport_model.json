@@ -1,0 +1,2704 @@
+{
+  "status": "CI_CANDIDATE_FINITE_MODEL_PENDING_FINAL_SENSITIVITY",
+  "barrier_evidence": [
+    {
+      "path_id": 0,
+      "source": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\neb_analysis.json",
+      "source_sha256": "ea461f0d493d451bdb3e80401e378f39236c1b0948993b02aeb7ca8840330fd3",
+      "energies_eV": {
+        "Efr": {
+          "A": -244.71186692,
+          "B": -244.71185955,
+          "S_at_CI": -244.45841943
+        },
+        "E0": {
+          "A": -244.69409809,
+          "B": -244.69409071,
+          "S_at_CI": -244.44151911
+        }
+      },
+      "barriers_sym_eV": {
+        "Efr": 0.2534438050000176,
+        "E0": 0.25257529000001
+      },
+      "CI_image": 3,
+      "E0_highest_interior_image": 3,
+      "raw_Fmax_at_CI_eV_A": 0.002754678253626002,
+      "projected_Fmax_eV_A": [
+        0.002257,
+        0.003794,
+        0.00274,
+        0.010787
+      ],
+      "precision": {
+        "kmesh": [
+          4,
+          4,
+          4
+        ],
+        "ENCUT_eV": 520.0,
+        "SIGMA_eV": 0.1,
+        "scope": "Preoptimization precision; final saddle barrier sensitivity gates remain required"
+      },
+      "actual_precision": {
+        "parameters": {
+          "ENCUT": 520.0,
+          "SIGMA": 0.1,
+          "ISMEAR": 0.0,
+          "NELECT": 221.0,
+          "ISPIN": 1.0,
+          "ISYM": 0.0,
+          "EDIFF": 1e-07,
+          "ISIF": 2.0
+        },
+        "kpoints": {
+          "kind": "Monkhorst-Pack",
+          "mesh": [
+            4,
+            4,
+            4
+          ],
+          "shift": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "POTCAR_sha256": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+      },
+      "peak_last_three_spread_eV": 0.0002743099999804599,
+      "final_parameter_convergence_claimed": false
+    },
+    {
+      "path_id": 1,
+      "source": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\neb_analysis.json",
+      "source_sha256": "8932d0fe046cf8ba0d110407e6f5a3a91577fba4b9bf0e2f638bb8b72f878437",
+      "energies_eV": {
+        "Efr": {
+          "A": -244.71186692,
+          "B": -244.71188977,
+          "S_at_CI": -244.47604814
+        },
+        "E0": {
+          "A": -244.69409809,
+          "B": -244.69412092,
+          "S_at_CI": -244.45854382
+        }
+      },
+      "barriers_sym_eV": {
+        "Efr": 0.2358302050000134,
+        "E0": 0.23556568500001163
+      },
+      "CI_image": 2,
+      "E0_highest_interior_image": 2,
+      "raw_Fmax_at_CI_eV_A": 0.007332696490787001,
+      "projected_Fmax_eV_A": [
+        0.001478,
+        0.007111,
+        0.002471,
+        0.002854
+      ],
+      "precision": {
+        "kmesh": [
+          4,
+          4,
+          4
+        ],
+        "ENCUT_eV": 520.0,
+        "SIGMA_eV": 0.1,
+        "scope": "Preoptimization precision; final saddle barrier sensitivity gates remain required"
+      },
+      "actual_precision": {
+        "parameters": {
+          "ENCUT": 520.0,
+          "SIGMA": 0.1,
+          "ISMEAR": 0.0,
+          "NELECT": 221.0,
+          "ISPIN": 1.0,
+          "ISYM": 0.0,
+          "EDIFF": 1e-07,
+          "ISIF": 2.0
+        },
+        "kpoints": {
+          "kind": "Monkhorst-Pack",
+          "mesh": [
+            4,
+            4,
+            4
+          ],
+          "shift": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "POTCAR_sha256": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+      },
+      "peak_last_three_spread_eV": 0.00047882999999160347,
+      "final_parameter_convergence_claimed": false
+    },
+    {
+      "path_id": 2,
+      "source": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\neb_analysis.json",
+      "source_sha256": "6b0b0cae74b71d54ccc2792a12e87b0442a65c972881e3c3b6a9430431424828",
+      "energies_eV": {
+        "Efr": {
+          "A": -244.71186692,
+          "B": -244.71188652,
+          "S_at_CI": -244.46596723
+        },
+        "E0": {
+          "A": -244.69409809,
+          "B": -244.69411767,
+          "S_at_CI": -244.44930503
+        }
+      },
+      "barriers_sym_eV": {
+        "Efr": 0.24590949000003093,
+        "E0": 0.24480284999998503
+      },
+      "CI_image": 2,
+      "E0_highest_interior_image": 2,
+      "raw_Fmax_at_CI_eV_A": 0.005190245677017611,
+      "projected_Fmax_eV_A": [
+        0.002435,
+        0.005082,
+        0.004859,
+        0.00218
+      ],
+      "precision": {
+        "kmesh": [
+          4,
+          4,
+          4
+        ],
+        "ENCUT_eV": 520.0,
+        "SIGMA_eV": 0.1,
+        "scope": "Preoptimization precision; final saddle barrier sensitivity gates remain required"
+      },
+      "actual_precision": {
+        "parameters": {
+          "ENCUT": 520.0,
+          "SIGMA": 0.1,
+          "ISMEAR": 0.0,
+          "NELECT": 221.0,
+          "ISPIN": 1.0,
+          "ISYM": 0.0,
+          "EDIFF": 1e-07,
+          "ISIF": 2.0
+        },
+        "kpoints": {
+          "kind": "Monkhorst-Pack",
+          "mesh": [
+            4,
+            4,
+            4
+          ],
+          "shift": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "POTCAR_sha256": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+      },
+      "peak_last_three_spread_eV": 3.520999999295782e-05,
+      "final_parameter_convergence_claimed": false
+    },
+    {
+      "path_id": 3,
+      "source": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\neb_analysis.json",
+      "source_sha256": "fd2dc695c9355d62c53b5311a0516b5b39344ea0d43c0b65847c6dad9447c108",
+      "energies_eV": {
+        "Efr": {
+          "A": -244.71186692,
+          "B": -244.71186033,
+          "S_at_CI": -244.28420253
+        },
+        "E0": {
+          "A": -244.69409809,
+          "B": -244.69409149,
+          "S_at_CI": -244.26664613
+        }
+      },
+      "barriers_sym_eV": {
+        "Efr": 0.42766109500001903,
+        "E0": 0.42744866000001025
+      },
+      "CI_image": 3,
+      "E0_highest_interior_image": 3,
+      "raw_Fmax_at_CI_eV_A": 0.0027881394314847314,
+      "projected_Fmax_eV_A": [
+        0.006697,
+        0.004604,
+        0.002776,
+        0.006147
+      ],
+      "precision": {
+        "kmesh": [
+          4,
+          4,
+          4
+        ],
+        "ENCUT_eV": 520.0,
+        "SIGMA_eV": 0.1,
+        "scope": "Preoptimization precision; final saddle barrier sensitivity gates remain required"
+      },
+      "actual_precision": {
+        "parameters": {
+          "ENCUT": 520.0,
+          "SIGMA": 0.1,
+          "ISMEAR": 0.0,
+          "NELECT": 221.0,
+          "ISPIN": 1.0,
+          "ISYM": 0.0,
+          "EDIFF": 1e-07,
+          "ISIF": 2.0
+        },
+        "kpoints": {
+          "kind": "Monkhorst-Pack",
+          "mesh": [
+            4,
+            4,
+            4
+          ],
+          "shift": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "POTCAR_sha256": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+      },
+      "peak_last_three_spread_eV": 0.003176999999993768,
+      "final_parameter_convergence_claimed": false
+    }
+  ],
+  "attempt_frequency_s": 10000000000000.0,
+  "frequency_origin": "Assumed common constant, not calculated Vineyard frequencies",
+  "vacancy_model": "Single neutral vacancy, fixed 64-host DFT cell, equivalent-site four-orbit CTMC",
+  "intrinsic_diffusion_reported": false,
+  "Li_tracer_diffusion_reported": false,
+  "units": "D in cm^2/s; barriers/Ea in eV",
+  "scalar_convention": "trace/3, the single-crystal 3D MSD scalar; no polycrystal effective-medium model",
+  "primitive_structure_sha256": "10a5d334124297b2f60ec21b4d6b3b8bdc3cef0bb575dc2318fac975571c4819",
+  "supercell_mapping_sha256": "94ea60165f6ef77ae4660aebfd4ebe4f6c41f9aad91ee4c6c1ca41ad81ba4e5e",
+  "orbits": [
+    {
+      "Ni": 4,
+      "members": [
+        [
+          0,
+          4,
+          -1,
+          1,
+          -1
+        ],
+        [
+          1,
+          5,
+          -1,
+          0,
+          1
+        ],
+        [
+          2,
+          6,
+          0,
+          -1,
+          0
+        ],
+        [
+          3,
+          7,
+          1,
+          0,
+          0
+        ]
+      ],
+      "representative": [
+        0,
+        4,
+        -1,
+        1,
+        -1
+      ],
+      "distance_min_A": 2.6949581037973322,
+      "distance_max_A": 2.694958103797336,
+      "path_id": 0
+    },
+    {
+      "Ni": 8,
+      "members": [
+        [
+          0,
+          5,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          -1,
+          0,
+          0
+        ],
+        [
+          1,
+          4,
+          -1,
+          0,
+          0
+        ],
+        [
+          1,
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          4,
+          -1,
+          0,
+          0
+        ],
+        [
+          2,
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          6,
+          0,
+          0,
+          0
+        ]
+      ],
+      "representative": [
+        0,
+        5,
+        -1,
+        0,
+        0
+      ],
+      "distance_min_A": 2.9284742940935735,
+      "distance_max_A": 2.928474294093577,
+      "path_id": 1
+    },
+    {
+      "Ni": 4,
+      "members": [
+        [
+          0,
+          3,
+          -1,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          7,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          6,
+          0,
+          0,
+          0
+        ]
+      ],
+      "representative": [
+        0,
+        3,
+        -1,
+        0,
+        0
+      ],
+      "distance_min_A": 2.9460025179823437,
+      "distance_max_A": 2.946002517982345,
+      "path_id": 2
+    },
+    {
+      "Ni": 8,
+      "members": [
+        [
+          0,
+          1,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          0,
+          1,
+          -1
+        ],
+        [
+          1,
+          3,
+          -1,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          -1,
+          0
+        ],
+        [
+          4,
+          5,
+          0,
+          0,
+          1
+        ],
+        [
+          4,
+          6,
+          0,
+          -1,
+          1
+        ],
+        [
+          5,
+          7,
+          1,
+          0,
+          0
+        ],
+        [
+          6,
+          7,
+          0,
+          1,
+          0
+        ]
+      ],
+      "representative": [
+        0,
+        1,
+        0,
+        0,
+        -1
+      ],
+      "distance_min_A": 3.0538545829674217,
+      "distance_max_A": 3.0538545829674253,
+      "path_id": 3
+    }
+  ],
+  "symmetry_convention": "ES-(EA+EB)/2; equal forward/reverse rates (geometric mean of numerical split rates)",
+  "axes_rows_cartesian": [
+    [
+      -6.516159494588182e-05,
+      0.7071876658682604,
+      -0.7070258842487792
+    ],
+    [
+      7.458820002056264e-05,
+      0.7070258875318068,
+      0.707187661654572
+    ],
+    [
+      0.9999999950952191,
+      -6.654001429794689e-06,
+      -9.881946377109189e-05
+    ]
+  ],
+  "zero_barrier_Dvac_cm2_s": [
+    [
+      0.002740033675857293,
+      4.522068534058649e-08,
+      6.715802183263406e-07
+    ],
+    [
+      4.522068533998653e-08,
+      0.009536086231803229,
+      -4.468667760794221e-12
+    ],
+    [
+      6.715802183254693e-07,
+      -4.4686677606934364e-12,
+      0.009536086165739128
+    ]
+  ],
+  "zero_barrier_Duncorr_cm2_s": [
+    [
+      0.006486671021624556,
+      2.1335406425683593e-08,
+      3.168558104693848e-07
+    ],
+    [
+      2.1335406425683593e-08,
+      0.009693091761606761,
+      -2.1083447265625e-12
+    ],
+    [
+      3.168558104693848e-07,
+      -2.1083447265625e-12,
+      0.009693091730437298
+    ]
+  ],
+  "families": {
+    "Efr": {
+      "barriers_sym_eV": [
+        0.2534438050000176,
+        0.2358302050000134,
+        0.24590949000003093,
+        0.42766109500001903
+      ],
+      "temperature_rows": [
+        {
+          "T_K": 250.0,
+          "rates_s": [
+            77767432.58886072,
+            176145806.98318654,
+            110327268.73961943,
+            23918.380518189926
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              6.550661362470975e-09,
+              1.7832406517448688e-13,
+              2.648321530756448e-12
+            ],
+            [
+              1.7832406517336268e-13,
+              3.335033743530345e-08,
+              -1.7621826047175062e-17
+            ],
+            [
+              2.648321530756871e-12,
+              -1.7621826047568136e-17,
+              3.3350337174785086e-08
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              3.3350337436489997e-08,
+              1.469474167522774e-17,
+              9.569138660259005e-18
+            ],
+            [
+              1.469473856181942e-17,
+              3.335033743649002e-08,
+              -8.133509522148837e-18
+            ],
+            [
+              9.569139754683746e-18,
+              -8.133509026299502e-18,
+              6.550661099579502e-09
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 2.4417111990853168e-08,
+          "Duncorr_tensor_cm2_s": [
+            [
+              7.614664840066766e-08,
+              -4.122365062181052e-15,
+              -6.1221957316499e-14
+            ],
+            [
+              -4.122365062181052e-15,
+              7.5527113119216e-08,
+              4.073864291058271e-19
+            ],
+            [
+              -6.1221957316499e-14,
+              4.073864291058271e-19,
+              7.552711312523844e-08
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 7.573362488170739e-08,
+          "f_v": 0.3224078080111923,
+          "network_activation": {
+            "T_K": 250.0,
+            "D": 2.4417111990853168e-08,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.2715339763445338,
+            "Ea_slope_eV": 0.25060196774491017,
+            "Ea_slope_coarse_eV": 0.2506019686456394,
+            "finite_difference_step_consistency_eV": 9.007292134377565e-10,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 250.0,
+            "D": 7.573362488170739e-08,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.25082623488333977,
+            "Ea_slope_eV": 0.240162285589044,
+            "Ea_slope_coarse_eV": 0.24016228583801982,
+            "finite_difference_step_consistency_eV": 2.4897581218930043e-10,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 250.0,
+              "D": 3.3350337436489997e-08,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.27066022236126175,
+              "Ea_slope_eV": 0.250622602604283,
+              "Ea_slope_coarse_eV": 0.2506226034958659,
+              "finite_difference_step_consistency_eV": 8.915829186051383e-10,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 250.0,
+              "D": 3.335033743649002e-08,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.2706602223612618,
+              "Ea_slope_eV": 0.250622602604283,
+              "Ea_slope_coarse_eV": 0.2506226034958659,
+              "finite_difference_step_consistency_eV": 8.915829186051383e-10,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 250.0,
+              "D": 6.550661099579502e-09,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.278855068195209,
+              "Ea_slope_eV": 0.2503918577984073,
+              "Ea_slope_coarse_eV": 0.2503918587900627,
+              "finite_difference_step_consistency_eV": 9.916554244426834e-10,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.7888144781986739,
+              0.1356810015984422,
+              0.07486150948921022,
+              0.0006430103915988639
+            ],
+            "sum_weights": 0.9999999996779252,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        },
+        {
+          "T_K": 275.0,
+          "rates_s": [
+            226605628.18175662,
+            476503106.15080774,
+            311421118.9718143,
+            145372.8912547993
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              1.8840986780719e-08,
+              5.135983978706107e-13,
+              7.627538627026446e-12
+            ],
+            [
+              5.135983978705486e-13,
+              9.602782458095467e-08,
+              -5.075333841039686e-17
+            ],
+            [
+              7.6275386270258e-12,
+              -5.075333841244258e-17,
+              9.602782383062511e-08
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              9.60278245843721e-08,
+              4.2311546630040646e-17,
+              2.7542474889023243e-17
+            ],
+            [
+              4.231154538613195e-17,
+              9.602782458437216e-08,
+              -2.3419009248404264e-17
+            ],
+            [
+              2.7542474477191674e-17,
+              -2.341900874743888e-17,
+              1.8840986023554562e-08
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 7.029887839743293e-08,
+          "Duncorr_tensor_cm2_s": [
+            [
+              2.0632243560048344e-07,
+              2.4104591492279724e-14,
+              3.5798145452048993e-13
+            ],
+            [
+              2.4104591492279724e-14,
+              2.0994502708309683e-07,
+              -2.3819453599571717e-18
+            ],
+            [
+              3.5798145452048993e-13,
+              -2.3819453599571717e-18,
+              2.0994502704788172e-07
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 2.0873749657715398e-07,
+          "f_v": 0.3367812661844821,
+          "network_activation": {
+            "T_K": 275.0,
+            "D": 7.029887839743293e-08,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.27362776359599583,
+            "Ea_slope_eV": 0.25060495791644116,
+            "Ea_slope_coarse_eV": 0.25060495950163186,
+            "finite_difference_step_consistency_eV": 1.585190700925665e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 275.0,
+            "D": 2.0873749657715398e-07,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.2518828555785548,
+            "Ea_slope_eV": 0.24036147634647656,
+            "Ea_slope_coarse_eV": 0.24036147672329455,
+            "finite_difference_step_consistency_eV": 3.768179934748872e-10,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 275.0,
+              "D": 9.60278245843721e-08,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.2726643011324275,
+              "Ea_slope_eV": 0.25063077352449276,
+              "Ea_slope_coarse_eV": 0.2506307750824056,
+              "finite_difference_step_consistency_eV": 1.5579128542775322e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 275.0,
+              "D": 9.602782458437216e-08,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.2726643011324275,
+              "Ea_slope_eV": 0.25063077352449276,
+              "Ea_slope_coarse_eV": 0.2506307750824056,
+              "finite_difference_step_consistency_eV": 1.5579128542775322e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 275.0,
+              "D": 1.8840986023554562e-08,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.28170473381487793,
+              "Ea_slope_eV": 0.2503418064359511,
+              "Ea_slope_coarse_eV": 0.2503418082966569,
+              "finite_difference_step_consistency_eV": 1.8607058116515418e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.7781802980488806,
+              0.14010569138633855,
+              0.08036834351798916,
+              0.0013456667424804891
+            ],
+            "sum_weights": 0.9999999996956888,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        },
+        {
+          "T_K": 300.0,
+          "rates_s": [
+            552498963.7919239,
+            1092010777.599813,
+            739439061.9814763,
+            654048.2816648566
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              4.54426133162866e-08,
+              1.2404089673621226e-12,
+              1.8421528087022263e-11
+            ],
+            [
+              1.2404089673426368e-12,
+              2.3185917179123759e-07,
+              -1.2257611464445306e-16
+            ],
+            [
+              1.84215280870102e-11,
+              -1.225761146433438e-16,
+              2.3185916997909117e-07
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              2.318591717994911e-07,
+              1.0216121675219141e-16,
+              6.647635556056034e-17
+            ],
+            [
+              1.0216119165899342e-16,
+              2.3185917179949126e-07,
+              -5.654440154178475e-17
+            ],
+            [
+              6.647636081236589e-17,
+              -5.654437923588772e-17,
+              4.544261148763302e-08
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 1.697203183622051e-07,
+          "Duncorr_tensor_cm2_s": [
+            [
+              4.735463579260088e-07,
+              1.2638081782971858e-13,
+              1.8769033760149847e-12
+            ],
+            [
+              1.2638081782971858e-13,
+              4.925396719594417e-07,
+              -1.2488737818785012e-17
+            ],
+            [
+              1.8769033760149847e-12,
+              -1.2488737818785012e-17,
+              4.925396717748086e-07
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 4.862085672200864e-07,
+          "f_v": 0.3490689588885417,
+          "network_activation": {
+            "T_K": 300.0,
+            "D": 1.697203183622051e-07,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.27571716428473464,
+            "Ea_slope_eV": 0.2507039658086127,
+            "Ea_slope_coarse_eV": 0.2507039682823593,
+            "finite_difference_step_consistency_eV": 2.4737465964541627e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 300.0,
+            "D": 4.862085672200864e-07,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.25292187444032505,
+            "Ea_slope_eV": 0.24055048160389148,
+            "Ea_slope_coarse_eV": 0.2405504821651318,
+            "finite_difference_step_consistency_eV": 5.612403319865678e-10,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 300.0,
+              "D": 2.318591717994911e-07,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.27466362921339194,
+              "Ea_slope_eV": 0.2507324341209825,
+              "Ea_slope_coarse_eV": 0.250732436543319,
+              "finite_difference_step_consistency_eV": 2.4223364980535678e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 300.0,
+              "D": 2.3185917179949126e-07,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.27466362921339194,
+              "Ea_slope_eV": 0.2507324341209825,
+              "Ea_slope_coarse_eV": 0.250732436543319,
+              "finite_difference_step_consistency_eV": 2.4223364980535678e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 300.0,
+              "D": 4.544261148763302e-08,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.2845537501491685,
+              "Ea_slope_eV": 0.2504134614070308,
+              "Ea_slope_coarse_eV": 0.2504134644044303,
+              "finite_difference_step_consistency_eV": 2.9973994952747773e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.7686038441256926,
+              0.1437407448001693,
+              0.08516643442035843,
+              0.0024889763494684303
+            ],
+            "sum_weights": 0.9999999996956888,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        },
+        {
+          "T_K": 325.0,
+          "rates_s": [
+            1174476771.553851,
+            2202818421.4404845,
+            1537018618.8335102,
+            2334829.69589037
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              9.575882886119126e-08,
+              2.616945692696932e-12,
+              3.886471304965601e-11
+            ],
+            [
+              2.616945692678778e-12,
+              4.890500921382628e-07,
+              -2.5860425368913423e-16
+            ],
+            [
+              3.8864713049680806e-11,
+              -2.5860425369034503e-16,
+              4.890500883150974e-07
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              4.890500921556757e-07,
+              2.1548402324776386e-16,
+              1.4016907536885606e-16
+            ],
+            [
+              2.1548401514894127e-16,
+              4.890500921556761e-07,
+              -1.1926504344449315e-16
+            ],
+            [
+              1.4016910573325396e-16,
+              -1.1926504813598823e-16,
+              9.575882500319984e-08
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 3.5795300310485054e-07,
+          "Duncorr_tensor_cm2_s": [
+            [
+              9.566228739037987e-07,
+              3.8233956231138436e-13,
+              5.678190949794254e-12
+            ],
+            [
+              3.8233956231138436e-13,
+              1.0140832979362014e-06,
+              -3.7782254349440335e-17
+            ],
+            [
+              5.678190949794254e-12,
+              -3.7782254349440335e-17,
+              1.0140832973776306e-06
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 9.949298230725436e-07,
+          "f_v": 0.3597771368430987,
+          "network_activation": {
+            "T_K": 325.0,
+            "D": 3.5795300310485054e-07,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.27779387401451017,
+            "Ea_slope_eV": 0.25091479675642797,
+            "Ea_slope_coarse_eV": 0.2509148002931264,
+            "finite_difference_step_consistency_eV": 3.536698434114527e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 325.0,
+            "D": 9.949298230725436e-07,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.2539451959580279,
+            "Ea_slope_eV": 0.24073930104068397,
+            "Ea_slope_coarse_eV": 0.24073930183960704,
+            "finite_difference_step_consistency_eV": 7.989230665916836e-10,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 325.0,
+              "D": 4.890500921556757e-07,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.27665016528520636,
+              "Ea_slope_eV": 0.2509428658808622,
+              "Ea_slope_coarse_eV": 0.25094286933619575,
+              "finite_difference_step_consistency_eV": 3.4553335748199743e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 325.0,
+              "D": 4.890500921556761e-07,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.27665016528520636,
+              "Ea_slope_eV": 0.2509428658808622,
+              "Ea_slope_coarse_eV": 0.25094286933619575,
+              "finite_difference_step_consistency_eV": 3.4553335748199743e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 325.0,
+              "D": 9.575882500319984e-08,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.2873911307599976,
+              "Ea_slope_eV": 0.25062809299060973,
+              "Ea_slope_coarse_eV": 0.25062809735953834,
+              "finite_difference_step_consistency_eV": 4.368928607778599e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.7596975918922055,
+              0.14675149921927755,
+              0.0893657747091936,
+              0.004185133892775639
+            ],
+            "sum_weights": 0.9999999997134523,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        },
+        {
+          "T_K": 350.0,
+          "rates_s": [
+            2241660450.132463,
+            4019708006.295914,
+            2877790606.4945707,
+            6949463.2856045645
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              1.8154024399827463e-07,
+              4.9658970441829525e-12,
+              7.374939579156662e-11
+            ],
+            [
+              4.9658970441841044e-12,
+              9.278468743784153e-07,
+              -4.907255441810084e-16
+            ],
+            [
+              7.374939579159986e-11,
+              -4.90725544176574e-16,
+              9.278468671236043e-07
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              9.278468744114578e-07,
+              4.0882557246859834e-16,
+              2.6586475947021726e-16
+            ],
+            [
+              4.088255698786763e-16,
+              9.278468744114586e-07,
+              -2.2627246782513363e-16
+            ],
+            [
+              2.6586478215838233e-16,
+              -2.2627249214399553e-16,
+              1.8154023667737834e-07
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 6.790779951667648e-07,
+          "Duncorr_tensor_cm2_s": [
+            [
+              1.7481218262185955e-06,
+              9.057560195579194e-13,
+              1.345153926408859e-11
+            ],
+            [
+              9.057560195579194e-13,
+              1.884244608428982e-06,
+              -8.950562407262624e-17
+            ],
+            [
+              1.345153926408859e-11,
+              -8.950562407262624e-17,
+              1.8842446071057392e-06
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 1.8388703472511059e-06,
+          "f_v": 0.36929085086499236,
+          "network_activation": {
+            "T_K": 350.0,
+            "D": 6.790779951667648e-07,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.2798497247245733,
+            "Ea_slope_eV": 0.2512509494893853,
+            "Ea_slope_coarse_eV": 0.2512509542157622,
+            "finite_difference_step_consistency_eV": 4.7263769009653345e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 350.0,
+            "D": 1.8388703472511059e-06,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.2549537194841866,
+            "Ea_slope_eV": 0.24093632401543197,
+            "Ea_slope_coarse_eV": 0.24093632509849977,
+            "finite_difference_step_consistency_eV": 1.0830678021100937e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 350.0,
+              "D": 9.278468744114578e-07,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.2786160024394677,
+              "Ea_slope_eV": 0.2512750967750813,
+              "Ea_slope_coarse_eV": 0.2512751013851177,
+              "finite_difference_step_consistency_eV": 4.610036408170259e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 350.0,
+              "D": 9.278468744114586e-07,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.2786160024394677,
+              "Ea_slope_eV": 0.25127509677502774,
+              "Ea_slope_coarse_eV": 0.2512751013851177,
+              "finite_difference_step_consistency_eV": 4.6100899764311976e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 350.0,
+              "D": 1.8154023667737834e-07,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.29020603558761704,
+              "Ea_slope_eV": 0.2510041173400105,
+              "Ea_slope_coarse_eV": 0.2510041232578664,
+              "finite_difference_step_consistency_eV": 5.917855927517479e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.7511611036115085,
+              0.14925638499363458,
+              0.09305507939316726,
+              0.006527431697378461
+            ],
+            "sum_weights": 0.9999999996956888,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        },
+        {
+          "T_K": 400.0,
+          "rates_s": [
+            6408385083.776392,
+            10682433390.66663,
+            7974010291.25605,
+            40898497.80678896
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              5.149394804761997e-07,
+              1.409887313117529e-11,
+              2.0938480309053664e-10
+            ],
+            [
+              1.4098873131139784e-11,
+              2.633807915533333e-06,
+              -1.3932381458592966e-15
+            ],
+            [
+              2.0938480309045103e-10,
+              -1.3932381458288718e-15,
+              2.633807894935915e-06
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              2.6338079156271454e-06,
+              1.160502162526112e-15,
+              7.544939139223921e-16
+            ],
+            [
+              1.1605018624299772e-15,
+              2.633807915627147e-06,
+              -6.42296109032762e-16
+            ],
+            [
+              7.544938785166426e-16,
+              -6.42296023369013e-16,
+              5.149394596911557e-07
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 1.927518430315149e-06,
+          "Duncorr_tensor_cm2_s": [
+            [
+              4.659072995113553e-06,
+              3.358827307647094e-12,
+              4.9882525158496384e-11
+            ],
+            [
+              3.358827307647094e-12,
+              5.1638589512024134e-06,
+              -3.3191524147987367e-16
+            ],
+            [
+              4.9882525158496384e-11,
+              -3.3191524147987367e-16,
+              5.163858946295411e-06
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 4.995596964203792e-06,
+          "f_v": 0.3858434625785231,
+          "network_activation": {
+            "T_K": 400.0,
+            "D": 1.927518430315149e-06,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.28386803279890876,
+            "Ea_slope_eV": 0.2523336607066971,
+            "Ea_slope_coarse_eV": 0.2523336679605651,
+            "finite_difference_step_consistency_eV": 7.25386800626282e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 400.0,
+            "D": 4.995596964203792e-06,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.25692683920966436,
+            "Ea_slope_eV": 0.2413806560595434,
+            "Ea_slope_coarse_eV": 0.2413806578102575,
+            "finite_difference_step_consistency_eV": 1.75071410146721e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 400.0,
+              "D": 2.6338079156271454e-06,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.2824557700901563,
+              "Ea_slope_eV": 0.2523379745856295,
+              "Ea_slope_coarse_eV": 0.25233798164396004,
+              "finite_difference_step_consistency_eV": 7.058330531162227e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 400.0,
+              "D": 2.633807915627147e-06,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.2824557700901564,
+              "Ea_slope_eV": 0.2523379745856295,
+              "Ea_slope_coarse_eV": 0.25233798164396004,
+              "finite_difference_step_consistency_eV": 7.058330531162227e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 400.0,
+              "D": 5.149394596911557e-07,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.2957272784547171,
+              "Ea_slope_eV": 0.25228953152570216,
+              "Ea_slope_coarse_eV": 0.2522895407805,
+              "finite_difference_step_consistency_eV": 9.254797816993232e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.734353133058363,
+              0.153076090576576,
+              0.09917767281208967,
+              0.013393103248660054
+            ],
+            "sum_weights": 0.9999999996956888,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        },
+        {
+          "T_K": 500.0,
+          "rates_s": [
+            27886812759.593147,
+            41969728017.12998,
+            33215548879.947693,
+            489064213.76123947
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              2.2513452561857105e-06,
+              6.148061026019477e-11,
+              9.130591752577386e-10
+            ],
+            [
+              6.148061025987833e-11,
+              1.1491042871472352e-05,
+              -6.075459409183184e-15
+            ],
+            [
+              9.130591752577709e-10,
+              -6.075459409207842e-15,
+              1.1491042781653697e-05
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              1.1491042871881437e-05,
+              5.0631535285237024e-15,
+              3.2941844366410202e-15
+            ],
+            [
+              5.063154177211547e-15,
+              1.1491042871881445e-05,
+              -2.8023517660114683e-15
+            ],
+            [
+              3.2941846830631723e-15,
+              -2.8023515652470957e-15,
+              2.2513451655488792e-06
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 8.411143636437254e-06,
+          "Duncorr_tensor_cm2_s": [
+            [
+              1.8425173374661504e-05,
+              1.9011202455484865e-11,
+              2.8233865519704966e-10
+            ],
+            [
+              1.9011202455484865e-11,
+              2.1282297939871214e-05,
+              -1.8786660999059675e-15
+            ],
+            [
+              2.8233865519704966e-10,
+              -1.8786660999059675e-15,
+              2.1282297912097237e-05
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 2.032992307554332e-05,
+          "f_v": 0.4137321919607148,
+          "network_activation": {
+            "T_K": 500.0,
+            "D": 8.411143636437254e-06,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.2913544187774581,
+            "Ea_slope_eV": 0.2561387392584082,
+            "Ea_slope_coarse_eV": 0.25613875070253234,
+            "finite_difference_step_consistency_eV": 1.1444124148329848e-08,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 500.0,
+            "D": 2.032992307554332e-05,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.2606848218038929,
+            "Ea_slope_eV": 0.2425714151313488,
+            "Ea_slope_coarse_eV": 0.24257141832701046,
+            "finite_difference_step_consistency_eV": 3.19566165196683e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 500.0,
+              "D": 1.1491042871881437e-05,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.2895971427025697,
+              "Ea_slope_eV": 0.25605193586755276,
+              "Ea_slope_coarse_eV": 0.25605194696213107,
+              "finite_difference_step_consistency_eV": 1.1094578311610093e-08,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 500.0,
+              "D": 1.1491042871881445e-05,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.2895971427025697,
+              "Ea_slope_eV": 0.25605193586755276,
+              "Ea_slope_coarse_eV": 0.25605194696209277,
+              "finite_difference_step_consistency_eV": 1.1094540008915743e-08,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 500.0,
+              "D": 2.2513451655488792e-06,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.3060961903843612,
+              "Ea_slope_eV": 0.2570248419154627,
+              "Ea_slope_coarse_eV": 0.25702485687326093,
+              "finite_difference_step_consistency_eV": 1.4957798222248186e-08,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.6988370331661997,
+              0.15738687848099175,
+              0.10773605243485918,
+              0.03604003559587454
+            ],
+            "sum_weights": 0.9999999996779252,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        },
+        {
+          "T_K": 600.0,
+          "rates_s": [
+            74330274033.66167,
+            104499319500.16771,
+            85990642629.38591,
+            2557436766.891523
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              6.1594122083745445e-06,
+              1.6681674200109694e-10,
+              2.477424284282146e-09
+            ],
+            [
+              1.6681674200009072e-10,
+              3.122969447685684e-05,
+              -1.6484682564262697e-14
+            ],
+            [
+              2.4774242842831312e-09,
+              -1.648468256442019e-14,
+              3.122969423314984e-05
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              3.122969447796683e-05,
+              1.3760343533709337e-14,
+              8.973551610668417e-15
+            ],
+            [
+              1.3760344507728575e-14,
+              3.122969447796684e-05,
+              -7.616743217122885e-15
+            ],
+            [
+              8.973553019129206e-15,
+              -7.616743202487371e-15,
+              6.159411962447562e-06
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 2.2872933639460408e-05,
+          "Duncorr_tensor_cm2_s": [
+            [
+              4.6247209205835814e-05,
+              5.845272630207539e-11,
+              8.680915464174389e-10
+            ],
+            [
+              5.845272630207539e-11,
+              5.503185713291442e-05,
+              -5.776236414909363e-15
+            ],
+            [
+              8.680915464174389e-10,
+              -5.776236414909363e-15,
+              5.503185704751926e-05
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 5.2103641128756495e-05,
+          "f_v": 0.43898915975829217,
+          "network_activation": {
+            "T_K": 600.0,
+            "D": 2.2872933639460408e-05,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.2979007855549449,
+            "Ea_slope_eV": 0.26166037780494134,
+            "Ea_slope_coarse_eV": 0.26166039087913384,
+            "finite_difference_step_consistency_eV": 1.3074192506401516e-08,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 600.0,
+            "D": 5.2103641128756495e-05,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.26416103283093634,
+            "Ea_slope_eV": 0.24420501477868709,
+            "Ea_slope_coarse_eV": 0.24420501917460657,
+            "finite_difference_step_consistency_eV": 4.395919489530442e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 600.0,
+              "D": 3.122969447796683e-05,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.2958228329957603,
+              "Ea_slope_eV": 0.26142151676827335,
+              "Ea_slope_coarse_eV": 0.2614215293948604,
+              "finite_difference_step_consistency_eV": 1.2626587053699012e-08,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 600.0,
+              "D": 3.122969447796684e-05,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.29582283299576034,
+              "Ea_slope_eV": 0.26142151676827335,
+              "Ea_slope_coarse_eV": 0.2614215293949063,
+              "finite_difference_step_consistency_eV": 1.262663296142108e-08,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 600.0,
+              "D": 6.159411962447562e-06,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.3152777610867323,
+              "Ea_slope_eV": 0.2640825431130062,
+              "Ea_slope_coarse_eV": 0.2640825605202964,
+              "finite_difference_step_consistency_eV": 1.7407290164861422e-08,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.6598814810310216,
+              0.15893626262197813,
+              0.11306130375032808,
+              0.06812095227459736
+            ],
+            "sum_weights": 0.9999999996779252,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        }
+      ],
+      "scope": "Efr numerical model"
+    },
+    "E0": {
+      "barriers_sym_eV": [
+        0.25257529000001,
+        0.23556568500001163,
+        0.24480284999998503,
+        0.42744866000001025
+      ],
+      "temperature_rows": [
+        {
+          "T_K": 250.0,
+          "rates_s": [
+            80966665.38533093,
+            178321947.31647912,
+            116142654.39684509,
+            24155.402133951586
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              6.785131584312047e-09,
+              1.8525499733503064e-13,
+              2.7512540028912655e-12
+            ],
+            [
+              1.8525499733366842e-13,
+              3.462643227808212e-08,
+              -1.8306734624794107e-17
+            ],
+            [
+              2.751254002889256e-12,
+              -1.830673462527832e-17,
+              3.462643200743817e-08
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              3.462643227931478e-08,
+              1.5257015177332784e-17,
+              9.927042966612854e-18
+            ],
+            [
+              1.5257015418250473e-17,
+              3.462643227931481e-08,
+              -8.444460232957558e-18
+            ],
+            [
+              9.927042509265689e-18,
+              -8.444457848708244e-18,
+              6.785131311202754e-09
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 2.534599862327744e-08,
+          "Duncorr_tensor_cm2_s": [
+            [
+              7.713105103443487e-08,
+              4.5231247756675656e-15,
+              6.717370737836736e-14
+            ],
+            [
+              4.5231247756675656e-15,
+              7.781081501975844e-08,
+              -4.469534385862062e-19
+            ],
+            [
+              6.717370737836736e-14,
+              -4.469534385862062e-19,
+              7.781081501315053e-08
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 7.758422702244793e-08,
+          "f_v": 0.3266900966345121,
+          "network_activation": {
+            "T_K": 250.0,
+            "D": 2.534599862327744e-08,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.2707296199215515,
+            "Ea_slope_eV": 0.2497788558668769,
+            "Ea_slope_coarse_eV": 0.24977885674908407,
+            "finite_difference_step_consistency_eV": 8.822071684289057e-10,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 250.0,
+            "D": 7.758422702244793e-08,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.25030613791735046,
+            "Ea_slope_eV": 0.23973317023479623,
+            "Ea_slope_coarse_eV": 0.23973317047409007,
+            "finite_difference_step_consistency_eV": 2.392938347473006e-10,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 250.0,
+              "D": 3.462643227931478e-08,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.26985128229196903,
+              "Ea_slope_eV": 0.2498004538790629,
+              "Ea_slope_coarse_eV": 0.24980045475063137,
+              "finite_difference_step_consistency_eV": 8.715684562954351e-10,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 250.0,
+              "D": 3.462643227931481e-08,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.26985128229196903,
+              "Ea_slope_eV": 0.2498004538790629,
+              "Ea_slope_coarse_eV": 0.2498004547505931,
+              "finite_difference_step_consistency_eV": 8.715301813566612e-10,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 250.0,
+              "D": 6.785131311202754e-09,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.27809743935389186,
+              "Ea_slope_eV": 0.24955841441245596,
+              "Ea_slope_coarse_eV": 0.24955841540043763,
+              "finite_difference_step_consistency_eV": 9.879816686986231e-10,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.7864876795693476,
+              0.13542780347819416,
+              0.07746010464160236,
+              0.0006244120243081852
+            ],
+            "sum_weights": 0.9999999997134523,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        },
+        {
+          "T_K": 275.0,
+          "rates_s": [
+            235064747.36995906,
+            481851763.5457226,
+            326308856.48566884,
+            146681.92837476323
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              1.944717726916367e-08,
+              5.317170807272103e-13,
+              7.896622319502032e-12
+            ],
+            [
+              5.317170807278614e-13,
+              9.935700610769965e-08,
+              -5.2543810607333716e-17
+            ],
+            [
+              7.896622319494996e-12,
+              -5.2543810604585017e-17,
+              9.935700533090005e-08
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              9.935700611123762e-08,
+              4.3778424194036676e-17,
+              2.8473396132177105e-17
+            ],
+            [
+              4.3778430697433386e-17,
+              9.93570061112377e-08,
+              -2.4230148402056815e-17
+            ],
+            [
+              2.847339069614067e-17,
+              -2.4230143885138492e-17,
+              1.944717648528805e-08
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 7.272039623592113e-08,
+          "Duncorr_tensor_cm2_s": [
+            [
+              2.087537406529426e-07,
+              4.6816632112153456e-14,
+              6.952818973836263e-13
+            ],
+            [
+              4.6816632112153456e-14,
+              2.1578964222770003e-07,
+              -4.62633038405329e-18
+            ],
+            [
+              6.952818973836263e-13,
+              -4.62633038405329e-18,
+              2.1578964215930442e-07
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 2.1344434167998236e-07,
+          "f_v": 0.3406995737790557,
+          "network_activation": {
+            "T_K": 275.0,
+            "D": 7.272039623592113e-08,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.27282521713245345,
+            "Ea_slope_eV": 0.24978288526191356,
+            "Ea_slope_coarse_eV": 0.24978288682045777,
+            "finite_difference_step_consistency_eV": 1.558544210356061e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 275.0,
+            "D": 2.1344434167998236e-07,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.25135442987650647,
+            "Ea_slope_eV": 0.23991685952258,
+            "Ea_slope_coarse_eV": 0.23991685989030534,
+            "finite_difference_step_consistency_eV": 3.67725350169934e-10,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 275.0,
+              "D": 9.935700611123762e-08,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.2718566491811462,
+              "Ea_slope_eV": 0.24980899143179464,
+              "Ea_slope_coarse_eV": 0.24980899296188228,
+              "finite_difference_step_consistency_eV": 1.5300876399226837e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 275.0,
+              "D": 9.93570061112377e-08,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.2718566491811462,
+              "Ea_slope_eV": 0.24980899143179464,
+              "Ea_slope_coarse_eV": 0.24980899296188228,
+              "finite_difference_step_consistency_eV": 1.5300876399226837e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 275.0,
+              "D": 1.944717648528805e-08,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.2809542930050194,
+              "Ea_slope_eV": 0.24951612870864942,
+              "Ea_slope_coarse_eV": 0.2495161305558426,
+              "finite_difference_step_consistency_eV": 1.8471931761965266e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.7760638175824397,
+              0.13978354648003233,
+              0.08284229094712714,
+              0.0013103446860895929
+            ],
+            "sum_weights": 0.9999999996956888,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        },
+        {
+          "T_K": 300.0,
+          "rates_s": [
+            571375846.4564639,
+            1103241690.5161228,
+            771779294.2329836,
+            659444.9699501105
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              4.676917526772806e-08,
+              1.2804594700690773e-12,
+              1.9016325028891924e-11
+            ],
+            [
+              1.280459470042615e-12,
+              2.392047783284657e-07,
+              -1.2653386985442169e-16
+            ],
+            [
+              1.9016325028873444e-11,
+              -1.2653386985275805e-16,
+              2.392047764578085e-07
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              2.3920477833698575e-07,
+              1.053977917390514e-16,
+              6.852477471943186e-17
+            ],
+            [
+              1.0539778766495336e-16,
+              2.392047783369859e-07,
+              -5.833394308205505e-17
+            ],
+            [
+              6.852478036926354e-17,
+              -5.833391130486358e-17,
+              4.676917338003064e-08
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 1.750595766846674e-07,
+          "Duncorr_tensor_cm2_s": [
+            [
+              4.786738205451734e-07,
+              1.7676168611326138e-13,
+              2.6251183637239534e-12
+            ],
+            [
+              1.7676168611326138e-13,
+              5.052386922885117e-07,
+              -1.7467329563805834e-17
+            ],
+            [
+              2.6251183637239534e-12,
+              -1.7467329563805834e-17,
+              5.052386920302758e-07
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 4.963837349546537e-07,
+          "f_v": 0.35266984866186174,
+          "network_activation": {
+            "T_K": 300.0,
+            "D": 1.750595766846674e-07,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.2749164126019731,
+            "Ea_slope_eV": 0.2498811521012339,
+            "Ea_slope_coarse_eV": 0.24988115454049276,
+            "finite_difference_step_consistency_eV": 2.4392588504618118e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 300.0,
+            "D": 4.963837349546537e-07,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.2523864380507105,
+            "Ea_slope_eV": 0.24009239044281366,
+            "Ea_slope_coarse_eV": 0.24009239099491544,
+            "finite_difference_step_consistency_eV": 5.521017809595463e-10,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 300.0,
+              "D": 2.3920477833698575e-07,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.2738573097619973,
+              "Ea_slope_eV": 0.2499092781905471,
+              "Ea_slope_coarse_eV": 0.2499092805774315,
+              "finite_difference_step_consistency_eV": 2.3868844123420274e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 300.0,
+              "D": 2.392047783369859e-07,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.27385730976199735,
+              "Ea_slope_eV": 0.2499092781905471,
+              "Ea_slope_coarse_eV": 0.2499092805774315,
+              "finite_difference_step_consistency_eV": 2.3868844123420274e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 300.0,
+              "D": 4.676917338003064e-08,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.28380988332288776,
+              "Ea_slope_eV": 0.24959344571396527,
+              "Ea_slope_coarse_eV": 0.2495934486884035,
+              "finite_difference_step_consistency_eV": 2.974438223501963e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.7666789453608658,
+              0.14337201728054083,
+              0.0875198207950234,
+              0.0024292162237316006
+            ],
+            "sum_weights": 0.9999999996601616,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        },
+        {
+          "T_K": 325.0,
+          "rates_s": [
+            1211469549.3008232,
+            2223722620.6393538,
+            1598968122.941211,
+            2352607.298189611
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              9.831461089122618e-08,
+              2.6948085289835203e-12,
+              4.002106749642078e-11
+            ],
+            [
+              2.694808528960491e-12,
+              5.033075970286784e-07,
+              -2.66298590222815e-16
+            ],
+            [
+              4.002106749640095e-11,
+              -2.6629859023428135e-16,
+              5.033075930917609e-07
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              5.033075970466092e-07,
+              2.2176618566906557e-16,
+              1.4413530709357935e-16
+            ],
+            [
+              2.217661358647434e-16,
+              5.033075970466096e-07,
+              -1.2273814853412006e-16
+            ],
+            [
+              1.441353093556112e-16,
+              -1.2273811822436388e-16,
+              9.831460691844672e-08
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 3.6830993367055513e-07,
+          "Duncorr_tensor_cm2_s": [
+            [
+              9.662044958360656e-07,
+              4.805367714627762e-13,
+              7.136534684717225e-12
+            ],
+            [
+              4.805367714627762e-13,
+              1.0384226217732865e-06,
+              -4.748599159065634e-17
+            ],
+            [
+              7.136534684717225e-12,
+              -4.748599159065634e-17,
+              1.0384226210712574e-06
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 1.0143499128935365e-06,
+          "f_v": 0.36309948765107447,
+          "network_activation": {
+            "T_K": 325.0,
+            "D": 3.6830993367055513e-07,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.27699504676442044,
+            "Ea_slope_eV": 0.25008959683611326,
+            "Ea_slope_coarse_eV": 0.25008960033171884,
+            "finite_difference_step_consistency_eV": 3.4956055827706223e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 325.0,
+            "D": 1.0143499128935365e-06,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.25340380549706304,
+            "Ea_slope_eV": 0.2402693376470669,
+            "Ea_slope_coarse_eV": 0.24026933843651274,
+            "finite_difference_step_consistency_eV": 7.894458420310002e-10,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 325.0,
+              "D": 5.033075970466092e-07,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.2758453588864997,
+              "Ea_slope_eV": 0.25011673831509956,
+              "Ea_slope_coarse_eV": 0.25011674172854426,
+              "finite_difference_step_consistency_eV": 3.4134446935674134e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 325.0,
+              "D": 5.033075970466096e-07,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.2758453588864997,
+              "Ea_slope_eV": 0.2501167383150498,
+              "Ea_slope_coarse_eV": 0.25011674172854426,
+              "finite_difference_step_consistency_eV": 3.4134944315589166e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 325.0,
+              "D": 9.831460691844672e-08,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.2866534489740769,
+              "Ea_slope_eV": 0.2498117029816126,
+              "Ea_slope_coarse_eV": 0.2498117073195972,
+              "finite_difference_step_consistency_eV": 4.337984610414125e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.7579502761778656,
+              0.14635211554647753,
+              0.09160498045446275,
+              0.004092627499119317
+            ],
+            "sum_weights": 0.9999999996779252,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        },
+        {
+          "T_K": 350.0,
+          "rates_s": [
+            2307150339.654645,
+            4055117355.078449,
+            2985342098.589652,
+            6998584.236460394
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              1.859983095231315e-07,
+              5.102816420571408e-12,
+              7.578280912903445e-11
+            ],
+            [
+              5.102816420603279e-12,
+              9.528820556854682e-07,
+              -5.042557957564652e-16
+            ],
+            [
+              7.578280912905797e-11,
+              -5.042557957169586e-16,
+              9.528820482306282e-07
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              9.528820557194218e-07,
+              4.198565381256966e-16,
+              2.7281402621447365e-16
+            ],
+            [
+              4.198565787206194e-16,
+              9.528820557194225e-07,
+              -2.323705143968718e-16
+            ],
+            [
+              2.728140202970116e-16,
+              -2.323705535584486e-16,
+              1.859983020003839e-07
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 6.97254137813076e-07,
+          "Duncorr_tensor_cm2_s": [
+            [
+              1.764411110353787e-06,
+              1.0787539920307696e-12,
+              1.602076207193795e-11
+            ],
+            [
+              1.0787539920307696e-12,
+              1.926533129518796e-06,
+              -1.0660113277845084e-16
+            ],
+            [
+              1.602076207193795e-11,
+              -1.0660113277845084e-16,
+              1.9265331279428164e-06
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 1.8724924559384663e-06,
+          "f_v": 0.3723668608660013,
+          "network_activation": {
+            "T_K": 350.0,
+            "D": 6.97254137813076e-07,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.2790530617170941,
+            "Ea_slope_eV": 0.250421904921504,
+            "Ea_slope_coarse_eV": 0.25042190960210015,
+            "finite_difference_step_consistency_eV": 4.68059613289995e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 350.0,
+            "D": 1.8724924559384663e-06,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.25440723939001525,
+            "Ea_slope_eV": 0.24045576547621142,
+            "Ea_slope_coarse_eV": 0.24045576654926049,
+            "finite_difference_step_consistency_eV": 1.0730490662691494e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 350.0,
+              "D": 9.528820557194218e-07,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.27781299213511434,
+              "Ea_slope_eV": 0.2504445883127508,
+              "Ea_slope_coarse_eV": 0.2504445928764707,
+              "finite_difference_step_consistency_eV": 4.563719901984342e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 350.0,
+              "D": 9.528820557194225e-07,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.27781299213511434,
+              "Ea_slope_eV": 0.2504445883127508,
+              "Ea_slope_coarse_eV": 0.2504445928764707,
+              "finite_difference_step_consistency_eV": 4.563719901984342e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 350.0,
+              "D": 1.859983020003839e-07,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.2894743310093431,
+              "Ea_slope_eV": 0.2501894877846778,
+              "Ea_slope_coarse_eV": 0.2501894936659949,
+              "finite_difference_step_consistency_eV": 5.8813170999982844e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.7495809042801227,
+              0.14883784022146074,
+              0.09518734751523539,
+              0.006393907678869937
+            ],
+            "sum_weights": 0.9999999996956888,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        },
+        {
+          "T_K": 400.0,
+          "rates_s": [
+            6571906988.120117,
+            10764726466.598576,
+            8234170248.343304,
+            41151334.15931333
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              5.258064496247355e-07,
+              1.4437184020826276e-11,
+              2.1440911661896118e-10
+            ],
+            [
+              1.443718402084881e-11,
+              2.6955183995216637e-06,
+              -1.4266697284932526e-15
+            ],
+            [
+              2.1440911661891323e-10,
+              -1.4266697284385285e-15,
+              2.695518378429998e-06
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              2.695518399617727e-06,
+              1.1876928900410238e-15,
+              7.715613219419595e-16
+            ],
+            [
+              1.1876924341884305e-15,
+              2.695518399617729e-06,
+              -6.573253514392076e-16
+            ],
+            [
+              7.715612721016307e-16,
+              -6.573253334419056e-16,
+              5.25806428340942e-07
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 1.9722810758587993e-06,
+          "Duncorr_tensor_cm2_s": [
+            [
+              4.697179507154541e-06,
+              3.7872338897928595e-12,
+              5.624486539358366e-11
+            ],
+            [
+              3.7872338897928595e-12,
+              5.2663491324403316e-06,
+              -3.7425006218254566e-16
+            ],
+            [
+              5.624486539358366e-11,
+              -3.7425006218254566e-16,
+              5.26634912690746e-06
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 5.076625922167444e-06,
+          "f_v": 0.3885023450805574,
+          "network_activation": {
+            "T_K": 400.0,
+            "D": 1.9722810758587993e-06,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.2830767068343636,
+            "Ea_slope_eV": 0.2514935352354738,
+            "Ea_slope_coarse_eV": 0.25149354244277655,
+            "finite_difference_step_consistency_eV": 7.207302754608236e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 400.0,
+            "D": 5.076625922167444e-06,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.2563722298794496,
+            "Ea_slope_eV": 0.2408818146406332,
+            "Ea_slope_coarse_eV": 0.240881816380479,
+            "finite_difference_step_consistency_eV": 1.739845795212247e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 400.0,
+              "D": 2.695518399617727e-06,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.2816574649471952,
+              "Ea_slope_eV": 0.25149545307509585,
+              "Ea_slope_coarse_eV": 0.25149546008652435,
+              "finite_difference_step_consistency_eV": 7.011428493353122e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 400.0,
+              "D": 2.695518399617729e-06,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.2816574649471952,
+              "Ea_slope_eV": 0.2514954530751571,
+              "Ea_slope_coarse_eV": 0.25149546008655493,
+              "finite_difference_step_consistency_eV": 7.011397851197643e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 400.0,
+              "D": 5.25806428340942e-07,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.29500742785599565,
+              "Ea_slope_eV": 0.25147387183221576,
+              "Ea_slope_coarse_eV": 0.25147388104828566,
+              "finite_difference_step_consistency_eV": 9.216069907225233e-09,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.7330843963693212,
+              0.15264215631916045,
+              0.10111788029121271,
+              0.013155566698230814
+            ],
+            "sum_weights": 0.9999999996779252,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        },
+        {
+          "T_K": 500.0,
+          "rates_s": [
+            28454642044.019974,
+            42228183398.824905,
+            34079708683.738052,
+            491481455.7432619
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              2.2879383688847975e-06,
+              6.264094566141908e-11,
+              9.302915169633466e-10
+            ],
+            [
+              6.264094566042745e-11,
+              1.1702018577190224e-05,
+              -6.190122726369233e-15
+            ],
+            [
+              9.302915169630756e-10,
+              -6.1901227263450276e-15,
+              1.17020184856764e-05
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              1.1702018577607029e-05,
+              5.156114779018288e-15,
+              3.3522493854394008e-15
+            ],
+            [
+              5.1561143729061416e-15,
+              1.1702018577607035e-05,
+              -2.8537252228572637e-15
+            ],
+            [
+              3.352249895029254e-15,
+              -2.853724330052074e-15,
+              2.2879382765373595e-06
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 8.563991810583807e-06,
+          "Duncorr_tensor_cm2_s": [
+            [
+              1.8546245812949915e-05,
+              2.0481355826070905e-11,
+              3.0417215714141725e-10
+            ],
+            [
+              2.0481355826070905e-11,
+              2.1624314388471374e-05,
+              -2.023945617675781e-15
+            ],
+            [
+              3.0417215714141725e-10,
+              -2.023945617675781e-15,
+              2.1624314358549613e-05
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 2.05982915199903e-05,
+          "f_v": 0.4157622394203226,
+          "network_activation": {
+            "T_K": 500.0,
+            "D": 8.563991810583807e-06,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.29057847253693503,
+            "Ea_slope_eV": 0.25527084836085967,
+            "Ea_slope_coarse_eV": 0.25527085979044173,
+            "finite_difference_step_consistency_eV": 1.142958205857525e-08,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 500.0,
+            "D": 2.05982915199903e-05,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.26011977065514236,
+            "Ea_slope_eV": 0.24204385717084087,
+            "Ea_slope_coarse_eV": 0.24204386035670575,
+            "finite_difference_step_consistency_eV": 3.185864877464084e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 500.0,
+              "D": 1.1702018577607029e-05,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.28881324527768604,
+              "Ea_slope_eV": 0.25518024077226376,
+              "Ea_slope_coarse_eV": 0.2551802518520704,
+              "finite_difference_step_consistency_eV": 1.1079806627734001e-08,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 500.0,
+              "D": 1.1702018577607035e-05,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.28881324527768604,
+              "Ea_slope_eV": 0.2551802407721872,
+              "Ea_slope_coarse_eV": 0.25518025185210863,
+              "finite_difference_step_consistency_eV": 1.1079921424794748e-08,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 500.0,
+              "D": 2.2879382765373595e-06,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.3054014951364649,
+              "Ea_slope_eV": 0.2561977017418587,
+              "Ea_slope_coarse_eV": 0.25619771669173536,
+              "finite_difference_step_consistency_eV": 1.4949876669945183e-08,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.6981199127054083,
+              0.15696899676953535,
+              0.10936771831282499,
+              0.03554337189015655
+            ],
+            "sum_weights": 0.9999999996779252,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        },
+        {
+          "T_K": 600.0,
+          "rates_s": [
+            75589407092.2946,
+            105035312657.98769,
+            87850970070.51111,
+            2567966062.7627277
+          ],
+          "Dvac_tensor_cm2_s": [
+            [
+              6.239404743908393e-06,
+              1.6937765513474034e-10,
+              2.515456848111305e-09
+            ],
+            [
+              1.6937765513540526e-10,
+              3.169455734592543e-05,
+              -1.6737749733654057e-14
+            ],
+            [
+              2.515456848113492e-09,
+              -1.6737749733533954e-14,
+              3.169455709847712e-05
+            ]
+          ],
+          "Dvac_conventional_cm2_s": [
+            [
+              3.1694557347052453e-05,
+              1.3965173402974647e-14,
+              9.101168202352894e-15
+            ],
+            [
+              1.3965174547083446e-14,
+              3.169455734705248e-05,
+              -7.729926343796942e-15
+            ],
+            [
+              9.101169278597971e-15,
+              -7.729928360479553e-15,
+              6.239404494206023e-06
+            ]
+          ],
+          "Dvac_scalar_cm2_s": 2.320950639610365e-05,
+          "Duncorr_tensor_cm2_s": [
+            [
+              4.6501018228957576e-05,
+              6.168849034844637e-11,
+              9.161464378373384e-10
+            ],
+            [
+              6.168849034844637e-11,
+              5.57719573819608e-05,
+              -6.095991373062134e-15
+            ],
+            [
+              9.161464378373384e-10,
+              -6.095991373062134e-15,
+              5.5771957291838436e-05
+            ]
+          ],
+          "Duncorr_scalar_cm2_s": 5.2681644300918945e-05,
+          "f_v": 0.4405615410090531,
+          "network_activation": {
+            "T_K": 600.0,
+            "D": 2.320950639610365e-05,
+            "D0": 0.007270735357799883,
+            "Ea_eff_eV": 0.2971455101356414,
+            "Ea_slope_eV": 0.2607701357120669,
+            "Ea_slope_coarse_eV": 0.2607701488242372,
+            "finite_difference_step_consistency_eV": 1.3112170293982928e-08,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "local_upper_activation": {
+            "T_K": 600.0,
+            "D": 5.2681644300918945e-05,
+            "D0": 0.008624284837889537,
+            "Ea_eff_eV": 0.26359062108362874,
+            "Ea_slope_eV": 0.2436557260663991,
+            "Ea_slope_coarse_eV": 0.24365573045708347,
+            "finite_difference_step_consistency_eV": 4.3906843716357e-09,
+            "relative_inverse_temperature_step": 0.0005,
+            "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+          },
+          "directional_activation": [
+            {
+              "T_K": 600.0,
+              "D": 3.1694557347052453e-05,
+              "D0": 0.00953608623210412,
+              "Ea_eff_eV": 0.29505887613768267,
+              "Ea_slope_eV": 0.26052646947537755,
+              "Ea_slope_coarse_eV": 0.2605264821397587,
+              "finite_difference_step_consistency_eV": 1.2664381154881e-08,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 600.0,
+              "D": 3.169455734705248e-05,
+              "D0": 0.009536086232104128,
+              "Ea_eff_eV": 0.29505887613768267,
+              "Ea_slope_eV": 0.2605264694752857,
+              "Ea_slope_coarse_eV": 0.26052648213980467,
+              "finite_difference_step_consistency_eV": 1.2664518989069506e-08,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            },
+            {
+              "T_K": 600.0,
+              "D": 6.239404494206023e-06,
+              "D0": 0.0027400336091914033,
+              "Ea_eff_eV": 0.3146106020513911,
+              "Ea_slope_eV": 0.2632456582717901,
+              "Ea_slope_coarse_eV": 0.2632456757220177,
+              "finite_difference_step_consistency_eV": 1.745022759624959e-08,
+              "relative_inverse_temperature_step": 0.0005,
+              "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+            }
+          ],
+          "rate_elasticities": {
+            "weights": [
+              0.659614387785723,
+              0.15855500061334737,
+              0.11445941446197594,
+              0.06737119678135173
+            ],
+            "sum_weights": 0.999999999642398,
+            "relative_log_rate_step": 0.0001,
+            "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+            "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+          }
+        }
+      ],
+      "scope": "E0 at Efr-optimized CI geometry; not a complete zero-smearing saddle proof"
+    }
+  }
+}
