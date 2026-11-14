@@ -18,3 +18,8 @@ Each stage separates references, inputs, methods and parameters, code, execution
 
 ## Reproducibility status
 This is a curated public evidence set, not a claim that every historical calculation can be rerun from a clean machine with one command. VASP and licensed PAW datasets remain external prerequisites.
+
+
+## GitHub publication scope
+
+See [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) for the current published file count and the large raw-output/evidence bundles that remain outside the GitHub tree.
