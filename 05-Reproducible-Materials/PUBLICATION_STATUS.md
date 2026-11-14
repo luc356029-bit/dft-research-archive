@@ -4,9 +4,9 @@ Published to the public repository on 2026-11-14.
 
 ## Current repository contents
 
-- 217 files in the GitHub tree.
+- 218 files in the GitHub tree.
 - 77 Materials Project CIF structures.
-- 53 Markdown documents.
+- 54 Markdown documents.
 - 22 Python scripts.
 - 41 JSON records.
 - 3 CSV tables.
