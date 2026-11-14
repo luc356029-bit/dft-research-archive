@@ -1,0 +1,739 @@
+{
+  "status": "FINITE_FOUR_ORBIT_NETWORK_CALCULATED_TRACER_PENDING",
+  "model": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\transport_model.json",
+  "model_sha256": "fb29cfd6ba4caa3df2ba3ab2013c438843587e311fac5cc211fc4ad56cc48927",
+  "manifest": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\four_CI_candidate_manifest_phase29.json",
+  "manifest_sha256": "9f551a916f0680806dd5344176cc14651b421feba72dccb66c0181aafd9d10cc",
+  "actual_sources": [
+    {
+      "path_id": 0,
+      "report": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\neb_analysis.json",
+      "report_sha256": "ea461f0d493d451bdb3e80401e378f39236c1b0948993b02aeb7ca8840330fd3",
+      "output_directory": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1",
+      "raw_sha256": {
+        "01/OUTCAR": "f20e3bace83f73242e4cbb6ece334e6870e985d26fd195b27bc25e9cbe406986",
+        "01/vasprun.xml": "03fcb8d4ff40008fa2b5d370952658040bd39917f7196456f523d737218f4610",
+        "01/POSCAR": "2958e30fae1afeac592f704a39fd8eec05797d59d38fb8c19f136a0b1e7a1cba",
+        "01/CONTCAR": "fb66755cddff3439fb8ca467a8c0c66a27f4054765534f15ea8ceeffa156e1b7",
+        "02/OUTCAR": "4eceba4d8ff6eea4c81e75a7e5520b59fec0ea35363f842cbdb346a2a994fa82",
+        "02/vasprun.xml": "dd889ee7c2d2b353b7beee36a11bf39b83aec38f00cb5591eab845feb64b3235",
+        "02/POSCAR": "316433ab0562cfbea234b09e985d2dcd19516298c10ada5b8af60021dd454fe3",
+        "02/CONTCAR": "6172d69d8224a00815311e10adedb3703df6818c08bd0fb776b6bd0156d0b376",
+        "03/OUTCAR": "3501a36b209c860722cf42e17a1410b11a4f6cf9340e82b49be60f763d519fc0",
+        "03/vasprun.xml": "992c05d01313e0b3644229693781fa0acc37cc75d3969deb32d5f03ca4e5915a",
+        "03/POSCAR": "1123e3509b7e4042a2e485745003e9778eb147eaef7ba85773e743f7c43e2715",
+        "03/CONTCAR": "aa97f3f2155f1bc8cff57d7a6d0aeebaac618427b084e9618b42e1bc914adc1c",
+        "04/OUTCAR": "52c6ec27cb387cc151aa72c6a1a7dadfa14f6cf39256790e48d4e2a738881411",
+        "04/vasprun.xml": "28d80d754bcd8074704d5b01b49e0cdd23e8738d7c274c0c3051c8c83e123b2e",
+        "04/POSCAR": "1103cbf063b0ef5dff32b300fc52a4e59021bf4201074eb6059f5b62679d0a26",
+        "04/CONTCAR": "0a1712f9320072e551fbad2604028a579ad860718539dbd79af1f89bee10ead4"
+      },
+      "actual_endpoint_sources": [
+        {
+          "path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7",
+          "sha256": {
+            "OUTCAR": "948dd02dbb7effc59744e724e7355424ab0192d02bd824bbec6dc461acd8e6f5",
+            "vasprun.xml": "50147fe5dfda33bb139b3310b8df82ebb47059c651baeac2a2c1552ef9f048c5",
+            "POSCAR": "c8c3b7c3865835e2b47b810dfaf5230f900268a7acf3ad51d76a3a74dd27fdeb",
+            "CONTCAR": "6dda4adcfb2638ea9e0b8651e62b8218089cde5d5d695df07ed189f6fdd2302a",
+            "INCAR": "38be135bcab456371623acf2542ea6e3461a2006b4d1ec0f708902548a2b4706",
+            "KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+            "POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+          },
+          "association": {
+            "OUTCAR_ENCUT_eV": 520.0,
+            "XML_ENMAX_eV": 520.0,
+            "OUTCAR_energy_frames": 3,
+            "OUTCAR_force_frames": 3,
+            "max_force_component_difference_eV_A": 5.000000000000664e-07,
+            "max_position_difference_A": 8.321597994246513e-06,
+            "XML_kmesh": [
+              4,
+              4,
+              4
+            ],
+            "XML_kmesh_kind": "Monkhorst-Pack",
+            "input_manifest_verified": true,
+            "SlurmJobId": "124421809",
+            "local_job_id": "20261014-171257-b59fb640bbc6",
+            "errors": [],
+            "cross_format_association_passed": true
+          },
+          "Fmax_eV_A": 0.006234066759908815,
+          "energies_eV": {
+            "e_fr_energy": -244.71186692,
+            "e_wo_entrp": -244.67632926,
+            "e_0_energy": -244.69409809
+          }
+        },
+        {
+          "path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-181033-f3bb5b608e2c\\20261014-183423-c7f4ec08e278",
+          "sha256": {
+            "OUTCAR": "cd7ffa04d7abae027818ca61b4735b8d8c258ae07c5daa12831f71bf527c56b7",
+            "vasprun.xml": "389a46197700db495afb02cd89d1607221d0847d3acd6952b9dc27873d332c38",
+            "POSCAR": "ac9f89f8dc9ef0f83ee128969dbd4594ac9f08e0d8ea63c87e70a4807b4e27b6",
+            "CONTCAR": "a15932cb513382500f4865f4dd243882ed10e0137fd9aa0c1cf6115e0e63ef76",
+            "INCAR": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2",
+            "KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+            "POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+          },
+          "association": {
+            "OUTCAR_ENCUT_eV": 520.0,
+            "XML_ENMAX_eV": 520.0,
+            "OUTCAR_energy_frames": 1,
+            "OUTCAR_force_frames": 1,
+            "max_force_component_difference_eV_A": 5.000000000000664e-07,
+            "max_position_difference_A": 7.2781380143678654e-06,
+            "XML_kmesh": [
+              4,
+              4,
+              4
+            ],
+            "XML_kmesh_kind": "Monkhorst-Pack",
+            "input_manifest_verified": true,
+            "SlurmJobId": "124424614",
+            "local_job_id": "20261014-181033-f3bb5b608e2c",
+            "errors": [],
+            "cross_format_association_passed": true
+          },
+          "Fmax_eV_A": 0.006529727909415522,
+          "energies_eV": {
+            "e_fr_energy": -244.71185955,
+            "e_wo_entrp": -244.67632187,
+            "e_0_energy": -244.69409071
+          }
+        }
+      ],
+      "potential_binding": {
+        "actual_POTCAR_sha256": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+        "pre_MPI_receipt_sha256": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+        "endpoint_POTCAR_sha256": [
+          "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+          "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "path_id": 1,
+      "report": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\neb_analysis.json",
+      "report_sha256": "8932d0fe046cf8ba0d110407e6f5a3a91577fba4b9bf0e2f638bb8b72f878437",
+      "output_directory": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f",
+      "raw_sha256": {
+        "01/OUTCAR": "af9bea02b450f5dc302505538b51f1cfe7feab777da0a0758e87228257b3edd6",
+        "01/vasprun.xml": "1f3e95d117135dc37927189d154857b9d3aff8f93cdfe4b618b7c8825660bdaa",
+        "01/POSCAR": "12a9f3be3092bda18d67bef3f06d12c5c81d601304ddca45804b7d20860b9545",
+        "01/CONTCAR": "c05cc71503145791fa63a444cd7b5fe893c401233fac8943fd2c92610f1c0852",
+        "02/OUTCAR": "5b15cc2d0cd343c05efcae9775a78e38f02df26db5050bcc953ef8dd0b814c19",
+        "02/vasprun.xml": "9effcaab8f3da301bdcd96e03d51cbabb031d6a09b32aebf990bcdd28d772bbe",
+        "02/POSCAR": "84471e34742252524f3cffac2a6bd267be4ca3b12bccee234af4dcfcf04347d1",
+        "02/CONTCAR": "63e588e1779f95f684acb3c91fb269f49195d8b441b855975e48b7cb6f8cacdb",
+        "03/OUTCAR": "fbeeac5e7629aa444a4ea7307eab463e63d08aa96056b4225bd1ea2e1f42fc5d",
+        "03/vasprun.xml": "ef15f1c8f0ff6a8cb97312937d08d4ca3933edd5408707437fc5182d4e26bc6e",
+        "03/POSCAR": "d57799087715d4c5a847c76c4cc48f26d056795fc665787d2b8d97614324875e",
+        "03/CONTCAR": "d11bc8599b5f8b48a7f95b9e37cd41ff1b875480bce297cb5b2bc4098f329642",
+        "04/OUTCAR": "248829af8716f68978d3001bc46580594bc95ccbda360c2109fe5b830bc10070",
+        "04/vasprun.xml": "d6eadc1dcdd48163a5b13015a77b1c9d8a2cbffd2199c674409bcec4b815c2f4",
+        "04/POSCAR": "d397f1a2af6b386350b7b9075189f2f40e10917907159f260e1881fb2b46d191",
+        "04/CONTCAR": "3c2e7e01011219e2935ae158f6326a8ecb1d1f9b3a6cd9834a54c90037bc6da3"
+      },
+      "actual_endpoint_sources": [
+        {
+          "path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7",
+          "sha256": {
+            "OUTCAR": "948dd02dbb7effc59744e724e7355424ab0192d02bd824bbec6dc461acd8e6f5",
+            "vasprun.xml": "50147fe5dfda33bb139b3310b8df82ebb47059c651baeac2a2c1552ef9f048c5",
+            "POSCAR": "c8c3b7c3865835e2b47b810dfaf5230f900268a7acf3ad51d76a3a74dd27fdeb",
+            "CONTCAR": "6dda4adcfb2638ea9e0b8651e62b8218089cde5d5d695df07ed189f6fdd2302a",
+            "INCAR": "38be135bcab456371623acf2542ea6e3461a2006b4d1ec0f708902548a2b4706",
+            "KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+            "POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+          },
+          "association": {
+            "OUTCAR_ENCUT_eV": 520.0,
+            "XML_ENMAX_eV": 520.0,
+            "OUTCAR_energy_frames": 3,
+            "OUTCAR_force_frames": 3,
+            "max_force_component_difference_eV_A": 5.000000000000664e-07,
+            "max_position_difference_A": 8.321597994246513e-06,
+            "XML_kmesh": [
+              4,
+              4,
+              4
+            ],
+            "XML_kmesh_kind": "Monkhorst-Pack",
+            "input_manifest_verified": true,
+            "SlurmJobId": "124421809",
+            "local_job_id": "20261014-171257-b59fb640bbc6",
+            "errors": [],
+            "cross_format_association_passed": true
+          },
+          "Fmax_eV_A": 0.006234066759908815,
+          "energies_eV": {
+            "e_fr_energy": -244.71186692,
+            "e_wo_entrp": -244.67632926,
+            "e_0_energy": -244.69409809
+          }
+        },
+        {
+          "path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-181133-1fab2c7220dd\\20261014-183444-8ba707a2fb66",
+          "sha256": {
+            "OUTCAR": "46923db6a957ef496f5e0a420dd859a2e274bba528663f04b6ae1fd5d2232b26",
+            "vasprun.xml": "8a201845b59b6a8f8a81ab3e1497ecdb8e2e6a21b2aea150bdf196cf95ba1bb3",
+            "POSCAR": "7d284aafa9a383fba9d81585b671f38a7d631bd9fdd8745479d20d361cdef575",
+            "CONTCAR": "7354b2bfb2c70e9cae841d2c2b142a5a4243ceb8b586d86b90107c3e55bd31aa",
+            "INCAR": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2",
+            "KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+            "POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+          },
+          "association": {
+            "OUTCAR_ENCUT_eV": 520.0,
+            "XML_ENMAX_eV": 520.0,
+            "OUTCAR_energy_frames": 1,
+            "OUTCAR_force_frames": 1,
+            "max_force_component_difference_eV_A": 4.999999999999579e-07,
+            "max_position_difference_A": 8.300693397737164e-06,
+            "XML_kmesh": [
+              4,
+              4,
+              4
+            ],
+            "XML_kmesh_kind": "Monkhorst-Pack",
+            "input_manifest_verified": true,
+            "SlurmJobId": "124424626",
+            "local_job_id": "20261014-181133-1fab2c7220dd",
+            "errors": [],
+            "cross_format_association_passed": true
+          },
+          "Fmax_eV_A": 0.006218505418916992,
+          "energies_eV": {
+            "e_fr_energy": -244.71188977,
+            "e_wo_entrp": -244.67635208,
+            "e_0_energy": -244.69412092
+          }
+        }
+      ],
+      "potential_binding": {
+        "actual_POTCAR_sha256": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+        "pre_MPI_receipt_sha256": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+        "endpoint_POTCAR_sha256": [
+          "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+          "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "path_id": 2,
+      "report": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\neb_analysis.json",
+      "report_sha256": "6b0b0cae74b71d54ccc2792a12e87b0442a65c972881e3c3b6a9430431424828",
+      "output_directory": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447",
+      "raw_sha256": {
+        "01/OUTCAR": "aca60fd8295ff37c11c4275a56a0e8b23333b05f3d38dafc34d3be2830440ed8",
+        "01/vasprun.xml": "68b1c6cc1f3ae72838c47850438c976f4225207cf5115d74ba5f32876e5e4744",
+        "01/POSCAR": "285298f15674e5df54e60e23363255fe77da112b62d17ce14894d8ddde2973f6",
+        "01/CONTCAR": "61ca2a4d7d2de02bc78150236dc7f4ae4f7e0caf96a145f127631e7a197b1f14",
+        "02/OUTCAR": "022942902d168a1b6c4be1741424fac7b052bcb8416ec265885370873c82b97f",
+        "02/vasprun.xml": "23fa48bd0dd7ebcc7b9ce8df3db308d0e436a0b4171cb75a7ceafbb3dc22ee33",
+        "02/POSCAR": "8db79554ba9f80ddb82e1fdcaa398aeb8ff8c3755ca7bc2069604ab7bdaa5d84",
+        "02/CONTCAR": "0b3b7db0fe5073ab3814dd920e058434b29737e6bf8a4bb749a400daba70ca0b",
+        "03/OUTCAR": "a6a5bf95a9b65c9ac0abc48943f4b94c57e2438490e9b9b74e33d68c5eab73d7",
+        "03/vasprun.xml": "1ccbeb0314c5c6cbaafe91483be537e726b2ddc5ddf9e8d09fc049e779e6f4ef",
+        "03/POSCAR": "96f4df36c459b7da926989de8d9694485093d14701c1f91dc36bbd487ca7d0e7",
+        "03/CONTCAR": "483f60811cc5f31084ceea5fe7b9850cb0b2ec89606f78ba6d061727d48678ce",
+        "04/OUTCAR": "d9cbffc65735a1113861667ade4d86672f88787996581c8ac14f25362ce6bf82",
+        "04/vasprun.xml": "6c1d7fae1b42bce94847fa254b6b21cb770a7c2d06e314ba6c2ec9a3ce3c120e",
+        "04/POSCAR": "89abbe4802363b731ee559a16c558653a6d4c5b139f53a274798a87b94f86d2b",
+        "04/CONTCAR": "3531c495adb69e9a1a68cca0ddf421bfd3b80cb460c7660d98988b6263f6a815"
+      },
+      "actual_endpoint_sources": [
+        {
+          "path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7",
+          "sha256": {
+            "OUTCAR": "948dd02dbb7effc59744e724e7355424ab0192d02bd824bbec6dc461acd8e6f5",
+            "vasprun.xml": "50147fe5dfda33bb139b3310b8df82ebb47059c651baeac2a2c1552ef9f048c5",
+            "POSCAR": "c8c3b7c3865835e2b47b810dfaf5230f900268a7acf3ad51d76a3a74dd27fdeb",
+            "CONTCAR": "6dda4adcfb2638ea9e0b8651e62b8218089cde5d5d695df07ed189f6fdd2302a",
+            "INCAR": "38be135bcab456371623acf2542ea6e3461a2006b4d1ec0f708902548a2b4706",
+            "KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+            "POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+          },
+          "association": {
+            "OUTCAR_ENCUT_eV": 520.0,
+            "XML_ENMAX_eV": 520.0,
+            "OUTCAR_energy_frames": 3,
+            "OUTCAR_force_frames": 3,
+            "max_force_component_difference_eV_A": 5.000000000000664e-07,
+            "max_position_difference_A": 8.321597994246513e-06,
+            "XML_kmesh": [
+              4,
+              4,
+              4
+            ],
+            "XML_kmesh_kind": "Monkhorst-Pack",
+            "input_manifest_verified": true,
+            "SlurmJobId": "124421809",
+            "local_job_id": "20261014-171257-b59fb640bbc6",
+            "errors": [],
+            "cross_format_association_passed": true
+          },
+          "Fmax_eV_A": 0.006234066759908815,
+          "energies_eV": {
+            "e_fr_energy": -244.71186692,
+            "e_wo_entrp": -244.67632926,
+            "e_0_energy": -244.69409809
+          }
+        },
+        {
+          "path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-181345-65869c013eca\\20261014-183550-2da98a745688",
+          "sha256": {
+            "OUTCAR": "85910f0cecc85dfb20ff55df60f38704777a4bae2a0d547029de2d019dd04001",
+            "vasprun.xml": "ec10f92a697809845dbfc66b697646309e083616e5196fac2e20e7d3b72d802f",
+            "POSCAR": "dca7cb5c1acd4e465eb85ad5986d2c5f48e7f7d2229443dba1b026a1d5927490",
+            "CONTCAR": "14b32c5b42d3ce384759451377fa505473503f27caafd7c2e677a7676d22dbba",
+            "INCAR": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2",
+            "KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+            "POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+          },
+          "association": {
+            "OUTCAR_ENCUT_eV": 520.0,
+            "XML_ENMAX_eV": 520.0,
+            "OUTCAR_energy_frames": 1,
+            "OUTCAR_force_frames": 1,
+            "max_force_component_difference_eV_A": 4.900000000001258e-07,
+            "max_position_difference_A": 7.604377701938264e-06,
+            "XML_kmesh": [
+              4,
+              4,
+              4
+            ],
+            "XML_kmesh_kind": "Monkhorst-Pack",
+            "input_manifest_verified": true,
+            "SlurmJobId": "124424694",
+            "local_job_id": "20261014-181345-65869c013eca",
+            "errors": [],
+            "cross_format_association_passed": true
+          },
+          "Fmax_eV_A": 0.006584833260440237,
+          "energies_eV": {
+            "e_fr_energy": -244.71188652,
+            "e_wo_entrp": -244.67634882,
+            "e_0_energy": -244.69411767
+          }
+        }
+      ],
+      "potential_binding": {
+        "actual_POTCAR_sha256": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+        "pre_MPI_receipt_sha256": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+        "endpoint_POTCAR_sha256": [
+          "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+          "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+        ],
+        "passed": true
+      }
+    },
+    {
+      "path_id": 3,
+      "report": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\neb_analysis.json",
+      "report_sha256": "fd2dc695c9355d62c53b5311a0516b5b39344ea0d43c0b65847c6dad9447c108",
+      "output_directory": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc",
+      "raw_sha256": {
+        "01/OUTCAR": "f0cdc5627590f03da327b1df5d26b35b998e681ad71eaa628b8a33d0a47d1c5e",
+        "01/vasprun.xml": "6b5b290946457373c0c4fe4cad506c62ba6ae3b06406eb691529d87cb7fd56cc",
+        "01/POSCAR": "475b24037f4a13c1445772730de24cfb03be66a4590f45b5280092610163913c",
+        "01/CONTCAR": "a752b4ac3c55a6231c0f20de31fa4619a464095d7ff75149054486bbe57232cd",
+        "02/OUTCAR": "2fbc11957364a00b38dda45e23d8549132c2a48c8cfe9b953679189e5439ec9e",
+        "02/vasprun.xml": "7ae84cba8d8201203bef8a733f6571184e9249bcd24b2330339b25df4dd02673",
+        "02/POSCAR": "74b55aea6c08608a4d1fbef91d300bd8aa34b343b8be3878590dc94a2f6a3b7f",
+        "02/CONTCAR": "aaf5845c248d10adddd425ba1605d5a14e489c05ae153ee0921114a268d3d461",
+        "03/OUTCAR": "37141b41dfd38436421c2a14d4662e351a5bcbc344f5ff39631514b2ebff6e81",
+        "03/vasprun.xml": "7872d3d610c7610756c41d91d80109fada9c815cef5f458c74aefdb3950b8bd1",
+        "03/POSCAR": "c47429b59bd4aed279825bc500f9f6214454f396733fd17aab5d9f0ef23707df",
+        "03/CONTCAR": "2aaf5bc1ecefd682af1a5d0313f498630dab850062e2756d2ed107c5eef92adb",
+        "04/OUTCAR": "2ce167efb8d1ff91a7e45439707a40b022d85f0b621901863221fc0d931d8957",
+        "04/vasprun.xml": "3bc16bdd70583bd22c8148b74a29b0cccc38d3adc35ae7da9cc251ed63709b66",
+        "04/POSCAR": "ad501c374f5f29e2d331e3684bc89204b175388b89d5d119c16b0d5b81e929e9",
+        "04/CONTCAR": "231cb842d88ca76baff04ed83aa9cd5c3f94854ed5ed854a195d5fd2d691f235"
+      },
+      "actual_endpoint_sources": [
+        {
+          "path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7",
+          "sha256": {
+            "OUTCAR": "948dd02dbb7effc59744e724e7355424ab0192d02bd824bbec6dc461acd8e6f5",
+            "vasprun.xml": "50147fe5dfda33bb139b3310b8df82ebb47059c651baeac2a2c1552ef9f048c5",
+            "POSCAR": "c8c3b7c3865835e2b47b810dfaf5230f900268a7acf3ad51d76a3a74dd27fdeb",
+            "CONTCAR": "6dda4adcfb2638ea9e0b8651e62b8218089cde5d5d695df07ed189f6fdd2302a",
+            "INCAR": "38be135bcab456371623acf2542ea6e3461a2006b4d1ec0f708902548a2b4706",
+            "KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+            "POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+          },
+          "association": {
+            "OUTCAR_ENCUT_eV": 520.0,
+            "XML_ENMAX_eV": 520.0,
+            "OUTCAR_energy_frames": 3,
+            "OUTCAR_force_frames": 3,
+            "max_force_component_difference_eV_A": 5.000000000000664e-07,
+            "max_position_difference_A": 8.321597994246513e-06,
+            "XML_kmesh": [
+              4,
+              4,
+              4
+            ],
+            "XML_kmesh_kind": "Monkhorst-Pack",
+            "input_manifest_verified": true,
+            "SlurmJobId": "124421809",
+            "local_job_id": "20261014-171257-b59fb640bbc6",
+            "errors": [],
+            "cross_format_association_passed": true
+          },
+          "Fmax_eV_A": 0.006234066759908815,
+          "energies_eV": {
+            "e_fr_energy": -244.71186692,
+            "e_wo_entrp": -244.67632926,
+            "e_0_energy": -244.69409809
+          }
+        },
+        {
+          "path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\hpc\\results\\20261014-181431-0ba3c1941083\\20261014-183903-cc96775b11b7",
+          "sha256": {
+            "OUTCAR": "e6905eebbaff67251932a921473a7cdf3d7a0f83be994174488b55d0fd79bbdd",
+            "vasprun.xml": "86f14b5adf72952a37363ba290deea6e69a5fad8cd30a4ae5ff69392b2a8d664",
+            "POSCAR": "6b15b6b4a7d3f7c66db6a79ca12ed645c381aa4931a510d4cf7ad94e8d3018ac",
+            "CONTCAR": "4f0179a6237abfc42a038ceed97b40c2db359fe60695de539342a45b88a86f01",
+            "INCAR": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2",
+            "KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+            "POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+          },
+          "association": {
+            "OUTCAR_ENCUT_eV": 520.0,
+            "XML_ENMAX_eV": 520.0,
+            "OUTCAR_energy_frames": 1,
+            "OUTCAR_force_frames": 1,
+            "max_force_component_difference_eV_A": 5.000000000000003e-07,
+            "max_position_difference_A": 7.915424446979076e-06,
+            "XML_kmesh": [
+              4,
+              4,
+              4
+            ],
+            "XML_kmesh_kind": "Monkhorst-Pack",
+            "input_manifest_verified": true,
+            "SlurmJobId": "124424707",
+            "local_job_id": "20261014-181431-0ba3c1941083",
+            "errors": [],
+            "cross_format_association_passed": true
+          },
+          "Fmax_eV_A": 0.006265749239205157,
+          "energies_eV": {
+            "e_fr_energy": -244.71186033,
+            "e_wo_entrp": -244.67632264,
+            "e_0_energy": -244.69409149
+          }
+        }
+      ],
+      "potential_binding": {
+        "actual_POTCAR_sha256": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+        "pre_MPI_receipt_sha256": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+        "endpoint_POTCAR_sha256": [
+          "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+          "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+        ],
+        "passed": true
+      }
+    }
+  ],
+  "CI6_audit": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\CI6_acceptance_phase34_20261015.json",
+  "CI6_audit_sha256": "f2b1852dffe49ad73657bf579c3802de5060384bd592d83ecf6a24dbe6568454",
+  "terminal_binding_audit": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\terminal_bindings_supplement_phase30_20261015.json",
+  "terminal_binding_audit_sha256": "a253823394d57525cb5a11fd68a8694f609b79ccbdfbce27a27c0558fbc391a4",
+  "all_prior_source_reports_unchanged": true,
+  "analyzer_path": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\execute_network_phase34_20261015.py",
+  "analyzer_sha256": "d1a8fa189727dc0908cfe2c5cd2aac1ef34b94e200d336e874a6d2f5b065747e",
+  "dependency_sha256": {
+    "compute_round1_transport.py": "91f5088fa81e8dcdb374d3fb051919d4198a5f1d566bdec4c36167d86eecaf12",
+    "analyze_vasp.py": "298e42294fa2a2fdfe89b6684384b06080574a73606770e6028693c803cc3926",
+    "analyze_neb.py": "d301994563a4445cbb3f1b4e3359a91ae9c733dd4270941adb13877471926e3a",
+    "transport.py": "fd298290b1c75f2cae69f1d21ef7d2397151140a9fe11f4d70602a0d21a84869",
+    "activation_observables.py": "f9513fedb751e1f65a453c8e23d598541c0bb03507339f7f56490d6bedcc17a4",
+    "hop_geometry.py": "3748b17d570b320bc61f29ec507908eb6cf88942ca09346418fbd034d4aa14a8",
+    "network_arrays.py": "deaaa4238e3fb3fc59c9fb54549feb399d4040979514596964b50a27b5261cc5",
+    "run_tracer_validation.py": "cd3c2fd7a86bb29fb0206240d0dcedf165e723f4d8de9242881c09c6e96abaab",
+    "tracer_kmc.py": "b43fcfc3b5bcfdf66a99d7a24ec3a4b5b6c2264df39801dc0f9d4ed3a90aab2f",
+    "dimer_kmc.py": "eee5d24ea92cfc66783f26071e9bfc27fb700d1ebc2c9679f92143c249795eec"
+  },
+  "baseline_source_choice": "Keep original four source-bound terminal-control candidates; strict4/strict6 are independent numerical controls, not mixed precision. Six-image replacement is reported separately as sensitivity.",
+  "actual_300K": {
+    "Efr": {
+      "T_K": 300.0,
+      "rates_s": [
+        552498963.7919239,
+        1092010777.599813,
+        739439061.9814763,
+        654048.2816648566
+      ],
+      "Dvac_tensor_cm2_s": [
+        [
+          4.54426133162866e-08,
+          1.2404089673621226e-12,
+          1.8421528087022263e-11
+        ],
+        [
+          1.2404089673426368e-12,
+          2.3185917179123759e-07,
+          -1.2257611464445306e-16
+        ],
+        [
+          1.84215280870102e-11,
+          -1.225761146433438e-16,
+          2.3185916997909117e-07
+        ]
+      ],
+      "Dvac_conventional_cm2_s": [
+        [
+          2.318591717994911e-07,
+          1.0216121675219141e-16,
+          6.647635556056034e-17
+        ],
+        [
+          1.0216119165899342e-16,
+          2.3185917179949126e-07,
+          -5.654440154178475e-17
+        ],
+        [
+          6.647636081236589e-17,
+          -5.654437923588772e-17,
+          4.544261148763302e-08
+        ]
+      ],
+      "Dvac_scalar_cm2_s": 1.697203183622051e-07,
+      "Duncorr_tensor_cm2_s": [
+        [
+          4.735463579260088e-07,
+          1.2638081782971858e-13,
+          1.8769033760149847e-12
+        ],
+        [
+          1.2638081782971858e-13,
+          4.925396719594417e-07,
+          -1.2488737818785012e-17
+        ],
+        [
+          1.8769033760149847e-12,
+          -1.2488737818785012e-17,
+          4.925396717748086e-07
+        ]
+      ],
+      "Duncorr_scalar_cm2_s": 4.862085672200864e-07,
+      "f_v": 0.3490689588885417,
+      "network_activation": {
+        "T_K": 300.0,
+        "D": 1.697203183622051e-07,
+        "D0": 0.007270735357799883,
+        "Ea_eff_eV": 0.27571716428473464,
+        "Ea_slope_eV": 0.2507039658086127,
+        "Ea_slope_coarse_eV": 0.2507039682823593,
+        "finite_difference_step_consistency_eV": 2.4737465964541627e-09,
+        "relative_inverse_temperature_step": 0.0005,
+        "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+      },
+      "local_upper_activation": {
+        "T_K": 300.0,
+        "D": 4.862085672200864e-07,
+        "D0": 0.008624284837889537,
+        "Ea_eff_eV": 0.25292187444032505,
+        "Ea_slope_eV": 0.24055048160389148,
+        "Ea_slope_coarse_eV": 0.2405504821651318,
+        "finite_difference_step_consistency_eV": 5.612403319865678e-10,
+        "relative_inverse_temperature_step": 0.0005,
+        "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+      },
+      "directional_activation": [
+        {
+          "T_K": 300.0,
+          "D": 2.318591717994911e-07,
+          "D0": 0.00953608623210412,
+          "Ea_eff_eV": 0.27466362921339194,
+          "Ea_slope_eV": 0.2507324341209825,
+          "Ea_slope_coarse_eV": 0.250732436543319,
+          "finite_difference_step_consistency_eV": 2.4223364980535678e-09,
+          "relative_inverse_temperature_step": 0.0005,
+          "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+        },
+        {
+          "T_K": 300.0,
+          "D": 2.3185917179949126e-07,
+          "D0": 0.009536086232104128,
+          "Ea_eff_eV": 0.27466362921339194,
+          "Ea_slope_eV": 0.2507324341209825,
+          "Ea_slope_coarse_eV": 0.250732436543319,
+          "finite_difference_step_consistency_eV": 2.4223364980535678e-09,
+          "relative_inverse_temperature_step": 0.0005,
+          "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+        },
+        {
+          "T_K": 300.0,
+          "D": 4.544261148763302e-08,
+          "D0": 0.0027400336091914033,
+          "Ea_eff_eV": 0.2845537501491685,
+          "Ea_slope_eV": 0.2504134614070308,
+          "Ea_slope_coarse_eV": 0.2504134644044303,
+          "finite_difference_step_consistency_eV": 2.9973994952747773e-09,
+          "relative_inverse_temperature_step": 0.0005,
+          "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+        }
+      ],
+      "rate_elasticities": {
+        "weights": [
+          0.7686038441256926,
+          0.1437407448001693,
+          0.08516643442035843,
+          0.0024889763494684303
+        ],
+        "sum_weights": 0.9999999996956888,
+        "relative_log_rate_step": 0.0001,
+        "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+        "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+      }
+    },
+    "E0": {
+      "T_K": 300.0,
+      "rates_s": [
+        571375846.4564639,
+        1103241690.5161228,
+        771779294.2329836,
+        659444.9699501105
+      ],
+      "Dvac_tensor_cm2_s": [
+        [
+          4.676917526772806e-08,
+          1.2804594700690773e-12,
+          1.9016325028891924e-11
+        ],
+        [
+          1.280459470042615e-12,
+          2.392047783284657e-07,
+          -1.2653386985442169e-16
+        ],
+        [
+          1.9016325028873444e-11,
+          -1.2653386985275805e-16,
+          2.392047764578085e-07
+        ]
+      ],
+      "Dvac_conventional_cm2_s": [
+        [
+          2.3920477833698575e-07,
+          1.053977917390514e-16,
+          6.852477471943186e-17
+        ],
+        [
+          1.0539778766495336e-16,
+          2.392047783369859e-07,
+          -5.833394308205505e-17
+        ],
+        [
+          6.852478036926354e-17,
+          -5.833391130486358e-17,
+          4.676917338003064e-08
+        ]
+      ],
+      "Dvac_scalar_cm2_s": 1.750595766846674e-07,
+      "Duncorr_tensor_cm2_s": [
+        [
+          4.786738205451734e-07,
+          1.7676168611326138e-13,
+          2.6251183637239534e-12
+        ],
+        [
+          1.7676168611326138e-13,
+          5.052386922885117e-07,
+          -1.7467329563805834e-17
+        ],
+        [
+          2.6251183637239534e-12,
+          -1.7467329563805834e-17,
+          5.052386920302758e-07
+        ]
+      ],
+      "Duncorr_scalar_cm2_s": 4.963837349546537e-07,
+      "f_v": 0.35266984866186174,
+      "network_activation": {
+        "T_K": 300.0,
+        "D": 1.750595766846674e-07,
+        "D0": 0.007270735357799883,
+        "Ea_eff_eV": 0.2749164126019731,
+        "Ea_slope_eV": 0.2498811521012339,
+        "Ea_slope_coarse_eV": 0.24988115454049276,
+        "finite_difference_step_consistency_eV": 2.4392588504618118e-09,
+        "relative_inverse_temperature_step": 0.0005,
+        "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+      },
+      "local_upper_activation": {
+        "T_K": 300.0,
+        "D": 4.963837349546537e-07,
+        "D0": 0.008624284837889537,
+        "Ea_eff_eV": 0.2523864380507105,
+        "Ea_slope_eV": 0.24009239044281366,
+        "Ea_slope_coarse_eV": 0.24009239099491544,
+        "finite_difference_step_consistency_eV": 5.521017809595463e-10,
+        "relative_inverse_temperature_step": 0.0005,
+        "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+      },
+      "directional_activation": [
+        {
+          "T_K": 300.0,
+          "D": 2.3920477833698575e-07,
+          "D0": 0.00953608623210412,
+          "Ea_eff_eV": 0.2738573097619973,
+          "Ea_slope_eV": 0.2499092781905471,
+          "Ea_slope_coarse_eV": 0.2499092805774315,
+          "finite_difference_step_consistency_eV": 2.3868844123420274e-09,
+          "relative_inverse_temperature_step": 0.0005,
+          "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+        },
+        {
+          "T_K": 300.0,
+          "D": 2.392047783369859e-07,
+          "D0": 0.009536086232104128,
+          "Ea_eff_eV": 0.27385730976199735,
+          "Ea_slope_eV": 0.2499092781905471,
+          "Ea_slope_coarse_eV": 0.2499092805774315,
+          "finite_difference_step_consistency_eV": 2.3868844123420274e-09,
+          "relative_inverse_temperature_step": 0.0005,
+          "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+        },
+        {
+          "T_K": 300.0,
+          "D": 4.676917338003064e-08,
+          "D0": 0.0027400336091914033,
+          "Ea_eff_eV": 0.28380988332288776,
+          "Ea_slope_eV": 0.24959344571396527,
+          "Ea_slope_coarse_eV": 0.2495934486884035,
+          "finite_difference_step_consistency_eV": 2.974438223501963e-09,
+          "relative_inverse_temperature_step": 0.0005,
+          "definitions": "Ea_eff=-kBT ln(D/D0); Ea_slope=-kB dlnD/d(1/T); D and D0 must have the same units"
+        }
+      ],
+      "rate_elasticities": {
+        "weights": [
+          0.7666789453608658,
+          0.14337201728054083,
+          0.0875198207950234,
+          0.0024292162237316006
+        ],
+        "sum_weights": 0.9999999996601616,
+        "relative_log_rate_step": 0.0001,
+        "definition": "alpha_i=d ln D/d ln kappa_i; for a fixed equivalent-site reversible model with fixed prefactors, Ea_slope=sum(alpha_i Em_i)",
+        "scope": "Rescale all forward/reverse edges of one family together; not a rule for arbitrary T-dependent state probabilities/prefactors"
+      }
+    }
+  },
+  "six_image_replacement_300K_relative_Dvac_change": {
+    "Efr": 0.0009005381887297048,
+    "E0": 0.000865638471950092
+  },
+  "six_image_control_model": "C:\\Users\\28307\\Documents\\\u590d\u523b\\C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\transport_phase34_20261015\\six_image_sensitivity_model.json",
+  "six_image_control_model_sha256": "b1e5f9aad2db9cf5c8e516b104938b8ce1abc53549380cba09bb8162220e76ee",
+  "Li_tracer_pending": true,
+  "intrinsic_D_reported": false
+}
