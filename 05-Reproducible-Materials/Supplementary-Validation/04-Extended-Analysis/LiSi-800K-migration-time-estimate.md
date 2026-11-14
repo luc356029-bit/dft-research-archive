@@ -36,4 +36,4 @@
 
 【边界】获得τTP后仍不能自动用0.813 ps+τTP当作真实A→B总时间；0.813 ps来自假设速率的CTMC holding，是否已包括过渡贡献须先统一状态/速率定义。若还要真实盆内等待、再穿越κ及连续事件记忆，成本可能高于表中的迁移时间粗估。也不能把“获得几个τ数值”当作解释Kirsch的2.68倍D差已经完成。
 
-计算假设、公式和场景：`targeted_md_duration_estimate.json`；可复核算术脚本：`estimate_targeted_md_duration.py`。源数据沿用`cost_and_clock_bounds.json`及其历史原始计时SHA。下一步如继续，只应先量到真实热步成本，再据当前账户并发/余额重报范围，不自动铺开四路径。
+计算假设、公式和场景：`targeted_md_duration_estimate.json`；可复核算术脚本：`estimate_targeted_md_duration.py`。源数据沿用`cost_and_clock_bounds.json`及其历史原始计时SHA。进一步估算应先测量真实热步成本，再结合可用算力评估四路径工作量。

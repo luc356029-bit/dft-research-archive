@@ -5,7 +5,7 @@
 - 状态：2025 主文、2022 SI、2025/2026 LiSi 原始 NEB 与结构数据已取得；已完成标准晶胞与路径轨道映射。2025 SI PDF 尚未取得，MSD 的严格公式、拟合区间和不确定度未完全复核。
 - 范围：只讨论晶态 Li1Si1（空间群 88，I41/a）及明确缺陷模型；没有用非晶、液态、稀 Li/c-Si 或其他化学计量晶相的 D 来验证本项目 Li31Si32。
 - 决策：优先将 2025 的同相、单中性 Li 空位 NEB 作为迁移势垒外部对照；800 K AIMD D 作为有口径条件的量级对照。不能声称已验证绝对 D 或热平衡本征 D。
-- 不执行 DFT/MD、没有外发消息或上传文件；仅下载公开资料、读取现有项目数据并在本补充目录写分析。
+- 分析基于公开资料与既有项目数据，未新增 DFT/MD。
 
 ## 核心结论
 
@@ -142,4 +142,4 @@ raw能量文件每条16行，单位按CP2K Hartree解释并以27.211386245988eV/
 
 - 已完成：真实PDF页数修正为15；追加逐边端点对的完整空间群匹配、精确项目势垒读取、10个映射源文件SHA；下载zip的MD5与Zenodo/API记录吻合。
 - 结论保持：NEB几何轨道对应高置信；绝对D仅条件式比较；S5统计口径与误差缺口未闭合。不将800K单点倒推D0/Ea，不声称尺寸收敛。
-- 向主线程交付：`modern_findings.md`、`modern/literature_orbit_mapping.json`、`modern/map_literature_orbits.py`、`modern/evidence_manifest.json`。主线程独立完成的KMC浓度/温度/Em替换敏感性不在本文冒充文献数据。
+- 原归档文件：`modern_findings.md`、`modern/literature_orbit_mapping.json`、`modern/map_literature_orbits.py`、`modern/evidence_manifest.json`。项目另行完成的 KMC 浓度、温度及 Em 替换敏感性属于模型控制，不作为文献数据。

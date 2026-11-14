@@ -76,4 +76,4 @@
 - 原宿主：`C阶段自主预验证/round1/analysis/host_symmetry_projection/POSCAR`，SHA-256为`10a5d334124297b2f60ec21b4d6b3b8bdc3cef0bb575dc2318fac975571c4819`。
 - 原记录：`projection_report.json`、`complete_orbit_connectivity_INTEGER.json`；原脚本：`hop_geometry.py`、`project_host.py`、`precheck_orbit_connectivity.py`。这些文件的历史字节和原证据未改写。
 - 原论文：Dou等，*High-Throughput Screening Lithium Alloy Phases and Investigation of Ion Transport for Solid Electrolyte Interphase Layer*，Acta Phys.-Chim. Sin. 2024，40(3)，2305039，DOI：10.3866/PKU.WHXB202305039。已归档正文方法部分及B分析记录的SHA均包含在新审计JSON中。
-- [已上传的首轮原始资料包](https://drive.google.com/drive/folders/1owJdKL4KhiW4XY3HQj812t10UZLLILsU)。新脚本在解压资料的`C阶段自主预验证/round1/supplements/20261027_cutoff33/`层级下运行；复核应使用单独工作副本，避免覆盖既有审计输出。
+- [首轮原始资料包](https://drive.google.com/drive/folders/1owJdKL4KhiW4XY3HQj812t10UZLLILsU)。新脚本在解压资料的`C阶段自主预验证/round1/supplements/20261027_cutoff33/`层级下运行；复核应使用单独工作副本，避免覆盖既有审计输出。

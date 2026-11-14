@@ -1,6 +1,6 @@
 # LiSi迁移时间与KMC瞬时跳跃假设最终验证报告
 
-2026-11-13。用户已授权本轮实际ML推断；所有新计算在独立目录，原DFT、NEB、KMC生产文件保持不变。新DFT/AIMD、超算提交和训练均未执行。
+2026-11-13。本次对两套公开 ML 势完成能量与力推断，使用既有 DFT 构型作参照；未新增 DFT/AIMD 或训练。
 
 ## 结论与最终建议
 
@@ -12,8 +12,8 @@
 
 【实际计算结果】各模型对同一246构型完成能量及物理力推断：24个终态带构型（每路径两端点加四图，鞍点包含其中）、212个已有CI优化历史帧、4个00/03鞍点±0.05 Å探针、6个00六图控制。没有新生成DFT标签，优化帧不称独立热样本。所有源SHA、坐标、物理力和三能量保存在`reference_dataset.json`及`source_snapshots/`。
 
-- ænet：作者仓库Li/Si成对04153权重，原版Fortran代码固定commit `8f35990f5e3dd6cb296b953448cb11694d0cff3d`，原版Cython/ASE接口；`aenet_print_info`的网络配置/归一化/截止见原始推断日志。权重分别核对Git blob身份，下载SHA见回执。代码/权重仓库许可文本保存；Python旧包元数据的GPL声明与当前源树MPL声明也原样保留，未默认为无限制许可。
-- MACE：官方release `mace_matpes_0`指定`MACE-matpes-pbe-omat-ft.model`，SHA256 `e618ad582b84239905b9c3b77ce6e9ce111b0ecd1533223a1a6aac7a696b8aa0`；mace-torch 0.3.14，Torch 2.9.1+cpu，float64，未加色散。权重是ASL学术非商业许可；官方release没有独立SHA digest，已确认来源、文件大小并记录本地SHA，不声称与不存在的发布摘要交叉核验。模型层、元素、截止均在`mace_metadata.json`。
+- ænet：作者仓库Li/Si成对04153权重，原版Fortran代码固定commit `8f35990f5e3dd6cb296b953448cb11694d0cff3d`，原版Cython/ASE接口；`aenet_print_info`的网络配置/归一化/截止见原始推断日志。权重分别核对Git blob身份，下载SHA见回执。
+- MACE：官方release `mace_matpes_0`指定`MACE-matpes-pbe-omat-ft.model`，SHA256 `e618ad582b84239905b9c3b77ce6e9ce111b0ecd1533223a1a6aac7a696b8aa0`；mace-torch 0.3.14，Torch 2.9.1+cpu，float64，未加色散。官方release没有独立SHA digest，已确认来源、文件大小并记录本地SHA，不声称与不存在的发布摘要交叉核验。模型层、元素、截止均在`mace_metadata.json`。
 
 【实际计算结果】元素Li/Si可用；ASE接口按Å、eV、eV/Å工作。用迁移Li及一个Si的六个Cartesian分量、±1e-4 Å独立能量有限差分核对解析力，并检查整体平移后包回晶胞及单Si平移一个晶格矢量的不变性：aenet最大分量差2.47e-08 eV/Å（通过），PBC检查通过；mace最大分量差1.45e-08 eV/Å（通过），PBC检查通过。因此误差不能简单归咎于力符号、常见单位缩放或这些PBC处理错误。
 
@@ -129,12 +129,16 @@
 
 热步2–6次SCF是显式假设，**上述为可审查的条件场景，不是实测MD区间、置信区间或完成保证**；若需要20次SCF/步，成本还会大幅增加，全部场景已保存JSON。没有热MD实际计时、当前账户余额及动力学收敛数据，不能提供更强的可信报价。20fs预检只能回答能否稳定积分/每步多贵，不能回答τ分布或跨越约1ps过程；单条0.5ps也不能给四路径可靠统计。
 
-【最终建议】理论上少量DFT-MD数值预检可行，但它不能以低成本解决本轮核心物理判断；本轮禁止新DFT，且无现成合格势。因此不自动开展、不提交任务，停止进一步投入。优先取得已有目标AIMD轨迹及统计协议，或已验证的目标热态势/参考集；这些到位前维持“800 K瞬时跳跃适用性未知”的有限结论。
+【最终建议】理论上少量DFT-MD数值预检可行，但它不能以低成本解决本轮核心物理判断；现成候选势未通过验证，因此未继续开展动力学模拟。优先取得已有目标AIMD轨迹及统计协议，或已验证的目标热态势/参考集；这些到位前维持“800 K瞬时跳跃适用性未知”的有限结论。
 
-## 7. 交付与复现
+## 7. 配置、来源与证据
 
-主入口为本报告；完整CSV、PNG、两模型原始逐构型能量/力JSONL、冻结DFT参考/源SHA、模型配置/有限差分元数据、依赖与失败日志、脚本及许可均在同目录。`reproduce.sh`只用于一个无旧预测文件的新副本；源码与权重来源/摘要见`download_receipt.json`和`license_resolution.json`。数据扫描脚本不训练；模型推断不改生产。
+参考数据集由 60 个既有源文件及生产脚本的 SHA 关联到 246 个构型，保留三种能量口径与 DFT 物理力；物理力不含 NEB 弹簧或投影力。模型以各路径端点均值对齐能量，原生产输运模型未改动。
 
-`MANIFEST.json`逐文件绑定SHA，权重另包保存以减小报告/结果包，公开大型训练语料保留下载链接、字节/摘要和扫描结果，不重复上传整库。旧DFT原始输出沿用此前已上传证据包和本轮源路径/SHA；本轮冻结参考和源报告也随结果包保存。文件完整性通过不冒称动力学物理通过。
+ænet 使用原版 Fortran/Cython/ASE 接口，补编译官方 Lbfgsb PIC 对象后重链接，未改数学实现；MACE 使用 0.3.14、Torch 2.9.1+cpu、float64，无附加色散。Li/Si 能量导数与两种 PBC 变换的接口检查见本报告第 1 节。
+
+仓库保留[模型资格记录](LiSi_existing_ML_potential_qualification_ledger.json)、[执行与科学范围](LiSi_migration_time_execution_and_science_boundary.json)及[来源清单](../05-Provenance-and-Manifests/LiSi_migration_time_source_list.json)。完整逐构型输出、CSV、曲线、依赖锁与 `reproduce.sh` 位于原结果归档；当前目录未包含整套复算环境。原归档脚本在新副本运行，并拒绝覆盖旧预测。
+
+权重来源、字节数及本地 SHA 由 `download_receipt.json` 记录；ænet 权重另与作者 Git blob 核对，MACE release 未提供独立摘要。公开训练语料的扫描范围与遗漏见第 3 节，相关校验记录见[来源与校验目录](../05-Provenance-and-Manifests/)。
 
 一手来源：[ænet作者仓库](https://github.com/atomisticnet/aenet-tinker)、[ænet核心](https://github.com/atomisticnet/aenet)、[公开训练说明](https://archive.materialscloud.org/records/67p3q-dch39)、[MACE指定release](https://github.com/ACEsuit/mace-foundations/releases/tag/mace_matpes_0)、[官方模型文档](https://mace-docs.readthedocs.io/en/latest/guide/foundation_models.html)。Kirsch数据及KMC时钟解释沿用项目先前已绑定的来源，未重新检索失败SI或扩大材料范围。

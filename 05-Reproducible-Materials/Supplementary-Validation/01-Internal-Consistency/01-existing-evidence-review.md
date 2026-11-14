@@ -1,6 +1,6 @@
 # LiSi最终外部验证：既有证据分层审查与取舍
 
-日期：2026-11-09，Asia/Shanghai。状态：审查完成；后续科学验证尚未执行。本轮用户只授权方案规划及上传，不新增DFT/AIMD/KMC或数值输运计算。
+日期：2026-11-09。本文为当时的证据审查记录，未新增科学计算。后续进展见[差异归因报告](../03-Error-Attribution/LiSi-final-Em-D-Ea-attribution.md)与[同模型 Ea 对照](../02-Independent-Data-Comparison/LiSi-Ea-independent-data-same-model.md)。
 
 ## 审查范围与做法
 

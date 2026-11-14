@@ -1,25 +1,32 @@
-# 05 — Reproducible Materials
+# 05 · 可追溯计算材料
 
-This directory is the evidence layer for the DFT reproduction project. It follows the actual research sequence: A → B → C1 → supplementary validation.
+本目录按 **A → B → C1 → 补充检验** 整理锂合金筛选与 LiSi 空位扩散的计算材料。各阶段 README 串联方法、代码、输入与结果；具体推导和检验过程保留在对应文档中。
 
-## Evidence structure
-Each stage separates references, inputs, methods and parameters, code, execution records, outputs, and validation. The goal is to make each result traceable to the exact input and procedure that produced it.
+## 按研究顺序阅读
 
-## Evidence principles
-- The original Google Drive source folders remain unchanged.
-- A, B, and C1 describe the main research sequence; Supplementary-Validation contains cross-stage checks, independent comparisons, attribution, and extended analyses.
-- Historical plans, failed runs, and superseded variants are not silently promoted to current production evidence.
-- A successful script run, a numerically reproducible result, and a scientifically validated conclusion are different claims.
+| 阶段 | 核心问题 | 主要材料 |
+|---|---|---|
+| [A · 高通量筛选](A-High-Throughput-Screening/README.md) | 哪些二元锂合金进入候选集？ | 筛选依据与参数、筛选脚本、候选表、77 个 CIF |
+| [B · 结构与扩散路径](B-Structure-and-Diffusion-Pathways/README.md) | 如何从晶体结构得到候选迁移路径？ | 对称性与周期图分析、六个分步脚本、Npath 六轮比较 |
+| [C1 · NEB 与输运](C1-NEB-Calculations/README.md) | 候选路径对应怎样的能垒与输运行为？ | LiSi 结构与弛豫输入、NEB 审查记录、KMC 代码及输出 |
+| [补充检验与后续分析](Supplementary-Validation/README.md) | 结果是否自洽，与独立数据的差异来自哪里？ | 端点核查、文献对照、Em/D/Ea 差异归因、迁移时间与模型检验 |
 
-## Public-distribution exclusions
-- VASP POTCAR files and embedded copies are not redistributed.
-- Third-party publisher PDFs/HTML and non-commercial foundation-model weights are not redistributed.
-- The Materials Project API key formerly hard-coded in the source script is not included; the public screening script reads MP_API_KEY from the environment. Rotate any previously exposed key.
+阶段内按 `02-Methods-and-Parameters`（方法与参数）、`03-Code`（代码）、`04-Execution`（运行记录）、`05-Outputs`（结果）、`06-Validation`（检验）查找；输入与参考资料随具体材料归位。目录只保留实际收录的内容。
 
-## Reproducibility status
-This is a curated public evidence set, not a claim that every historical calculation can be rerun from a clean machine with one command. VASP and licensed PAW datasets remain external prerequisites.
+## 材料来源与版本
 
+| 来源 | 在本档案中的用途 |
+|---|---|
+| 科研补充材料 | A/B 代码与 CIF、Npath 复现记录、C1 实践材料 |
+| DFT复刻 | 实际计算、后处理、独立对照与补充检验 |
+| DFT复刻的obsidian笔记 | A/B/C1 的方法理解、参数说明与学习记录 |
 
-## GitHub publication scope
+学习示例、历史方案和实际运行结果在各入口中分别说明。历史报告保留当时的结论与修正顺序；涉及后续结论时，以对应检验报告为准。[来源与校验记录](Supplementary-Validation/05-Provenance-and-Manifests/)保存已有证据的文件身份和 SHA 信息。
 
-See [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) for the current published file count and the large raw-output/evidence bundles that remain outside the GitHub tree.
+## 收录范围与使用
+
+仓库收录了结构、代码、选定输入输出、分析报告及六个补充证据 ZIP；大型原始输出、部分完整归档和原笔记配图尚未收录。文中未链接的历史路径、脚本名或图片名可能指向原归档，不代表当前目录已包含该文件。
+
+复算前需按脚本配置依赖与数据路径；A 阶段通过环境变量 `MP_API_KEY` 读取密钥。VASP 与 PAW 数据需自行准备。POTCAR、第三方论文全文及受限模型权重不随仓库分发，第三方材料沿用各自许可；MACE 对应权重为 ASL 学术非商业许可，ænet 代码与权重需分别核对所用版本的许可。参考来源见各报告。
+
+已保存结果可用于核查计算链；完整重算仍取决于相应输入与软件环境。文件校验、数值一致性和物理验证的范围，以各阶段记录为准。

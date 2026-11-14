@@ -1,24 +1,14 @@
 # DFT Research Archive
 
-Public, curated record of a computational reproduction project on lithium-alloy screening and Li-ion transport.
+锂合金筛选与 LiSi 空位扩散的计算复刻档案，记录从候选结构筛选、迁移路径分析，到 NEB 能垒计算、KMC 输运分析及文献对照的研究过程。
 
-## Research sequence
+## 研究路线
 
-1. **A — High-throughput screening:** retrieve and filter candidate Li alloys; 77 CIF structures are included.
-2. **B — Structure and diffusion pathways:** symmetry, inequivalent Li sites, distance shells, periodic connectivity and candidate hops.
-3. **C1 — NEB and transport calculations:** structural relaxation, vacancy construction, path setup, NEB evidence and transport analysis.
-4. **Supplementary validation:** endpoint checks, independent comparisons, error attribution and extended analyses.
+| 阶段 | 研究内容 | 材料入口 |
+|---|---|---|
+| A · 高通量筛选 | 筛选二元锂合金，保存候选结构与筛选条件 | [A 阶段](05-Reproducible-Materials/A-High-Throughput-Screening/README.md) |
+| B · 结构与扩散路径 | 分析对称性、不等价 Li 位点、周期连通性与候选跳跃 | [B 阶段](05-Reproducible-Materials/B-Structure-and-Diffusion-Pathways/README.md) |
+| C1 · NEB 与输运 | 构建 LiSi 空位模型，计算迁移能垒、扩散系数与活化能 | [C1 阶段](05-Reproducible-Materials/C1-NEB-Calculations/README.md) |
+| 补充检验 | 核查端点与统计口径，对照独立文献，分析差异及动力学适用范围 | [补充检验](05-Reproducible-Materials/Supplementary-Validation/README.md) |
 
-The detailed, ordered materials are under [05-Reproducible-Materials](05-Reproducible-Materials/README.md).
-
-## Evidence and reproducibility
-
-This is a curated public evidence set, not a claim that every historical calculation can be rerun from a clean machine with one command. Each stage distinguishes inputs, methods, code, execution records, outputs and validation.
-
-- Original Google Drive source folders were left unchanged.
-- VASP POTCAR files and embedded copies are excluded.
-- Third-party publisher PDFs/HTML and non-commercial model weights are not redistributed.
-- Materials Project API credentials are not included. The public screening script reads MP_API_KEY from the environment.
-- SHA256 manifest and a verification script are included in the project directory.
-
-See [LICENSE_STATUS.md](05-Reproducible-Materials/LICENSE_STATUS.md), [SOURCE_MAP.md](05-Reproducible-Materials/SOURCE_MAP.md), and [POTCAR_NOT_INCLUDED.md](05-Reproducible-Materials/POTCAR_NOT_INCLUDED.md) before reuse.
+完整阅读入口为 **[05 · 可追溯计算材料](05-Reproducible-Materials/README.md)**，其中汇总了各阶段的代码、参数、数据与参考记录。
