@@ -1,4 +1,7 @@
-# C1 NEB计算：少量选定锂合金 → 总体 Ea、室温 D
+# C1 · NEB 与输运分析
+
+[04 · 学习记录](../README.md) · [05 · 本阶段计算材料](../../05-Reproducible-Materials/C1-NEB-Calculations/README.md)
+
 ## 0.位置
 ```
 A.从数据库得到候选锂合金
@@ -24,7 +27,15 @@ D.数据分析
 前后两次弛豫 → 准备几种单步跳法 → NEB算各步Ea → KMC模拟多次跳跃得到 D(T) → 从温度变化规律求总体 Ea
 
 ## 3.代码执行、数据流
-*代码库/C1 NEB计算c*
+| 分步学习 | 对应计算材料（05） |
+|---|---|
+| [C1 2.1 · 方法对比](../02-Stepwise-Learning/C1/C1%202.1%E6%96%B9%E6%B3%95%E5%AF%B9%E6%AF%94.md) | [计算链总览](../../05-Reproducible-Materials/C1-NEB-Calculations/README.md) |
+| [C1 2.2 · 结构与弛豫](../02-Stepwise-Learning/C1/C1%202.2%20%E5%BC%9B%E8%B1%AB.md) | [结构、参数与弛豫数据](../../05-Reproducible-Materials/C1-NEB-Calculations/04-Execution/early-practice/C1-2.2-practice-README.md) |
+| [C1 2.3 · 扩散路径](../02-Stepwise-Learning/C1/C1%202.3%20%E6%89%A9%E6%95%A3%E8%B7%AF%E5%BE%84.md) | [路径与连通性数据](../../05-Reproducible-Materials/C1-NEB-Calculations/04-Execution/early-practice/C1-2.3-practice-README.md) |
+| [C1 2.4 · NEB 计算](../02-Stepwise-Learning/C1/C1%202.4NEB%E8%AE%A1%E7%AE%97.md) | [NEB 参数与能垒读取](../../05-Reproducible-Materials/C1-NEB-Calculations/04-Execution/early-practice/C1-2.4-practice-README.md) · [NEB 检验](../../05-Reproducible-Materials/C1-NEB-Calculations/06-Validation/neb_analysis.json) |
+| [C1 2.5 · KMC 模拟](../02-Stepwise-Learning/C1/C1%202.5KMC%E6%A8%A1%E6%8B%9F.md) | [KMC 代码与数据流](../../05-Reproducible-Materials/C1-NEB-Calculations/04-Execution/KMC-practice-start-here.md) |
+| [C1 2.6 · 处理与对比](../02-Stepwise-Learning/C1/C1%202.6%E5%A4%84%E7%90%86%E3%80%81%E5%AF%B9%E6%AF%94.md) | [输运模型](../../05-Reproducible-Materials/C1-NEB-Calculations/06-Validation/transport_model_final.json) · [差异归因](../../05-Reproducible-Materials/Supplementary-Validation/03-Error-Attribution/LiSi-final-Em-D-Ea-attribution.md) · [同模型对照](../../05-Reproducible-Materials/Supplementary-Validation/02-Independent-Data-Comparison/LiSi-Ea-independent-data-same-model.md) |
+
 ## 4.报错、合理性检验
 1. 超胞设置为4倍体积的非对称超胞，最短周期平移达到 9.3374 Å，达到了codex预设的9Å最小距离，但未进行更大超胞NEB能垒计算，不能保证这种情况下计算得到的迁移能垒一定准确（C1 2.2）
 2. $\nu$ 取$10^{-13}$，可能导致D与实际值产生偏差，但不会对 Ea 造成影响

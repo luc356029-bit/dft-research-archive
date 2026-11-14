@@ -1,38 +1,11 @@
-# 04 · 学习与知识记录
+# 04 · 研究流程与学习记录
 
-保留项目推进过程中形成的个人学习笔记，主体内容来自 Obsidian 原始记录，按 A、B、C1 的研究顺序整理。
+沿 A → B → C1 的研究流程阅读，各阶段的 **「3.代码执行、数据流」** 连接对应的分步学习笔记。记录集中在当时不熟悉的内容、关键思路和结论。
 
-## 学习记录
+| 研究流程入口 | 内容 | 对应计算材料 |
+|---|---|---|
+| [A · 初筛（方法论示范）](01-Research-Workflow/A%E5%88%9D%E7%AD%9B%EF%BC%88%E6%96%B9%E6%B3%95%E8%AE%BA%E7%A4%BA%E8%8C%83%EF%BC%89.md) | 候选锂合金筛选；以初筛为例说明拆分、理解、实践与反馈的方法 | [05 · A](../05-Reproducible-Materials/A-High-Throughput-Screening/README.md) |
+| [B · 结构与路径分析](01-Research-Workflow/B%E7%BB%93%E6%9E%84%E4%B8%8E%E8%B7%AF%E5%BE%84%E5%88%86%E6%9E%90.md) | 结构、空间群、Li 位点、距离壳、周期连通性与候选路径 | [05 · B](../05-Reproducible-Materials/B-Structure-and-Diffusion-Pathways/README.md) |
+| [C1 · NEB 与输运分析](01-Research-Workflow/C1-NEB%E4%B8%8E%E8%BE%93%E8%BF%90%E5%88%86%E6%9E%90.md) | 结构弛豫、扩散路径、NEB、KMC、数据处理与文献对照 | [05 · C1](../05-Reproducible-Materials/C1-NEB-Calculations/README.md) |
 
-- [A · 初筛](A/A初筛（方法论示范）.md)
-- [B · 结构与候选路径](B/B分析.md)
-  - [B2.1 · 结构与空间群](B/B2.1%20结构-空间群.md)
-  - [B2.2 · 不等价 Li 位点](B/B2.2%20空间群-不等价%20Li%20位点.md)
-  - [B2.3 · Li–Li 距离壳](B/B2.3%20Li%20位点%20→%20Li–Li%20距离壳.md)
-  - [B2.4 · cutoff 与扩散维度](B/B2.4%20距离壳%20→%20d0%20+%20扩散维度.md)
-  - [B2.5 · 物理 hop 枚举](B/B2.5%20d0%20→%20全部物理%20hop%20→%20N.md)
-  - [B2.6 · Npath 与 Ni](B/B2.6%20N%20条%20hop%20→%20不等价路径%20→%20Npath、Ni.md)
-- [C1 · NEB 与输运总方案](C1/C1%20NEB计算.md)
-  - [C1 2.1 · 方法对比](C1/C1%202.1方法对比.md)
-  - [C1 2.2 · 结构与弛豫](C1/C1%202.2%20弛豫.md)
-  - [C1 2.3 · 扩散路径](C1/C1%202.3%20扩散路径.md)
-  - [C1 2.4 · NEB](C1/C1%202.4NEB计算.md)
-  - [C1 2.5 · KMC](C1/C1%202.5KMC模拟.md)
-  - [C1 2.6 · 数据处理与对比](C1/C1%202.6处理、对比.md)
-
-## 辅助记录
-
-- [工程术语](Reference/工程中陌生的名词.md)
-- [计算结果参数记录](Reference/计算结果合理参数.md)
-- [报错记录](Reference/报错/)
-
-## 与 05 的关系
-
-本目录回答“推进过程中我理解了什么、当时如何思考”；计算输入、代码、输出和可复核证据统一放在 [05 · 可追溯计算材料](../05-Reproducible-Materials/README.md)。按研究顺序查看：
-
-- [A · 高通量筛选](../05-Reproducible-Materials/A-High-Throughput-Screening/README.md)
-- [B · 结构与扩散路径](../05-Reproducible-Materials/B-Structure-and-Diffusion-Pathways/README.md)
-- [C1 · NEB 与输运](../05-Reproducible-Materials/C1-NEB-Calculations/README.md)
-- [补充检验](../05-Reproducible-Materials/Supplementary-Validation/README.md)
-
-
+「研究流程」保留各阶段的目的、方案、检验、疑问与论文差异；「分步学习」保存具体理解、推导、代码阅读和实践记录。A 初筛页同时提供学习方法指引，后续按问题调整，例如 C1 2.6 依照数据处理、受控对照与差异分析展开。

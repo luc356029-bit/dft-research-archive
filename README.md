@@ -10,7 +10,7 @@
 | B · 结构与扩散路径 | 分析对称性、不等价 Li 位点、周期连通性与候选跳跃 | [B 阶段](05-Reproducible-Materials/B-Structure-and-Diffusion-Pathways/README.md) |
 | C1 · NEB 与输运 | 构建 LiSi 空位模型，计算迁移能垒、扩散系数与活化能 | [C1 阶段](05-Reproducible-Materials/C1-NEB-Calculations/README.md) |
 | 03 · 主要科研推进 | 精选关键问题、判断、方法变化与代表性结果 | [03 · 主要科研推进](03-Main-Research-Progress/README.md) |
-| 04 · 学习与知识记录 | 保留 A/B/C1 个人学习笔记与问题记录 | [04 · 学习与知识记录](04-Learning-Notes/README.md) |
+| 04 · 研究流程与学习记录 | 以 A/B/C1 研究流程串联分步学习与实践 | [04 · 研究流程与学习记录](04-Learning-Notes/README.md) |
 | 05 · 可追溯计算材料 | 代码、输入、执行记录、输出和验证证据 | [05 · 可追溯计算材料](05-Reproducible-Materials/README.md) |
 
 03 提炼关键研究推进；04 保留学习过程与原始思考；05 提供可追溯的计算材料。三者相互索引，不重复堆放同一份内容。
