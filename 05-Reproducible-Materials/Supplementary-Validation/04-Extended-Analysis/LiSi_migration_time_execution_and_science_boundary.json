@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-13",
+  "status": "RESULTS_COMPLETE_PHYSICAL_INSTANT_JUMP_VALIDITY_UNRESOLVED",
+  "authorized_new_calculation": "Existing-data ML inference and interface checks only",
+  "configuration_count_per_model": 246,
+  "models_all_static_paths_pass": {
+    "aenet": false,
+    "mace": false
+  },
+  "independent_thermal_DFT_reference_available": false,
+  "ML_MD_run": false,
+  "new_DFT_or_AIMD_run": false,
+  "HPC_job_submitted": false,
+  "training_run": false,
+  "production_code_barriers_rates_changed": false,
+  "real_transition_times_available": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "recommendation": "Retain limited-model KMC, do not add time or adjust rates without independent dynamics; stop further dynamics investment under current evidence/budget",
+  "source_validation_checks": 77,
+  "all_file_and_interface_checks_passed": true,
+  "warning": "Passing integrity/interface checks is not passing the scientific model screen"
+}

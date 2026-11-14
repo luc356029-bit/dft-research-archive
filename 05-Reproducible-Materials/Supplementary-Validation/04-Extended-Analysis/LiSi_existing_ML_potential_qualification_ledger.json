@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-13",
+  "scope": "Existing publicly documented potentials only; no inference, training, force calculation or MD",
+  "qualified_for_direct_use_on_all_four_paths": false,
+  "absence_of_qualification_is_not_proof_no_suitable_model_exists": true,
+  "candidates": [
+    {
+      "name": "aenet LiSi ANN, example fit 04153",
+      "priority": "first existing-label screening candidate",
+      "status": "WEIGHTS_LISTED_TARGET_QUALIFICATION_NOT_ESTABLISHED",
+      "repository": "https://github.com/atomisticnet/aenet-tinker",
+      "repository_tree_sha1": "42ef156b29f6e606015d8d8287c4adc57a8edd11",
+      "weight_metadata_only_not_downloaded": [
+        {
+          "path": "examples/01-ANN-MD-aLiSi/ANN-fit/Li.15t-15t.nn-04153",
+          "mode": "100755",
+          "type": "blob",
+          "sha": "9ab015d2ad41e81b2d67f7af9dbb4b4bf90dcf10",
+          "size": 13418,
+          "url": "https://api.github.com/repos/atomisticnet/aenet-tinker/git/blobs/9ab015d2ad41e81b2d67f7af9dbb4b4bf90dcf10"
+        },
+        {
+          "path": "examples/01-ANN-MD-aLiSi/ANN-fit/Si.15t-15t.nn-04153",
+          "mode": "100755",
+          "type": "blob",
+          "sha": "8c7a5636f14ff2854a88722208bca1140188f3f2",
+          "size": 13418,
+          "url": "https://api.github.com/repos/atomisticnet/aenet-tinker/git/blobs/8c7a5636f14ff2854a88722208bca1140188f3f2"
+        }
+      ],
+      "dataset": "https://archive.materialscloud.org/records/67p3q-dch39",
+      "reference": "VASP PBE/PAW 520 eV; multiple compositions and perturbed crystals in broader mainly-amorphous corpus",
+      "missing": [
+        "Exact I41/a Li31Si32 four-path validation",
+        "PAW and k-grid binding",
+        "800 K off-MEP force validation"
+      ],
+      "license_scope": "Repository LICENSE archived; exact weight-use terms must be retained/checked before actual reuse; code license alone is not asserted to settle all data rights"
+    },
+    {
+      "name": "MACE-MATPES-PBE-0",
+      "status": "PUBLIC_CHECKPOINT_TARGET_QUALIFICATION_NOT_ESTABLISHED",
+      "model_url": "https://github.com/ACEsuit/mace-foundations/releases/download/mace_matpes_0/MACE-matpes-pbe-omat-ft.model",
+      "official_documentation": "https://github.com/ACEsuit/mace",
+      "documented_reference": "MATPES-PBE, DFT PBE, no +U correction",
+      "documented_license": "ASL as listed by official model table; not assumed MIT",
+      "fallback_family": "MACE-MP (MPTrj PBE+U); not independently screened here",
+      "missing": [
+        "Current four-path energies and physical forces",
+        "Vacancy and thermal-saddle neighborhood coverage"
+      ],
+      "weights_downloaded_or_executed": false
+    },
+    {
+      "name": "Qaisrani et al. 2026 fine-tuned MACE",
+      "status": "PUBLISHED_TEST_DOMAIN_DOES_NOT_MATCH_DIRECT_REUSE",
+      "doi": "10.1021/acs.jctc.5c02035",
+      "fulltext_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13255252/fullTextXML",
+      "published_test_phases": [
+        "defect-free Li12Si7",
+        "defect-free Li13Si4"
+      ],
+      "published_reference": "CP2K BLYP-D3, GTH, DZVP-MOLOPT-SR-GTH; 500 K reference trajectories",
+      "weight_repository_identified": false,
+      "availability_statement": "Article promises future public repository, but gives no concrete deposited model link in that statement",
+      "not_inferred": [
+        "A globally unavailable model",
+        "Transferable validation for LiSi single vacancy",
+        "Measured transition time for any project path"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-13",
+  "packets": [
+    {
+      "name": "LiSi_迁移时间最终验证_报告原始输出脚本_20261113.zip",
+      "bytes": 5972315,
+      "sha256": "2b1b2824a2055924573b50cd01d563859146310839261c9ef78f2578317bf479",
+      "files": 76,
+      "CRC_and_all_internal_SHA_passed": true
+    },
+    {
+      "name": "LiSi_公开模型权重源码与许可_20261113.zip",
+      "bytes": 85586814,
+      "sha256": "243d7fcfc296b2e554d0fddc6290ac4a11562ed31ee16ec87726dfb91b005824",
+      "files": 8,
+      "CRC_and_all_internal_SHA_passed": true
+    }
+  ],
+  "large_public_training_archives_not_reuploaded": "414604828-byte replay and 86175204-byte XSF archive retained locally; download URLs/checksums and full scan evidence included",
+  "integrity_not_physical_validation": true
+}

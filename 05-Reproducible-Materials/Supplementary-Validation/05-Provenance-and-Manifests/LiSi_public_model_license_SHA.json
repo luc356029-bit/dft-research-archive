@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-13",
+  "packet": "LiSi_公开模型权重源码与许可_20261113.zip",
+  "entries": [
+    {
+      "path": "downloads/aenet-8f35990f.tar.gz",
+      "bytes": 18538280,
+      "sha256": "63cede1b08c5d8c166cc7e6bb7178728bf45d69459a8bbe86abccc47c946b641"
+    },
+    {
+      "path": "downloads/aenet-tinker-LICENSE",
+      "bytes": 16725,
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+    },
+    {
+      "path": "downloads/Li.15t-15t.nn-04153",
+      "bytes": 13418,
+      "sha256": "cad0bb89f081541140504958cf3555f5807b1f4bc72cef417c56326e0ac94058"
+    },
+    {
+      "path": "downloads/MACE-ASL-LICENSE",
+      "bytes": 16402,
+      "sha256": "54a623a4bba6833807aad02bc24ad85bbda97826274595559bc112b7b5abbf43"
+    },
+    {
+      "path": "downloads/MACE-matpes-pbe-omat-ft.model",
+      "bytes": 79471284,
+      "sha256": "e618ad582b84239905b9c3b77ce6e9ce111b0ecd1533223a1a6aac7a696b8aa0"
+    },
+    {
+      "path": "downloads/mace_matpes_release.json",
+      "bytes": 8075,
+      "sha256": "f8ef5a4d2367bf12ed063c7269f5127af5c9f4374f02a2d9a6c7fe87d7841e01"
+    },
+    {
+      "path": "downloads/Si.15t-15t.nn-04153",
+      "bytes": 13418,
+      "sha256": "77761fcd9a849119b21012d9f491831c7ab70bc12553a4e27311b4e6503da483"
+    }
+  ]
+}

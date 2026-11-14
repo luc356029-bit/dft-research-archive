@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-09",
+  "timezone": "Asia/Shanghai",
+  "status": "PROPOSED_NOT_EXECUTED_WAITING_FOR_USER_ACCEPTANCE",
+  "new_scientific_calculations_executed": false,
+  "DFT_AIMD_KMC_started": false,
+  "external_accuracy_admitted": false,
+  "plan_order": [
+    "P1_independent_tagged_CTMC",
+    "P2_Kirsch_metadata_gate",
+    "P3_external_transport_admission_gate",
+    "P4_qualified_closeout"
+  ],
+  "existing_material_inventory": "28 root entries plus10 reference files before current planning uploads;37 files total",
+  "read_snapshots": 25,
+  "post_acceptance_active_work_cap_h": 6.5,
+  "local_compute_cap_min": 30,
+  "local_memory_cap_GB": 2,
+  "HPC_core_hours": 0,
+  "HPC_accelerator_hours": 0,
+  "review_result": "Plan covers all6 user requirements, novel-reference scope distinguished from existing tests, no physical fitting, explicit failure/data-missing/time-budget stops."
+}

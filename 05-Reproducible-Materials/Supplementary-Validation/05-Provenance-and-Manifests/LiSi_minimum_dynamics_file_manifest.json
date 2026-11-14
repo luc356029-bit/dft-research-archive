@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-13",
+  "kind": "documentation-only narrowed scope",
+  "entries": [
+    {
+      "path": "aenet_document_receipt.json",
+      "bytes": 1250,
+      "sha256": "2d2b4c5073725485b0f78d0ef39b57b298513c92d22f208b5582e491ae800b22"
+    },
+    {
+      "path": "build_document_packet.py",
+      "bytes": 10298,
+      "sha256": "c73f97622541fddb335f354f6165f3362675c123ecf93b09c4369d4d4f6ad39e"
+    },
+    {
+      "path": "candidate_ledger.json",
+      "bytes": 3606,
+      "sha256": "7428fc8382fe373a0c9acf540e2810fb73fba6724eaa4e2193aeaee486759ff6"
+    },
+    {
+      "path": "document_integrity.json",
+      "bytes": 4468,
+      "sha256": "789c86dc4b32cb643e4df5b273e81acd61da4df0550acd6796fd8ae26b8a01f1"
+    },
+    {
+      "path": "existing_evidence/CPU32_acceptance_phase36_20261015.json",
+      "bytes": 10787,
+      "sha256": "39a61c3e36e6ec8fe58d414f17250d6c09dc0926d701a88e72501a7aadea9698"
+    },
+    {
+      "path": "existing_evidence/existing_evidence_inventory.json",
+      "bytes": 68157,
+      "sha256": "45cd2ee634be9d848cd8f9b88b485fa2d01c0730f19546c40873590e312cce4d"
+    },
+    {
+      "path": "existing_evidence/plan_verification.json",
+      "bytes": 3803,
+      "sha256": "245fd6888d4539de35ac249332895f735b437be741ab1b9fadb2d9f134352466"
+    },
+    {
+      "path": "existing_evidence/raw_timing_evidence.json",
+      "bytes": 5180,
+      "sha256": "5d78a8e85ecb908aa70f98e7af954f7e091cb6ddb7f3bd1eff87645479ea82cc"
+    },
+    {
+      "path": "LiSi四路径_合格ML势与最小动力学预检_收缩方案_20261113.md",
+      "bytes": 7553,
+      "sha256": "0a1b00c4e5bdf192b933efd30a35d725c93e2242d09270f66f51eebf0ce219f2"
+    },
+    {
+      "path": "public_source_receipt.json",
+      "bytes": 2874,
+      "sha256": "a383c6dfcc522d5703f82973ba716dacb00f6b376e58be5ea6764771106694cf"
+    },
+    {
+      "path": "qaisrani_relevant_paragraphs.json",
+      "bytes": 10549,
+      "sha256": "12f8006482c15a1ef72d76310be398338ac5559f598a7724ac209bde9bf9b358"
+    },
+    {
+      "path": "read_public_sources.py",
+      "bytes": 3221,
+      "sha256": "59dce013bbe1ccaf74a39c4e9083bf59c1a8d87ef7a0d979a74b7b1571bf233a"
+    },
+    {
+      "path": "revision_record.json",
+      "bytes": 1185,
+      "sha256": "d5a4aadc112e38a69ad2c5af5a5f487026df3cdb6f256ebc9a2f37c94075c2fe"
+    },
+    {
+      "path": "screen_status.json",
+      "bytes": 1594,
+      "sha256": "84a400b7604a399e0c0002b4f684aa74b9e8219a965ba82cab17962ffe74b14f"
+    },
+    {
+      "path": "source_notes.md",
+      "bytes": 1885,
+      "sha256": "e892858193365199dc04052f6e02e662c7eb112713a6b38b96edc8b6dcda739e"
+    },
+    {
+      "path": "sources/aenet_examples_01-ANN-MD-aLiSi_ANN-fit_README.md",
+      "bytes": 719,
+      "sha256": "814dbbeef45e0f97573df331af7d450889d21cda34015411986919dc06b8f35e"
+    },
+    {
+      "path": "sources/aenet_examples_01-ANN-MD-aLiSi_T-0800K_README.md",
+      "bytes": 1162,
+      "sha256": "9fb37a6a2ba5207c49614f9cee9c9cc2a16773fb6a15aa72c92cf8a996fd19b3"
+    },
+    {
+      "path": "sources/aenet_LICENSE",
+      "bytes": 16725,
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+    },
+    {
+      "path": "sources/aenet_tinker_README.rst",
+      "bytes": 3686,
+      "sha256": "63ad0c07426bb7737bd18f2107bc8015d5695e60798e229ce950c1c389f9b940"
+    },
+    {
+      "path": "sources/aenet_tinker_tree.json",
+      "bytes": 99722,
+      "sha256": "f787a83fcf634d5dced6aa52549d48c05be5ac586737a1f04ef5704750303145"
+    },
+    {
+      "path": "sources/mace_foundations_models.py.txt",
+      "bytes": 29697,
+      "sha256": "9991e6c6b36ace2a64e7f33f1c788751493b80a9f8ce7111d1d911b1fa291a1d"
+    },
+    {
+      "path": "sources/mace_README.md",
+      "bytes": 29477,
+      "sha256": "ce86d53b18ca7b6167d4791fac5832c37deb680dd0534354575c837c16cfac89"
+    },
+    {
+      "path": "sources/materialscloud_record.json",
+      "bytes": 15438,
+      "sha256": "30ea7a5755d6cd13cc6d8992369a615c37be1293d09cd39980c11efabbd39a93"
+    },
+    {
+      "path": "sources/qaisrani2026.xml",
+      "bytes": 202112,
+      "sha256": "1be471f33889574c6521536a81763ec8d0c777abbbc64ce6a1e792d0884e52c7"
+    }
+  ]
+}
