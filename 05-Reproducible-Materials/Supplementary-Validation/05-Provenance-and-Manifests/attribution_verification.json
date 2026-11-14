@@ -1,0 +1,791 @@
+{
+  "timestamp": "2026-11-12T15:28:55.751568+08:00",
+  "status": "ATTRIBUTION_COMPLETE_FINITE_MODEL_RETAINED_EXTERNAL_ABSOLUTE_VALIDATION_UNRESOLVED",
+  "scientific_scope": "No DFT/AIMD or full workflow revalidation; no new production parameters; no SI retrieval or broad search",
+  "Em_differences_eV": {
+    "0": 0.033157931540074514,
+    "2": -0.0067007389266109385,
+    "1": -0.049041268049847986
+  },
+  "D800_base": {
+    "D_cm2_s": 2.676722303268328e-07,
+    "SE_cm2_s": 1.2575383685710523e-09,
+    "elapsed_physical_time_s": 1.3011966756341354e-05,
+    "blocks": 320
+  },
+  "D800_Kirsch_table": 1e-07,
+  "D_ratio_ours_over_Kirsch": 2.676722303268328,
+  "single_controls": [
+    {
+      "label": "only00",
+      "DLi": {
+        "D_cm2_s": 3.2720928607351513e-07,
+        "SE_cm2_s": 2.2034769266674172e-09,
+        "blocks": 160,
+        "physical_time_s": 5.7696937530578105e-06
+      },
+      "paired_ratio": {
+        "ratio": 1.2222698584938592,
+        "paired_jackknife_SE": 0.010965990626737475,
+        "interpretation": "Common seeds and block event counts, block ratio jackknife; cross-model common random numbers do not imply physical pairing."
+      },
+      "Dvac_exact_cm2_s": 0.00010875367519610331,
+      "counts_by_family": [
+        2363577,
+        3771245,
+        1631342,
+        233836
+      ],
+      "unsampled_positive_edges_pooled": 0
+    },
+    {
+      "label": "only01",
+      "DLi": {
+        "D_cm2_s": 2.3990909231008894e-07,
+        "SE_cm2_s": 1.5826427524623482e-09,
+        "blocks": 160,
+        "physical_time_s": 8.916001158478252e-06
+      },
+      "paired_ratio": {
+        "ratio": 0.8961654353640836,
+        "paired_jackknife_SE": 0.00815580691359943,
+        "interpretation": "Common seeds and block event counts, block ratio jackknife; cross-model common random numbers do not imply physical pairing."
+      },
+      "Dvac_exact_cm2_s": 7.477669934332387e-05,
+      "counts_by_family": [
+        2257683,
+        2861494,
+        2519093,
+        361730
+      ],
+      "unsampled_positive_edges_pooled": 0
+    },
+    {
+      "label": "only02",
+      "DLi": {
+        "D_cm2_s": 2.6376704292777647e-07,
+        "SE_cm2_s": 1.7560377703556977e-09,
+        "blocks": 160,
+        "physical_time_s": 6.644679103354699e-06
+      },
+      "paired_ratio": {
+        "ratio": 0.9852853203018318,
+        "paired_jackknife_SE": 0.009001926036412174,
+        "interpretation": "Common seeds and block event counts, block ratio jackknife; cross-model common random numbers do not imply physical pairing."
+      },
+      "Dvac_exact_cm2_s": 8.241940144673633e-05,
+      "counts_by_family": [
+        1682431,
+        4343625,
+        1704493,
+        269451
+      ],
+      "unsampled_positive_edges_pooled": 0
+    },
+    {
+      "label": "disable03",
+      "DLi": {
+        "D_cm2_s": 1.7978122361722815e-07,
+        "SE_cm2_s": 1.373208908652015e-09,
+        "blocks": 160,
+        "physical_time_s": 6.724531149627303e-06
+      },
+      "paired_ratio": {
+        "ratio": 0.6715615360045509,
+        "paired_jackknife_SE": 0.006457795302013268,
+        "interpretation": "Common seeds and block event counts, block ratio jackknife; cross-model common random numbers do not imply physical pairing."
+      },
+      "Dvac_exact_cm2_s": 7.121768297172044e-05,
+      "counts_by_family": [
+        1702751,
+        4395765,
+        1901484,
+        0
+      ],
+      "unsampled_positive_edges_pooled": 0
+    }
+  ],
+  "baseline_equal_events": {
+    "D_cm2_s": 2.6770625471916525e-07,
+    "SE_cm2_s": 1.7524599580597784e-09,
+    "blocks": 160,
+    "physical_time_s": 6.503343149003503e-06
+  },
+  "original_triple_control": {
+    "D_cm2_s": 2.762852847826041e-07,
+    "SE_cm2_s": 1.7053671620838268e-09,
+    "elapsed_physical_time_s": 7.788182334162928e-06,
+    "blocks": 160
+  },
+  "old03_event_fraction": 0.0329135625,
+  "expected03_events100ps_model": 4.0472405045159165,
+  "frequency_graph_inference": [
+    3491527258268.1875,
+    6921257513729.614,
+    4068012528365.675,
+    4560321336744.389
+  ],
+  "hypothetical_common_nu_rescale_range_D800": [
+    8.69200847044216e-08,
+    1.9919890155728875e-07
+  ],
+  "Ea_four_point_eV": 0.2516111091680399,
+  "Ea_three_point_range_eV": [
+    0.25098483229839963,
+    0.2535825718902539
+  ],
+  "Ea_decomposition_eV": {
+    "uncorrelated": 0.24057677180386056,
+    "vacancy": 0.2508653463048504,
+    "Li_correlation": 0.01103433736417944,
+    "vacancy_correlation": 0.010288574500989854,
+    "Li_relative_to_vacancy": 0.0007457628631895868
+  },
+  "new_KMC_wall_seconds": 177.92087359994184,
+  "new_KMC_events": 32000000,
+  "checks": [
+    {
+      "name": "P0_profiles.json: analyzer bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input transport_model.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input literature_orbit_mapping.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input neb_analysis.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input vasprun.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input vasprun.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input POSCAR",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input li1si1_li_vac_path_6_def.xyz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input li1si1_li_vac_path_6_def_energy.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input neb_analysis.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input vasprun.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input POSCAR",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input li1si1_li_vac_path_7_def.xyz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input li1si1_li_vac_path_7_def_energy.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input neb_analysis.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input vasprun.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input POSCAR",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input li1si1_li_vac_path_8_def.xyz",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0_profiles.json: input li1si1_li_vac_path_8_def_energy.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_single_controls.json: analyzer bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_single_controls.json: input transport_model.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_single_controls.json: input conv128_800.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_single_controls.json: input barrier_controls_results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_single_controls.json: input literature_orbit_mapping.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_single_controls.json: input network_arrays.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_single_controls.json: input transport.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_single_controls.json: input tracer_kmc.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_single_controls.json: input POSCAR",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_external_prefactors.json: analyzer bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_external_prefactors.json: input Kumar2020_author.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P2_ea_sensitivity_v2.json: analyzer bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P2_ea_sensitivity_v2.json: input transport_model.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P2_ea_sensitivity_v2.json: input KMC_statistical_admission.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P2_ea_sensitivity_v2.json: input KMC_ext_08.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P2_ea_sensitivity_v2.json: input KMC_ext_09.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P2_ea_sensitivity_v2.json: input KMC_ext_00.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P2_ea_sensitivity_v2.json: input KMC_ext_02.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P2_ea_sensitivity_v2.json: input KMC_10.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P2_ea_sensitivity_v2.json: input KMC_11.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P2_ea_sensitivity_v2.json: input KMC_12.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P2_ea_sensitivity_v2.json: input KMC_13.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only00_raw.json: analyzer bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only00_raw.json: input transport_model.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only00_raw.json: input conv128_800.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only00_raw.json: input barrier_controls_results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only00_raw.json: input literature_orbit_mapping.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only00_raw.json: input network_arrays.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only00_raw.json: input transport.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only00_raw.json: input tracer_kmc.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only00_raw.json: input POSCAR",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only01_raw.json: analyzer bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only01_raw.json: input transport_model.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only01_raw.json: input conv128_800.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only01_raw.json: input barrier_controls_results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only01_raw.json: input literature_orbit_mapping.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only01_raw.json: input network_arrays.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only01_raw.json: input transport.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only01_raw.json: input tracer_kmc.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only01_raw.json: input POSCAR",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only02_raw.json: analyzer bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only02_raw.json: input transport_model.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only02_raw.json: input conv128_800.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only02_raw.json: input barrier_controls_results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only02_raw.json: input literature_orbit_mapping.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only02_raw.json: input network_arrays.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only02_raw.json: input transport.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only02_raw.json: input tracer_kmc.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_only02_raw.json: input POSCAR",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_disable03_raw.json: analyzer bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_disable03_raw.json: input transport_model.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_disable03_raw.json: input conv128_800.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_disable03_raw.json: input barrier_controls_results.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_disable03_raw.json: input literature_orbit_mapping.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_disable03_raw.json: input network_arrays.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_disable03_raw.json: input transport.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_disable03_raw.json: input tracer_kmc.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P1_disable03_raw.json: input POSCAR",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only00: event count 137",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only00: controls 137",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only00: event count 991",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only00: controls 991",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only00: seed diagnostic",
+      "passed": true,
+      "detail": 1.2699452751859608
+    },
+    {
+      "name": "only00: vacancy diagnostic",
+      "passed": true,
+      "detail": 0.23619295768676074
+    },
+    {
+      "name": "only00: positive edge coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only00: original03 retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only01: event count 137",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only01: controls 137",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only01: event count 991",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only01: controls 991",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only01: seed diagnostic",
+      "passed": true,
+      "detail": 0.731866730769083
+    },
+    {
+      "name": "only01: vacancy diagnostic",
+      "passed": true,
+      "detail": 0.7708549897792902
+    },
+    {
+      "name": "only01: positive edge coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only01: original03 retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only02: event count 137",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only02: controls 137",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only02: event count 991",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only02: controls 991",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only02: seed diagnostic",
+      "passed": true,
+      "detail": 1.6608802708472958
+    },
+    {
+      "name": "only02: vacancy diagnostic",
+      "passed": true,
+      "detail": 1.0427825086062805
+    },
+    {
+      "name": "only02: positive edge coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only02: original03 retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "disable03: event count 137",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "disable03: controls 137",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "disable03: event count 991",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "disable03: controls 991",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "disable03: seed diagnostic",
+      "passed": true,
+      "detail": 0.6810969818868033
+    },
+    {
+      "name": "disable03: vacancy diagnostic",
+      "passed": true,
+      "detail": 0.05296610833235958
+    },
+    {
+      "name": "disable03: positive edge coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "disable03: 03 diagnostic disabled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P2 old pooled fit reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Graphical classical prefactors nearly constant",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0 source mapping is reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P0 actual literature cell remains unknown",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "diagnostics": [
+    {
+      "label": "only00",
+      "seed_z": 1.2699452751859608,
+      "vacancy_z": 0.23619295768676074
+    },
+    {
+      "label": "only01",
+      "seed_z": 0.731866730769083,
+      "vacancy_z": 0.7708549897792902
+    },
+    {
+      "label": "only02",
+      "seed_z": 1.6608802708472958,
+      "vacancy_z": 1.0427825086062805
+    },
+    {
+      "label": "disable03",
+      "seed_z": 0.6810969818868033,
+      "vacancy_z": 0.05296610833235958
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\transport_phase34_20261015\\transport_model.json": "fb29cfd6ba4caa3df2ba3ab2013c438843587e311fac5cc211fc4ad56cc48927",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261109_external_validation\\modern\\literature_orbit_mapping.json": "03c6b32cafc1bb73efea0b818cdaa7b187fd65567e9ce1e563624f4ad6f770f6",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\neb_analysis.json": "ea461f0d493d451bdb3e80401e378f39236c1b0948993b02aeb7ca8840330fd3",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7\\vasprun.xml": "50147fe5dfda33bb139b3310b8df82ebb47059c651baeac2a2c1552ef9f048c5",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181033-f3bb5b608e2c\\20261014-183423-c7f4ec08e278\\vasprun.xml": "389a46197700db495afb02cd89d1607221d0847d3acd6952b9dc27873d332c38",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\01\\POSCAR": "2958e30fae1afeac592f704a39fd8eec05797d59d38fb8c19f136a0b1e7a1cba",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261109_external_validation\\modern\\2025_paths_li1si1\\li1si1\\li1si1_li_vac_path_6_def.xyz": "f700ad702d1dd2953c3e1ce9ef1ce2a3150a40bd425231e8aa295f3f8600b4da",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261109_external_validation\\modern\\2025_paths_li1si1\\li1si1\\li1si1_li_vac_path_6_def_energy.txt": "000be1a756b957729d36bf74039cd1015fee974ffe7fcd447f6e695901464ea9",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\neb_analysis.json": "6b0b0cae74b71d54ccc2792a12e87b0442a65c972881e3c3b6a9430431424828",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181345-65869c013eca\\20261014-183550-2da98a745688\\vasprun.xml": "ec10f92a697809845dbfc66b697646309e083616e5196fac2e20e7d3b72d802f",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\01\\POSCAR": "285298f15674e5df54e60e23363255fe77da112b62d17ce14894d8ddde2973f6",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261109_external_validation\\modern\\2025_paths_li1si1\\li1si1\\li1si1_li_vac_path_7_def.xyz": "408942a0db458f54227f85362f224feeb058c61d500c524c7a3bca57f38b3c6f",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261109_external_validation\\modern\\2025_paths_li1si1\\li1si1\\li1si1_li_vac_path_7_def_energy.txt": "a808417c4a195ff775a8ecb46c75a01f971210ca368b2648841bf99bca18a5ae",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\neb_analysis.json": "8932d0fe046cf8ba0d110407e6f5a3a91577fba4b9bf0e2f638bb8b72f878437",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181133-1fab2c7220dd\\20261014-183444-8ba707a2fb66\\vasprun.xml": "8a201845b59b6a8f8a81ab3e1497ecdb8e2e6a21b2aea150bdf196cf95ba1bb3",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\01\\POSCAR": "12a9f3be3092bda18d67bef3f06d12c5c81d601304ddca45804b7d20860b9545",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261109_external_validation\\modern\\2025_paths_li1si1\\li1si1\\li1si1_li_vac_path_8_def.xyz": "618426ef3770e1896c0e37a42a0823a01f04d6c42471596acd10861f34d6654c",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261109_external_validation\\modern\\2025_paths_li1si1\\li1si1\\li1si1_li_vac_path_8_def_energy.txt": "c1738fdbfa537347b36352e05f18bc75d3ac5ca97b7888b681db9dc3dfbb0248",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261109_external_validation\\root\\conv128_800.json": "f3021323bac4144088282ec74527408dc8f15f871d24be01181406fc9e9e4b36",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261109_external_validation\\root\\barrier_controls_results.json": "08bad4fb2fc3333ec8ec1deb341a53c8f2b56e1b39f84fce60fe5fe82e6c8361",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\scripts\\network_arrays.py": "deaaa4238e3fb3fc59c9fb54549feb399d4040979514596964b50a27b5261cc5",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\scripts\\transport.py": "fd298290b1c75f2cae69f1d21ef7d2397151140a9fe11f4d70602a0d21a84869",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\scripts\\tracer_kmc.py": "b43fcfc3b5bcfdf66a99d7a24ec3a4b5b6c2264df39801dc0f9d4ed3a90aab2f",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\host_symmetry_projection\\POSCAR": "10a5d334124297b2f60ec21b4d6b3b8bdc3cef0bb575dc2318fac975571c4819",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261109_kumar_comparison\\Kumar2020_author.pdf": "22cb10f7d5094ab81f480d05e578cfafc973f9eab79735d91172a506cd967db6",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\transport_phase34_20261015\\KMC_statistical_admission.json": "b38add91e2e93a3f82ca76730d20d8e4a3ba0edb7c6bad9cf4094ef3dc3a3c13",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_08.json": "02856a420bdf74b1379133ae6018984ff10d9f041bd8ab076c7a4532ab4dc299",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_09.json": "f3c6859b6191abd91c56499afbea46bb4c6e1b77e17235ad954ffed836a5d327",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_00.json": "599343cd5ceb3a0e04bfe572dec118adf46370b09e07dcb8a44c0ffb8e0d15d5",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\transport_phase34_20261015\\KMC_ext_02.json": "8cf8ce710c20731b672adbef0d4e63f42b529605f8d5a7488e92dec99e79c393",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\transport_phase34_20261015\\KMC_10.json": "f8e7a09beefa01e2224d83d00eb7a27acd0d1cf00ebaa3a5f9896071fabe3c41",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\transport_phase34_20261015\\KMC_11.json": "6216f48f08e7f248c56c5c4f502918e82a807d29b897716aebf933ea0dd45f38",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\transport_phase34_20261015\\KMC_12.json": "95424ba62acfc98f43c4a8651c5fbfbde41ae0633123c12bf6d6d17283bcd76e",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\transport_phase34_20261015\\KMC_13.json": "8f4df63963b278ffa7f9041bd85ee1b726553b5f3d7e5c56099b94f2784e7f0c"
+  },
+  "analyzer_path": "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261112_key_attribution\\verify_and_package.py",
+  "analyzer_sha256": "c1859a325f148b4cf8f16d93d3ec2002c4e7a24f3355894d7f2fe1430bbafa31",
+  "environment": {
+    "python": "3.14.4",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "ase": "3.29.0",
+    "matplotlib": "3.10.9",
+    "PyMuPDF": "1.27.2.3",
+    "spglib": "2.8.0"
+  },
+  "excluded_superseded": [
+    "P2_ea_sensitivity.json: v1 seed-only uncertainty used pooled error; v2 fixes it. No center values changed."
+  ],
+  "stop_reasons": [
+    "Missing Kirsch actual defect cell, input, per-image forces and constraints; Em causal partition not identifiable.",
+    "Missing MD trajectory, precise MSD definition and rate prefactors; external absolute D not validated.",
+    "Different Ea definitions and missing original fit inputs prevent accurate conversion of Dou/Kumar/Moon.",
+    "No mandatory further calculation within current scope. Reopen only upon new discriminating evidence."
+  ]
+}

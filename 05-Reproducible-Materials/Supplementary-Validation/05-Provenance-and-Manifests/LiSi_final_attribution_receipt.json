@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-12",
+  "folder_id": "1t6Xjs0ZArE_Qs4wlwURNEEv1jA4d5UHh",
+  "scope": "File metadata readback; local byte SHA verified separately. No remote checksum returned.",
+  "files": [
+    {
+      "name": "LiSi_Em_D_Ea最终差异归因与收尾_20261112.md",
+      "metadata": {
+        "id": "1DchpQIRU4uCWYpFSvDhG13ML3YJoqw_8",
+        "title": "LiSi_Em_D_Ea最终差异归因与收尾_20261112.md",
+        "mime_type": "text/markdown",
+        "size": "24312",
+        "url": "https://drive.google.com/file/d/1DchpQIRU4uCWYpFSvDhG13ML3YJoqw_8/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1DchpQIRU4uCWYpFSvDhG13ML3YJoqw_8/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1t6Xjs0ZArE_Qs4wlwURNEEv1jA4d5UHh"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "name": "Em_D_Ea_attribution.csv",
+      "metadata": {
+        "id": "1f8pQOyv8fvOomNkTd4JhqpGr3eLohOp9",
+        "title": "Em_D_Ea_attribution.csv",
+        "mime_type": "text/csv",
+        "size": "2361",
+        "url": "https://drive.google.com/file/d/1f8pQOyv8fvOomNkTd4JhqpGr3eLohOp9/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1f8pQOyv8fvOomNkTd4JhqpGr3eLohOp9/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1t6Xjs0ZArE_Qs4wlwURNEEv1jA4d5UHh"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "name": "LiSi_最终差异归因_完整增量证据_20261112.zip",
+      "metadata": {
+        "id": "1gfXVeYaMYMEtjdGsaeXg9HVjE1W_tJGZ",
+        "title": "LiSi_最终差异归因_完整增量证据_20261112.zip",
+        "mime_type": "application/zip",
+        "size": "14508216",
+        "url": "https://drive.google.com/file/d/1gfXVeYaMYMEtjdGsaeXg9HVjE1W_tJGZ/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1gfXVeYaMYMEtjdGsaeXg9HVjE1W_tJGZ/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1t6Xjs0ZArE_Qs4wlwURNEEv1jA4d5UHh"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "name": "MANIFEST_final.json",
+      "metadata": {
+        "id": "15ZB9qQO7DXKjaYEGu2frcPmFKpt0j_M_",
+        "title": "MANIFEST_final.json",
+        "mime_type": "application/json",
+        "size": "18331",
+        "url": "https://drive.google.com/file/d/15ZB9qQO7DXKjaYEGu2frcPmFKpt0j_M_/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/15ZB9qQO7DXKjaYEGu2frcPmFKpt0j_M_/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1t6Xjs0ZArE_Qs4wlwURNEEv1jA4d5UHh"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "name": "attribution_verification.json",
+      "metadata": {
+        "id": "1SFp-vUbZcPCJRUOIc1SwFkJlWQ8rgzs7",
+        "title": "attribution_verification.json",
+        "mime_type": "application/json",
+        "size": "26859",
+        "url": "https://drive.google.com/file/d/1SFp-vUbZcPCJRUOIc1SwFkJlWQ8rgzs7/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1SFp-vUbZcPCJRUOIc1SwFkJlWQ8rgzs7/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1t6Xjs0ZArE_Qs4wlwURNEEv1jA4d5UHh"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "name": "阶段记录_20261112.md",
+      "metadata": {
+        "id": "1jMdnCJOr7JwCThEEGWpvD4Y309lpVxww",
+        "title": "阶段记录_20261112.md",
+        "mime_type": "text/markdown",
+        "size": "2874",
+        "url": "https://drive.google.com/file/d/1jMdnCJOr7JwCThEEGWpvD4Y309lpVxww/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1jMdnCJOr7JwCThEEGWpvD4Y309lpVxww/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1t6Xjs0ZArE_Qs4wlwURNEEv1jA4d5UHh"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "name": "P0_energy_profiles.png",
+      "metadata": {
+        "id": "1Y62bvmxJkZZjvZsYmRNusVbKBTv_LmHN",
+        "title": "P0_energy_profiles.png",
+        "mime_type": "image/png",
+        "size": "144790",
+        "url": "https://drive.google.com/file/d/1Y62bvmxJkZZjvZsYmRNusVbKBTv_LmHN/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1Y62bvmxJkZZjvZsYmRNusVbKBTv_LmHN/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1t6Xjs0ZArE_Qs4wlwURNEEv1jA4d5UHh"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "name": "P2_Ea_fits_readable.png",
+      "metadata": {
+        "id": "1W588AbVxY-eKVv5UtL22NgpQgGFs47vz",
+        "title": "P2_Ea_fits_readable.png",
+        "mime_type": "image/png",
+        "size": "81797",
+        "url": "https://drive.google.com/file/d/1W588AbVxY-eKVv5UtL22NgpQgGFs47vz/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1W588AbVxY-eKVv5UtL22NgpQgGFs47vz/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1t6Xjs0ZArE_Qs4wlwURNEEv1jA4d5UHh"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "name": "P1_external_prefactors.json",
+      "metadata": {
+        "id": "1mGufeZr_vaDIKRqaEnu7lhzOTuyJeh1E",
+        "title": "P1_external_prefactors.json",
+        "mime_type": "application/json",
+        "size": "16103",
+        "url": "https://drive.google.com/file/d/1mGufeZr_vaDIKRqaEnu7lhzOTuyJeh1E/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1mGufeZr_vaDIKRqaEnu7lhzOTuyJeh1E/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1t6Xjs0ZArE_Qs4wlwURNEEv1jA4d5UHh"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    }
+  ]
+}

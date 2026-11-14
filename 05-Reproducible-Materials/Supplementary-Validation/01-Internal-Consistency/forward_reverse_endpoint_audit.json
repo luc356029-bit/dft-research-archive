@@ -1,0 +1,354 @@
+{
+  "timestamp": "2026-10-27T18:51:27.619162+08:00",
+  "verdict": "EQUIVALENT_ENDPOINT_MODEL_AND_BOTH_DIRECTIONS_REVALIDATED",
+  "scope": "Existing four-pair finite neutral-vacancy model; not proof of all mechanisms or general inequivalent-site kinetics.",
+  "no_new_DFT_or_KMC": true,
+  "old_reports_not_modified": true,
+  "paths": [
+    {
+      "path_id": 0,
+      "vacancy_transition_host_slots": [
+        0,
+        18
+      ],
+      "operation_R": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "operation_t": [
+        0.9997837728876152,
+        0.001036962577290912,
+        0.4996518142459241
+      ],
+      "host_metric_relative_error": 0.0,
+      "host_mapping_max_error_A": 1.122356924132213e-14,
+      "actual_evaluated_defect_mapping_max_error_A": 1.4788802889999093e-07,
+      "full_actual_MP4_grid_invariant": true,
+      "energies": {
+        "Efr": {
+          "E_A_eV": -244.71186692,
+          "E_B_eV": -244.71185955,
+          "E_saddle_eV": -244.45841943,
+          "delta_B_minus_A_eV": 7.369999991624354e-06,
+          "forward_barrier_eV": 0.25344749000001343,
+          "reverse_barrier_eV": 0.2534401200000218,
+          "symmetrized_barrier_eV": 0.2534438050000176
+        },
+        "E0": {
+          "E_A_eV": -244.69409809,
+          "E_B_eV": -244.69409071,
+          "E_saddle_eV": -244.44151911,
+          "delta_B_minus_A_eV": 7.379999999557185e-06,
+          "forward_barrier_eV": 0.2525789800000098,
+          "reverse_barrier_eV": 0.2525716000000102,
+          "symmetrized_barrier_eV": 0.25257529000001
+        }
+      },
+      "Ewo_endpoint_split_eV": 7.389999979068307e-06
+    },
+    {
+      "path_id": 1,
+      "vacancy_transition_host_slots": [
+        0,
+        22
+      ],
+      "operation_R": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "operation_t": [
+        0.7493734051551622,
+        0.7504103677324531,
+        0.3746518142459241
+      ],
+      "host_metric_relative_error": 4.575981468424785e-16,
+      "host_mapping_max_error_A": 9.030659460301449e-15,
+      "actual_evaluated_defect_mapping_max_error_A": 1.7489875954062223e-07,
+      "full_actual_MP4_grid_invariant": true,
+      "energies": {
+        "Efr": {
+          "E_A_eV": -244.71186692,
+          "E_B_eV": -244.71188977,
+          "E_saddle_eV": -244.47604814,
+          "delta_B_minus_A_eV": -2.2849999993468373e-05,
+          "forward_barrier_eV": 0.23581878000001666,
+          "reverse_barrier_eV": 0.23584163000001013,
+          "symmetrized_barrier_eV": 0.2358302050000134
+        },
+        "E0": {
+          "E_A_eV": -244.69409809,
+          "E_B_eV": -244.69412092,
+          "E_saddle_eV": -244.45854382,
+          "delta_B_minus_A_eV": -2.282999997760271e-05,
+          "forward_barrier_eV": 0.23555427000002283,
+          "reverse_barrier_eV": 0.23557710000000043,
+          "symmetrized_barrier_eV": 0.23556568500001163
+        }
+      },
+      "Ewo_endpoint_split_eV": -2.281999999809159e-05
+    },
+    {
+      "path_id": 2,
+      "vacancy_transition_host_slots": [
+        0,
+        14
+      ],
+      "operation_R": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "operation_t": [
+        0.4997837728876152,
+        0.001036962577290912,
+        0.0
+      ],
+      "host_metric_relative_error": 2.9391090114464414e-16,
+      "host_mapping_max_error_A": 7.164002377233787e-15,
+      "actual_evaluated_defect_mapping_max_error_A": 1.3205080608176913e-07,
+      "full_actual_MP4_grid_invariant": true,
+      "energies": {
+        "Efr": {
+          "E_A_eV": -244.71186692,
+          "E_B_eV": -244.71188652,
+          "E_saddle_eV": -244.46596723,
+          "delta_B_minus_A_eV": -1.9600000001673834e-05,
+          "forward_barrier_eV": 0.24589969000001588,
+          "reverse_barrier_eV": 0.24591929000001755,
+          "symmetrized_barrier_eV": 0.24590949000003093
+        },
+        "E0": {
+          "E_A_eV": -244.69409809,
+          "E_B_eV": -244.69411767,
+          "E_saddle_eV": -244.44930503,
+          "delta_B_minus_A_eV": -1.9579999985808172e-05,
+          "forward_barrier_eV": 0.24479306000000634,
+          "reverse_barrier_eV": 0.24481263999999214,
+          "symmetrized_barrier_eV": 0.24480284999998503
+        }
+      },
+      "Ewo_endpoint_split_eV": -1.955999999836422e-05
+    },
+    {
+      "path_id": 3,
+      "vacancy_transition_host_slots": [
+        0,
+        7
+      ],
+      "operation_R": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "operation_t": [
+        0.7504103677324531,
+        0.7506265948448378,
+        0.875
+      ],
+      "host_metric_relative_error": 4.575981468424785e-16,
+      "host_mapping_max_error_A": 9.359178479672831e-15,
+      "actual_evaluated_defect_mapping_max_error_A": 1.3205080587157075e-07,
+      "full_actual_MP4_grid_invariant": true,
+      "energies": {
+        "Efr": {
+          "E_A_eV": -244.71186692,
+          "E_B_eV": -244.71186033,
+          "E_saddle_eV": -244.28420253,
+          "delta_B_minus_A_eV": 6.589999998141138e-06,
+          "forward_barrier_eV": 0.4276643900000181,
+          "reverse_barrier_eV": 0.42765780000001996,
+          "symmetrized_barrier_eV": 0.42766109500001903
+        },
+        "E0": {
+          "E_A_eV": -244.69409809,
+          "E_B_eV": -244.69409149,
+          "E_saddle_eV": -244.26664613,
+          "delta_B_minus_A_eV": 6.600000006073969e-06,
+          "forward_barrier_eV": 0.4274519600000133,
+          "reverse_barrier_eV": 0.4274453600000072,
+          "symmetrized_barrier_eV": 0.42744866000001025
+        }
+      },
+      "Ewo_endpoint_split_eV": 6.619999993517922e-06
+    }
+  ],
+  "XML_cell_precision_note": "The initial audit used a1e-10 A comparison and stopped. All actual input cells are byte-equivalent in numerical values to the host; XML prints8decimal basis components, max difference4.758011e-9 A, within half-last-digit rounding. Audit now checks identical input cells and the explicit5e-9 A XML rounding bound. No DFT parameter or scientific tolerance changed.",
+  "symmetry_generated_Li_host_orbit_size": 32,
+  "primitive_directed_edges": 48,
+  "supercell_directed_edges": 192,
+  "exact_reverse_edges_and_equal_model_rates_present": true,
+  "maximum_observed_Efr_endpoint_split_eV": 2.2849999993468373e-05,
+  "maximum_each_direction_symmetrization_shift_eV": 1.1424999996734186e-05,
+  "maximum_relative_rate_shift_from_that_numerical_split_at_300K": 0.0004420364009780758,
+  "model_symmetry_convention": "ES-(EA+EB)/2; equal forward/reverse rates (geometric mean of numerical split rates)",
+  "directional_count_interpretation": "Four undirected representative channels yield eight directional barrier entries, from four bands. Reversal of the same path on one energy surface shares its saddle; inequivalent endpoints need unequal directional barriers, not an automatically independent reverse NEB.",
+  "conditional_warning": "If complete defect states are truly inequivalent or reconstruct differently, equal-site symmetrization is invalid: retain state energies, direction-specific rates and detailed balance; re-enumerate any newly independent environments/channels.",
+  "primary_reference": "https://vasp.at/wiki/index.php/Nudged_elastic_bands",
+  "raw_output_sha256": {
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\01\\OUTCAR": "f20e3bace83f73242e4cbb6ece334e6870e985d26fd195b27bc25e9cbe406986",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\01\\vasprun.xml": "03fcb8d4ff40008fa2b5d370952658040bd39917f7196456f523d737218f4610",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\01\\POSCAR": "2958e30fae1afeac592f704a39fd8eec05797d59d38fb8c19f136a0b1e7a1cba",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\01\\CONTCAR": "fb66755cddff3439fb8ca467a8c0c66a27f4054765534f15ea8ceeffa156e1b7",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\02\\OUTCAR": "4eceba4d8ff6eea4c81e75a7e5520b59fec0ea35363f842cbdb346a2a994fa82",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\02\\vasprun.xml": "dd889ee7c2d2b353b7beee36a11bf39b83aec38f00cb5591eab845feb64b3235",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\02\\POSCAR": "316433ab0562cfbea234b09e985d2dcd19516298c10ada5b8af60021dd454fe3",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\02\\CONTCAR": "6172d69d8224a00815311e10adedb3703df6818c08bd0fb776b6bd0156d0b376",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\03\\OUTCAR": "3501a36b209c860722cf42e17a1410b11a4f6cf9340e82b49be60f763d519fc0",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\03\\vasprun.xml": "992c05d01313e0b3644229693781fa0acc37cc75d3969deb32d5f03ca4e5915a",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\03\\POSCAR": "1123e3509b7e4042a2e485745003e9778eb147eaef7ba85773e743f7c43e2715",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\03\\CONTCAR": "aa97f3f2155f1bc8cff57d7a6d0aeebaac618427b084e9618b42e1bc914adc1c",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\04\\OUTCAR": "52c6ec27cb387cc151aa72c6a1a7dadfa14f6cf39256790e48d4e2a738881411",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\04\\vasprun.xml": "28d80d754bcd8074704d5b01b49e0cdd23e8738d7c274c0c3051c8c83e123b2e",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\04\\POSCAR": "1103cbf063b0ef5dff32b300fc52a4e59021bf4201074eb6059f5b62679d0a26",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\04\\CONTCAR": "0a1712f9320072e551fbad2604028a579ad860718539dbd79af1f89bee10ead4",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7\\OUTCAR": "948dd02dbb7effc59744e724e7355424ab0192d02bd824bbec6dc461acd8e6f5",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7\\vasprun.xml": "50147fe5dfda33bb139b3310b8df82ebb47059c651baeac2a2c1552ef9f048c5",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7\\POSCAR": "c8c3b7c3865835e2b47b810dfaf5230f900268a7acf3ad51d76a3a74dd27fdeb",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7\\CONTCAR": "6dda4adcfb2638ea9e0b8651e62b8218089cde5d5d695df07ed189f6fdd2302a",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7\\INCAR": "38be135bcab456371623acf2542ea6e3461a2006b4d1ec0f708902548a2b4706",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7\\KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7\\POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181033-f3bb5b608e2c\\20261014-183423-c7f4ec08e278\\OUTCAR": "cd7ffa04d7abae027818ca61b4735b8d8c258ae07c5daa12831f71bf527c56b7",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181033-f3bb5b608e2c\\20261014-183423-c7f4ec08e278\\vasprun.xml": "389a46197700db495afb02cd89d1607221d0847d3acd6952b9dc27873d332c38",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181033-f3bb5b608e2c\\20261014-183423-c7f4ec08e278\\POSCAR": "ac9f89f8dc9ef0f83ee128969dbd4594ac9f08e0d8ea63c87e70a4807b4e27b6",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181033-f3bb5b608e2c\\20261014-183423-c7f4ec08e278\\CONTCAR": "a15932cb513382500f4865f4dd243882ed10e0137fd9aa0c1cf6115e0e63ef76",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181033-f3bb5b608e2c\\20261014-183423-c7f4ec08e278\\INCAR": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181033-f3bb5b608e2c\\20261014-183423-c7f4ec08e278\\KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181033-f3bb5b608e2c\\20261014-183423-c7f4ec08e278\\POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\01\\OUTCAR": "af9bea02b450f5dc302505538b51f1cfe7feab777da0a0758e87228257b3edd6",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\01\\vasprun.xml": "1f3e95d117135dc37927189d154857b9d3aff8f93cdfe4b618b7c8825660bdaa",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\01\\POSCAR": "12a9f3be3092bda18d67bef3f06d12c5c81d601304ddca45804b7d20860b9545",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\01\\CONTCAR": "c05cc71503145791fa63a444cd7b5fe893c401233fac8943fd2c92610f1c0852",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\02\\OUTCAR": "5b15cc2d0cd343c05efcae9775a78e38f02df26db5050bcc953ef8dd0b814c19",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\02\\vasprun.xml": "9effcaab8f3da301bdcd96e03d51cbabb031d6a09b32aebf990bcdd28d772bbe",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\02\\POSCAR": "84471e34742252524f3cffac2a6bd267be4ca3b12bccee234af4dcfcf04347d1",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\02\\CONTCAR": "63e588e1779f95f684acb3c91fb269f49195d8b441b855975e48b7cb6f8cacdb",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\03\\OUTCAR": "fbeeac5e7629aa444a4ea7307eab463e63d08aa96056b4225bd1ea2e1f42fc5d",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\03\\vasprun.xml": "ef15f1c8f0ff6a8cb97312937d08d4ca3933edd5408707437fc5182d4e26bc6e",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\03\\POSCAR": "d57799087715d4c5a847c76c4cc48f26d056795fc665787d2b8d97614324875e",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\03\\CONTCAR": "d11bc8599b5f8b48a7f95b9e37cd41ff1b875480bce297cb5b2bc4098f329642",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\04\\OUTCAR": "248829af8716f68978d3001bc46580594bc95ccbda360c2109fe5b830bc10070",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\04\\vasprun.xml": "d6eadc1dcdd48163a5b13015a77b1c9d8a2cbffd2199c674409bcec4b815c2f4",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\04\\POSCAR": "d397f1a2af6b386350b7b9075189f2f40e10917907159f260e1881fb2b46d191",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\04\\CONTCAR": "3c2e7e01011219e2935ae158f6326a8ecb1d1f9b3a6cd9834a54c90037bc6da3",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181133-1fab2c7220dd\\20261014-183444-8ba707a2fb66\\OUTCAR": "46923db6a957ef496f5e0a420dd859a2e274bba528663f04b6ae1fd5d2232b26",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181133-1fab2c7220dd\\20261014-183444-8ba707a2fb66\\vasprun.xml": "8a201845b59b6a8f8a81ab3e1497ecdb8e2e6a21b2aea150bdf196cf95ba1bb3",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181133-1fab2c7220dd\\20261014-183444-8ba707a2fb66\\POSCAR": "7d284aafa9a383fba9d81585b671f38a7d631bd9fdd8745479d20d361cdef575",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181133-1fab2c7220dd\\20261014-183444-8ba707a2fb66\\CONTCAR": "7354b2bfb2c70e9cae841d2c2b142a5a4243ceb8b586d86b90107c3e55bd31aa",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181133-1fab2c7220dd\\20261014-183444-8ba707a2fb66\\INCAR": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181133-1fab2c7220dd\\20261014-183444-8ba707a2fb66\\KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181133-1fab2c7220dd\\20261014-183444-8ba707a2fb66\\POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\01\\OUTCAR": "aca60fd8295ff37c11c4275a56a0e8b23333b05f3d38dafc34d3be2830440ed8",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\01\\vasprun.xml": "68b1c6cc1f3ae72838c47850438c976f4225207cf5115d74ba5f32876e5e4744",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\01\\POSCAR": "285298f15674e5df54e60e23363255fe77da112b62d17ce14894d8ddde2973f6",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\01\\CONTCAR": "61ca2a4d7d2de02bc78150236dc7f4ae4f7e0caf96a145f127631e7a197b1f14",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\02\\OUTCAR": "022942902d168a1b6c4be1741424fac7b052bcb8416ec265885370873c82b97f",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\02\\vasprun.xml": "23fa48bd0dd7ebcc7b9ce8df3db308d0e436a0b4171cb75a7ceafbb3dc22ee33",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\02\\POSCAR": "8db79554ba9f80ddb82e1fdcaa398aeb8ff8c3755ca7bc2069604ab7bdaa5d84",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\02\\CONTCAR": "0b3b7db0fe5073ab3814dd920e058434b29737e6bf8a4bb749a400daba70ca0b",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\03\\OUTCAR": "a6a5bf95a9b65c9ac0abc48943f4b94c57e2438490e9b9b74e33d68c5eab73d7",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\03\\vasprun.xml": "1ccbeb0314c5c6cbaafe91483be537e726b2ddc5ddf9e8d09fc049e779e6f4ef",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\03\\POSCAR": "96f4df36c459b7da926989de8d9694485093d14701c1f91dc36bbd487ca7d0e7",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\03\\CONTCAR": "483f60811cc5f31084ceea5fe7b9850cb0b2ec89606f78ba6d061727d48678ce",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\04\\OUTCAR": "d9cbffc65735a1113861667ade4d86672f88787996581c8ac14f25362ce6bf82",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\04\\vasprun.xml": "6c1d7fae1b42bce94847fa254b6b21cb770a7c2d06e314ba6c2ec9a3ce3c120e",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\04\\POSCAR": "89abbe4802363b731ee559a16c558653a6d4c5b139f53a274798a87b94f86d2b",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\04\\CONTCAR": "3531c495adb69e9a1a68cca0ddf421bfd3b80cb460c7660d98988b6263f6a815",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181345-65869c013eca\\20261014-183550-2da98a745688\\OUTCAR": "85910f0cecc85dfb20ff55df60f38704777a4bae2a0d547029de2d019dd04001",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181345-65869c013eca\\20261014-183550-2da98a745688\\vasprun.xml": "ec10f92a697809845dbfc66b697646309e083616e5196fac2e20e7d3b72d802f",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181345-65869c013eca\\20261014-183550-2da98a745688\\POSCAR": "dca7cb5c1acd4e465eb85ad5986d2c5f48e7f7d2229443dba1b026a1d5927490",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181345-65869c013eca\\20261014-183550-2da98a745688\\CONTCAR": "14b32c5b42d3ce384759451377fa505473503f27caafd7c2e677a7676d22dbba",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181345-65869c013eca\\20261014-183550-2da98a745688\\INCAR": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181345-65869c013eca\\20261014-183550-2da98a745688\\KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181345-65869c013eca\\20261014-183550-2da98a745688\\POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\01\\OUTCAR": "f0cdc5627590f03da327b1df5d26b35b998e681ad71eaa628b8a33d0a47d1c5e",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\01\\vasprun.xml": "6b5b290946457373c0c4fe4cad506c62ba6ae3b06406eb691529d87cb7fd56cc",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\01\\POSCAR": "475b24037f4a13c1445772730de24cfb03be66a4590f45b5280092610163913c",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\01\\CONTCAR": "a752b4ac3c55a6231c0f20de31fa4619a464095d7ff75149054486bbe57232cd",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\02\\OUTCAR": "2fbc11957364a00b38dda45e23d8549132c2a48c8cfe9b953679189e5439ec9e",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\02\\vasprun.xml": "7ae84cba8d8201203bef8a733f6571184e9249bcd24b2330339b25df4dd02673",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\02\\POSCAR": "74b55aea6c08608a4d1fbef91d300bd8aa34b343b8be3878590dc94a2f6a3b7f",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\02\\CONTCAR": "aaf5845c248d10adddd425ba1605d5a14e489c05ae153ee0921114a268d3d461",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\03\\OUTCAR": "37141b41dfd38436421c2a14d4662e351a5bcbc344f5ff39631514b2ebff6e81",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\03\\vasprun.xml": "7872d3d610c7610756c41d91d80109fada9c815cef5f458c74aefdb3950b8bd1",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\03\\POSCAR": "c47429b59bd4aed279825bc500f9f6214454f396733fd17aab5d9f0ef23707df",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\03\\CONTCAR": "2aaf5bc1ecefd682af1a5d0313f498630dab850062e2756d2ed107c5eef92adb",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\04\\OUTCAR": "2ce167efb8d1ff91a7e45439707a40b022d85f0b621901863221fc0d931d8957",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\04\\vasprun.xml": "3bc16bdd70583bd22c8148b74a29b0cccc38d3adc35ae7da9cc251ed63709b66",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\04\\POSCAR": "ad501c374f5f29e2d331e3684bc89204b175388b89d5d119c16b0d5b81e929e9",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\04\\CONTCAR": "231cb842d88ca76baff04ed83aa9cd5c3f94854ed5ed854a195d5fd2d691f235",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181431-0ba3c1941083\\20261014-183903-cc96775b11b7\\OUTCAR": "e6905eebbaff67251932a921473a7cdf3d7a0f83be994174488b55d0fd79bbdd",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181431-0ba3c1941083\\20261014-183903-cc96775b11b7\\vasprun.xml": "86f14b5adf72952a37363ba290deea6e69a5fad8cd30a4ae5ff69392b2a8d664",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181431-0ba3c1941083\\20261014-183903-cc96775b11b7\\POSCAR": "6b15b6b4a7d3f7c66db6a79ca12ed645c381aa4931a510d4cf7ad94e8d3018ac",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181431-0ba3c1941083\\20261014-183903-cc96775b11b7\\CONTCAR": "4f0179a6237abfc42a038ceed97b40c2db359fe60695de539342a45b88a86f01",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181431-0ba3c1941083\\20261014-183903-cc96775b11b7\\INCAR": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181431-0ba3c1941083\\20261014-183903-cc96775b11b7\\KPOINTS": "b9791407074988fd27c209d20fbf7702e11c306611d147c05112fd003a89b09b",
+    "C:\\Users\\28307\\Documents\\复刻\\hpc\\results\\20261014-181431-0ba3c1941083\\20261014-183903-cc96775b11b7\\POTCAR": "8b68dd5ab1c421ada437fa794a3f4f72b76e4cdbc281885a0dd54714dc6b30ed"
+  },
+  "source_evidence_sha256": {
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\transport_phase34_20261015\\transport_model.json": "fb29cfd6ba4caa3df2ba3ab2013c438843587e311fac5cc211fc4ad56cc48927",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\transport_phase34_20261015\\network_admission_certificate.json": "e361cccb193dd936d66d14cc1a6273c4a308af97ecbc1001fff60dde4119ebf4",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\vacancy63_endpoints_k4\\endpoint_preparation.json": "ff3702211ae40cc95f3e17514e8a2b8c2149043defaa31bfa0b0bdaa61153909",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\host_supercell64\\POSCAR": "ded490b8cdeeba8640bc235f8300fd0e7c2f9ba2b62fb3849c7fae1bc5bcb02e",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\host_symmetry_projection\\POSCAR": "10a5d334124297b2f60ec21b4d6b3b8bdc3cef0bb575dc2318fac975571c4819",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\host_supercell64\\supercell_mapping.json": "94ea60165f6ef77ae4660aebfd4ebe4f6c41f9aad91ee4c6c1ca41ad81ba4e5e",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\scripts\\endpoint_mapping.py": "1a1d2589896ebf14dc897613bff77e273909a6f73c1271ecccec4a51548c9bff",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\scripts\\hop_geometry.py": "3748b17d570b320bc61f29ec507908eb6cf88942ca09346418fbd034d4aa14a8",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\scripts\\analyze_vasp.py": "298e42294fa2a2fdfe89b6684384b06080574a73606770e6028693c803cc3926",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\scripts\\analyze_neb.py": "d301994563a4445cbb3f1b4e3359a91ae9c733dd4270941adb13877471926e3a",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\scripts\\compute_round1_transport.py": "91f5088fa81e8dcdb374d3fb051919d4198a5f1d566bdec4c36167d86eecaf12",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\scripts\\network_arrays.py": "deaaa4238e3fb3fc59c9fb54549feb399d4040979514596964b50a27b5261cc5"
+  },
+  "analyzer_path": "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261027_forward_reverse\\audit_forward_reverse_20261027.py",
+  "analyzer_sha256": "dad4f03063c995f24f57af0e3212f2c986d0062616690e9f4e92929843839339"
+}

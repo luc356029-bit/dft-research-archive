@@ -1,0 +1,362 @@
+{
+  "date": "2026-11-12",
+  "outputs": {
+    "audit_clock.py": {
+      "size": 6873,
+      "sha256": "94be520cd7e4c06e65a91c82f6c2dfd6b32c22ca28146a4038a5815849dd2046"
+    },
+    "clock_audit.json": {
+      "size": 93513,
+      "sha256": "c4449448e1f40da306b8bfd5f74bc000fbddf38272801c2ab86d0677e8c4fe43"
+    },
+    "clock_verification.json": {
+      "size": 13753,
+      "sha256": "143e626dace1e508ace9a82f4c7482f6800fc96a3bbe7ffe919bb390b7b2558b"
+    },
+    "conditional_time_sensitivity.csv": {
+      "size": 1844,
+      "sha256": "ed025806de060e64fe16506f6eaa078fc8c4420d5d71130be076ecc54a608443"
+    },
+    "conditional_time_sensitivity.png": {
+      "size": 79996,
+      "sha256": "87eeb641ff3151a52d8dcccf2b7259470fa5c39326496b4d0376f140ef345187"
+    },
+    "LiSi_KMC时钟_有限迁移时间与尝试频率局限_20261112.md": {
+      "size": 15303,
+      "sha256": "08fac7ea89c0cf4d9e2ba37d8cc7f84af2367a5cda6b242a0d878f051d3b171e"
+    },
+    "scope_and_sources.md": {
+      "size": 2735,
+      "sha256": "c6daf14dc901bbf551ad76ab2ed5e226665148527ee72b8fb11d6871f4deb605"
+    },
+    "verify_clock_and_package.py": {
+      "size": 4819,
+      "sha256": "91db15010fce0ca33e63d067eecf29eaba63e714badb7d1d9c12ee836fbc6c3a"
+    }
+  },
+  "included_inputs": {
+    "C阶段自主预验证\\round1\\scripts\\tracer_kmc.py": {
+      "size": 3809,
+      "sha256": "b43fcfc3b5bcfdf66a99d7a24ec3a4b5b6c2264df39801dc0f9d4ed3a90aab2f"
+    },
+    "C阶段自主预验证\\round1\\analysis\\transport_phase34_20261015\\transport_model.json": {
+      "size": 98104,
+      "sha256": "fb29cfd6ba4caa3df2ba3ab2013c438843587e311fac5cc211fc4ad56cc48927"
+    },
+    "C阶段自主预验证\\round1\\supplements\\20261109_external_validation\\root\\conv128_800.json": {
+      "size": 83045,
+      "sha256": "f3021323bac4144088282ec74527408dc8f15f871d24be01181406fc9e9e4b36"
+    },
+    "C阶段自主预验证\\round1\\supplements\\20261112_key_attribution\\P1_external_prefactors.json": {
+      "size": 16103,
+      "sha256": "d7cb6f9314a5a91c14a179f17da98f107445dda75790d24998c6eb202325b859"
+    },
+    "C阶段自主预验证\\round1\\scripts\\transport.py": {
+      "size": 6262,
+      "sha256": "fd298290b1c75f2cae69f1d21ef7d2397151140a9fe11f4d70602a0d21a84869"
+    },
+    "C阶段自主预验证\\round1\\scripts\\network_arrays.py": {
+      "size": 2785,
+      "sha256": "deaaa4238e3fb3fc59c9fb54549feb399d4040979514596964b50a27b5261cc5"
+    },
+    "C阶段自主预验证\\round1\\supplements\\20261109_external_validation\\modern\\literature_orbit_mapping.json": {
+      "size": 24316,
+      "sha256": "03c6b32cafc1bb73efea0b818cdaa7b187fd65567e9ce1e563624f4ad6f770f6"
+    },
+    "hpc\\results\\20261015-162317-f2506b4fba1d\\20261015-172059-88964407aea3\\INCAR": {
+      "size": 474,
+      "sha256": "36b086cc86d3d52abf4f953c9fd6cdf4569e07b1d0e0b78195120fbd1834fdbc"
+    },
+    "hpc\\results\\20261015-141855-c4fc17fd72fb\\20261015-160838-33dd28925e67\\INCAR": {
+      "size": 475,
+      "sha256": "7f4c2279eeb0fab7e0e281748da257ba5c3ee097f5567b89dab7a0b48a6672de"
+    },
+    "hpc\\results\\20261015-104151-7c65b89a89b1\\20261015-112859-57b8af41dd56\\INCAR": {
+      "size": 475,
+      "sha256": "01b8d098a15a21ba2b6c95997becdfacdb768ba424aa30a080ce4316fa297025"
+    },
+    "hpc\\results\\20261015-053543-1ca3eea7dc40\\20261015-102600-b1e88e0f8238\\INCAR": {
+      "size": 475,
+      "sha256": "a3b74966f88e244b94eb1c1ed6d64b2d0177cc6223cd2915c50a371b9c69a2d1"
+    },
+    "hpc\\results\\20261015-044224-2f550f2366d8\\20261015-052709-0e65e8880ee7\\INCAR": {
+      "size": 267,
+      "sha256": "56f1061fca7f57c2ebbc15f568a2b03d73d80d60e68af2b235e1317ccb165ee2"
+    },
+    "hpc\\results\\20261015-044146-26c32259836e\\20261015-052438-b8fed7eb1c70\\INCAR": {
+      "size": 267,
+      "sha256": "56f1061fca7f57c2ebbc15f568a2b03d73d80d60e68af2b235e1317ccb165ee2"
+    },
+    "hpc\\results\\20261015-044130-dc214d5002ae\\20261015-052438-0301d010f25b\\INCAR": {
+      "size": 268,
+      "sha256": "fe8836afb1c6d53cdef59a0754b39da1889816ccdd3aacc830cb5321c4137321"
+    },
+    "hpc\\results\\20261015-044104-1587751d9522\\20261015-052438-e91dff51ca6c\\INCAR": {
+      "size": 268,
+      "sha256": "fe8836afb1c6d53cdef59a0754b39da1889816ccdd3aacc830cb5321c4137321"
+    },
+    "hpc\\results\\20261015-043934-3901bbed1458\\20261015-052437-2af1e1cb1e44\\INCAR": {
+      "size": 267,
+      "sha256": "f2ee2705d860815fdd3315cef3af3a86321d9718b1270edc3f0b847d9239105d"
+    },
+    "hpc\\results\\20261015-043841-eb1d2b277451\\20261015-052437-fea2692eb194\\INCAR": {
+      "size": 267,
+      "sha256": "f2ee2705d860815fdd3315cef3af3a86321d9718b1270edc3f0b847d9239105d"
+    },
+    "hpc\\results\\20261015-043752-9a4f26e8dbeb\\20261015-052437-ba47edca9d35\\INCAR": {
+      "size": 267,
+      "sha256": "56f1061fca7f57c2ebbc15f568a2b03d73d80d60e68af2b235e1317ccb165ee2"
+    },
+    "hpc\\results\\20261015-043731-286556bf0b8e\\20261015-052437-1949f1f1d5e3\\INCAR": {
+      "size": 267,
+      "sha256": "56f1061fca7f57c2ebbc15f568a2b03d73d80d60e68af2b235e1317ccb165ee2"
+    },
+    "hpc\\results\\20261015-043415-dde74f1a3195\\20261015-052437-d494614a387b\\INCAR": {
+      "size": 474,
+      "sha256": "5fef4692d9e3ed0f3d305e9d9519d1e03b703177715e36f40c67964088701c1b"
+    },
+    "hpc\\results\\20261015-043402-3926af832b1c\\20261015-052438-ac657d2a2976\\INCAR": {
+      "size": 267,
+      "sha256": "56f1061fca7f57c2ebbc15f568a2b03d73d80d60e68af2b235e1317ccb165ee2"
+    },
+    "hpc\\results\\20261015-043311-2be34046a1c2\\20261015-052438-6668a002b345\\INCAR": {
+      "size": 267,
+      "sha256": "56f1061fca7f57c2ebbc15f568a2b03d73d80d60e68af2b235e1317ccb165ee2"
+    },
+    "hpc\\results\\20261015-012025-e621e40d0fc7\\20261015-192212-5d7c95164d61\\cpu32\\INCAR": {
+      "size": 284,
+      "sha256": "a365e19722942f1907363ed0b42abda4e6ede4c47fb398deb445b55599897ede"
+    },
+    "hpc\\results\\20261015-011239-f5656a4070e3\\20261015-043320-f397262e79ad\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261015-011144-c371260fed85\\20261015-043320-5acbee28659d\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261015-010330-a81459e70ab3\\20261015-042216-f11a206ea7fc\\INCAR": {
+      "size": 475,
+      "sha256": "8ceedd460b009ec1818eb14568c8a45d01ab832396106f080fb9c043682289fa"
+    },
+    "hpc\\results\\20261015-005908-1f876444686a\\20261015-042216-f1d08c01c447\\INCAR": {
+      "size": 475,
+      "sha256": "0a611a61b2c970ab1dcca5dfc4acba645b160aec01022581723dc6fbf6488f28"
+    },
+    "hpc\\results\\20261014-233534-c42d615a835c\\20261015-004430-deaa8989905b\\cpu16\\INCAR": {
+      "size": 284,
+      "sha256": "a365e19722942f1907363ed0b42abda4e6ede4c47fb398deb445b55599897ede"
+    },
+    "hpc\\results\\20261014-223821-93c67d4da9ad\\20261015-010212-26fce6eb816f\\INCAR": {
+      "size": 475,
+      "sha256": "459e92e82a83e8a5c4290aa0e908409b6a4b620f3c9ef3bbd9f53b855b6636c8"
+    },
+    "hpc\\results\\20261014-203629-82353ebf0211\\20261015-004430-c799a2d90af1\\INCAR": {
+      "size": 475,
+      "sha256": "b9a31465faac7db27c463806973e1689b98fe3ab5bb4678c304bf35696a92561"
+    },
+    "hpc\\results\\20261014-190242-46f0a360255e\\20261015-004430-c14c3f1f532d\\INCAR": {
+      "size": 454,
+      "sha256": "18ce22754f72dbe1eac769296f713f233f0396277781431f9cc9a25b6a04fa7a"
+    },
+    "hpc\\results\\20261014-190133-9180ec7c2209\\20261015-004430-e2f46bdc4299\\INCAR": {
+      "size": 454,
+      "sha256": "b13ea51d4443921053fe87a32c78a4fdd6a601673212b7c6c63f07ccb47c08ef"
+    },
+    "hpc\\results\\20261014-185939-bf3be866ab70\\20261014-223211-e3ece8232e8f\\INCAR": {
+      "size": 454,
+      "sha256": "8bf2a2b7ddf473e9896eb87f5f0727b60a8ba80a1d7581e2e6863d29c903b915"
+    },
+    "hpc\\results\\20261014-185852-db265980660a\\20261014-203439-c82a525b9b0e\\INCAR": {
+      "size": 454,
+      "sha256": "d19a4a5d472e7a0baf3c4f3b50cb9e9006abc5e3cb98ef73225de931ec1c5f34"
+    },
+    "hpc\\results\\20261014-182904-bbc909b3543c\\20261014-185625-09baa147ee3b\\INCAR": {
+      "size": 395,
+      "sha256": "6f7e933075c8f73098f8dd6887908649cd10136421e079e5c49d369f2e49904b"
+    },
+    "hpc\\results\\20261014-181923-fb19558e23fd\\20261014-193215-5a898542a0fd\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-181857-588e92be4211\\20261014-185532-5aacaeca66e0\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-181828-c6c4045fb4db\\20261014-185506-871ee67a1892\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-181719-af5b29ec0c4f\\20261014-185327-9ce137c38a96\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-181554-1673189e8a07\\20261014-183914-282f9f41b6f7\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-181506-00b42f4c90f3\\20261014-185353-dceed406ed2b\\INCAR": {
+      "size": 674,
+      "sha256": "657fc19a376085cc7000e40d0510d94727355deda2dea562bf5f004088ccb9b2"
+    },
+    "hpc\\results\\20261014-181431-0ba3c1941083\\20261014-183903-cc96775b11b7\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-181345-65869c013eca\\20261014-183550-2da98a745688\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-181311-5015c856f332\\20261014-183542-127ff8dcc0f8\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-181159-f016161e28c0\\20261014-183509-3967ff8c02bd\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-181133-1fab2c7220dd\\20261014-183444-8ba707a2fb66\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-181033-f3bb5b608e2c\\20261014-183423-c7f4ec08e278\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-173324-8e07972d6970\\20261014-180843-8c13bf36398f\\INCAR": {
+      "size": 396,
+      "sha256": "50925b58aead2b8cfe16054d82ac17549d4a48c79c9f3a997b4255d98455b3d7"
+    },
+    "hpc\\results\\20261014-173207-daaf7eb19561\\20261014-175030-08893450982d\\INCAR": {
+      "size": 396,
+      "sha256": "8eff5fcb915a4734d101b97f636a66bab76576766860eb787fd50329d5fecf55"
+    },
+    "hpc\\results\\20261014-171257-b59fb640bbc6\\20261014-175030-f246bfc86cd7\\INCAR": {
+      "size": 265,
+      "sha256": "38be135bcab456371623acf2542ea6e3461a2006b4d1ec0f708902548a2b4706"
+    },
+    "hpc\\results\\20261014-170525-d8d7a9048053\\20261014-171744-23fe5300043a\\INCAR": {
+      "size": 351,
+      "sha256": "87ad26c602b1c20d824db4ce0a0605df5feb9bab7be1cbbf14e35b0b4b375a46"
+    },
+    "hpc\\results\\20261014-170430-d8b4edd50081\\20261014-171744-e52e418943d5\\INCAR": {
+      "size": 351,
+      "sha256": "87ad26c602b1c20d824db4ce0a0605df5feb9bab7be1cbbf14e35b0b4b375a46"
+    },
+    "hpc\\results\\20261014-164513-0acc3d00d758\\20261014-165918-db851da0b34d\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-164357-68b35cd50880\\20261014-165918-2c93b1392055\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-164327-f0c7ba9797b0\\20261014-170657-6ac36d417811\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-164240-a45e438a76f4\\20261014-165326-246ef90cbfd8\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-164218-d5253ce0f248\\20261014-165326-2a833b0497b3\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-164144-d21ee43f472f\\20261014-165326-1db30f9837fa\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-164041-f6293672986d\\20261014-165326-7914a1955b98\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-163954-c059b9013d5d\\20261014-165918-053a4fdcd9a7\\INCAR": {
+      "size": 674,
+      "sha256": "657fc19a376085cc7000e40d0510d94727355deda2dea562bf5f004088ccb9b2"
+    },
+    "hpc\\results\\20261014-122042-f90048391a88\\20261014-163618-25c5cd81d88e\\cut600\\INCAR": {
+      "size": 250,
+      "sha256": "d0aa8e1e7b50cdc4c747ec012dcf1d50a303e051f6d4de507869a77995e464e7"
+    },
+    "hpc\\results\\20261014-122042-f90048391a88\\20261014-163618-25c5cd81d88e\\k15\\INCAR": {
+      "size": 250,
+      "sha256": "8198a462c2aa0900e95f9e6e9282f8d3eab87bf94d05e0dba38555eb1d3ea98e"
+    },
+    "hpc\\results\\20261014-122042-f90048391a88\\20261014-163618-25c5cd81d88e\\k21\\INCAR": {
+      "size": 250,
+      "sha256": "8198a462c2aa0900e95f9e6e9282f8d3eab87bf94d05e0dba38555eb1d3ea98e"
+    },
+    "hpc\\results\\20261014-122042-f90048391a88\\20261014-163618-25c5cd81d88e\\sigma05\\INCAR": {
+      "size": 251,
+      "sha256": "5c763b14a43bdd31cba7183d5ce0750379060c47b1b0c41411da5e66191345e7"
+    },
+    "hpc\\results\\20261014-120839-c5d5aa70ecb6\\20261014-121745-4a18c7fc9fb9\\a330\\INCAR": {
+      "size": 250,
+      "sha256": "8198a462c2aa0900e95f9e6e9282f8d3eab87bf94d05e0dba38555eb1d3ea98e"
+    },
+    "hpc\\results\\20261014-120839-c5d5aa70ecb6\\20261014-121745-4a18c7fc9fb9\\a340\\INCAR": {
+      "size": 250,
+      "sha256": "8198a462c2aa0900e95f9e6e9282f8d3eab87bf94d05e0dba38555eb1d3ea98e"
+    },
+    "hpc\\results\\20261014-120839-c5d5aa70ecb6\\20261014-121745-4a18c7fc9fb9\\a350\\INCAR": {
+      "size": 250,
+      "sha256": "8198a462c2aa0900e95f9e6e9282f8d3eab87bf94d05e0dba38555eb1d3ea98e"
+    },
+    "hpc\\results\\20261014-120839-c5d5aa70ecb6\\20261014-121745-4a18c7fc9fb9\\a360\\INCAR": {
+      "size": 250,
+      "sha256": "8198a462c2aa0900e95f9e6e9282f8d3eab87bf94d05e0dba38555eb1d3ea98e"
+    },
+    "hpc\\results\\20261014-120839-c5d5aa70ecb6\\20261014-121745-4a18c7fc9fb9\\a370\\INCAR": {
+      "size": 250,
+      "sha256": "8198a462c2aa0900e95f9e6e9282f8d3eab87bf94d05e0dba38555eb1d3ea98e"
+    },
+    "hpc\\results\\20261014-114821-1ef7c9abd7b3\\20261014-121226-9ce13d193813\\INCAR": {
+      "size": 265,
+      "sha256": "f675e3f05644cf962227c07ba4a8d4c834839a2981b1e3b9381396aaa28744d2"
+    },
+    "hpc\\results\\20261014-114101-db4417213cce\\20261014-163711-7783ff421067\\INCAR": {
+      "size": 266,
+      "sha256": "24c6e55b9483ccf0a3f0a553615bfd69ff1d55143be20c7ff7698d6c26cdee30"
+    },
+    "hpc\\results\\20261014-111037-4053dcc0f67e\\20261014-113654-5f92573b582e\\INCAR": {
+      "size": 267,
+      "sha256": "56f1061fca7f57c2ebbc15f568a2b03d73d80d60e68af2b235e1317ccb165ee2"
+    },
+    "hpc\\results\\20261014-110727-13e4d1f4dcbe\\20261014-113654-880c471477d1\\INCAR": {
+      "size": 267,
+      "sha256": "56f1061fca7f57c2ebbc15f568a2b03d73d80d60e68af2b235e1317ccb165ee2"
+    },
+    "hpc\\results\\20261014-105140-fa380ac335c8\\20261014-110135-78fc6d5f1460\\INCAR": {
+      "size": 267,
+      "sha256": "56f1061fca7f57c2ebbc15f568a2b03d73d80d60e68af2b235e1317ccb165ee2"
+    },
+    "hpc\\results\\20261014-104640-032f863e088c\\20261014-110135-033fb3ef54fa\\cut600\\INCAR": {
+      "size": 265,
+      "sha256": "4b3a500a4b367b768b0da80e62aed5ccc12458276c5339f619dc60eaf1e39d62"
+    },
+    "hpc\\results\\20261014-104640-032f863e088c\\20261014-110135-033fb3ef54fa\\k7\\INCAR": {
+      "size": 265,
+      "sha256": "3f8ece5994bbe44c02b8964f23bd7868b9fe6b811ac4f3c7cd5083d4b79e2eb7"
+    },
+    "hpc\\results\\20261014-104640-032f863e088c\\20261014-110135-033fb3ef54fa\\sigma05\\INCAR": {
+      "size": 266,
+      "sha256": "1f350d7dc8992bfa6b38e2bb945a6689ea1b1ee3c891502d30b016e2676fcc0f"
+    },
+    "hpc\\results\\20261014-102635-433db1036222\\20261014-104457-02a6dbd9d67f\\INCAR": {
+      "size": 267,
+      "sha256": "dbd0f85da7b13d3ba65fcaada6d498d953bdd30d01f611bb22e27b16ae1c9687"
+    },
+    "hpc\\results\\20261014-102152-de6533bf1e8e\\20261014-102530-46e5ba99f134\\INCAR": {
+      "size": 230,
+      "sha256": "ee3c4d5b16925dbafa3bf016d27b36f3a45caceabc1b05b68f0c9709667288db"
+    }
+  },
+  "other_source_SHA": {
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261109_kumar_comparison\\Kumar2020_author.pdf": "22cb10f7d5094ab81f480d05e578cfafc973f9eab79735d91172a506cd967db6",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261109_external_validation\\modern\\ACS2022_SI.pdf": "9f1701595cae4ad19f85cfdd9066521452584a0dbff411665886ee86b86f7252",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261109_external_validation\\modern\\IOP2025.pdf": "083f47da4555c3779735fe49beb4a962ada3fa80478e81afcf33676a8ce9dce4"
+  },
+  "previous_source_bundle": "https://drive.google.com/file/d/1BUbOThH_foPL0uuB65wD0Xy1AE_b9_PD/view",
+  "note": "Existing source PDFs stay in earlier complete packet; this supplement includes no new primary PDF or MD trajectory. No licensed potentials or credentials included."
+}

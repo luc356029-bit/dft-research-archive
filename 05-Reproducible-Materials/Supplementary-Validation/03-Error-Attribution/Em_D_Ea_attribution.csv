@@ -1,0 +1,11 @@
+﻿quantity,comparison,ours,reference,units,status,evidence,cause,source,stop
+Em,ours00/Kirsch6,0.2534438050000176,0.2202858734599431,eV,尚未解释,已有证据;本轮新验证,Size/cell/DFT protocol and force/constraint metadata not isolated,P0_profiles.json,Missing actual external defect cell and per-image forces/full input
+Em,ours02/Kirsch7,0.24590949000003093,0.25261022892664187,eV,尚未解释,已有证据;本轮新验证,Size/cell/DFT protocol and force/constraint metadata not isolated,P0_profiles.json,Missing actual external defect cell and per-image forces/full input
+Em,ours01/Kirsch8,0.2358302050000134,0.2848714730498614,eV,尚未解释,已有证据;本轮新验证,Size/cell/DFT protocol and force/constraint metadata not isolated,P0_profiles.json,Missing actual external defect cell and per-image forces/full input
+D,Kirsch800K_cv1/128_Li,2.676722303268328e-07,1e-07,cm2/s,尚未解释,已有证据;本轮新验证,Opposing Em effects identified; prefactor/MD statistics unresolved,P1_single_controls.json;P1_external_prefactors.json,No MD raw or complete MSD normalization/rate data
+D,Em_cancellation,1.0321776168011698,1,ratio,已解释,本轮新验证,00 increases;01 decreases;02 small effect unresolved at95%,P1_single_controls.json,Single-path question answered; no further trajectories
+D,disable03,0.6715615360045509,1,ratio,已解释,本轮新验证,Rare family alters tracer correlations; deletion is not additive physical attribution,P1_disable03_raw.json,No evidence MD omits03
+Ea,fit_sensitivity,0.2516111091680399,,eV,已解释,本轮新验证,Three-point range only a few meV,P2_ea_sensitivity_v2.json,Existing temperature points sufficient for this diagnostic
+Ea,Dou2024,0.2516111091680399,0.268,eV,部分解释,已有证据;本轮新验证,Effective path-weighted barrier differs from Arrhenius slope; exact inputs unknown,target_paper.pdf p5;P2_ea_sensitivity_v2.json,Original path/defect/prefactor/code unavailable
+Ea,Kumar2020,0.2516111091680399,0.27,eV,不可识别,已有证据,"Observable normalization, phonon rates, fit interval not jointly aligned",Kumar2020_author.pdf;20261109_kumar_comparison,No forced conversion
+Ea,Moon2016,0.2516111091680399,0.306,eV,不可识别,已有证据,Missing cv/normalization/nu/fit and possible graph/abstract inconsistency,older_findings.md,No failed downloads repeated

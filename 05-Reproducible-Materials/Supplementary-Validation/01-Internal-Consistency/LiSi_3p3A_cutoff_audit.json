@@ -1,0 +1,917 @@
+{
+  "timestamp": "2026-10-27T15:51:00.895033+08:00",
+  "scope": "Geometry-only explanatory supplement. No new DFT, barriers, KMC or transport result.",
+  "source_host": "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\host_symmetry_projection\\POSCAR",
+  "source_host_sha256": "10a5d334124297b2f60ec21b4d6b3b8bdc3cef0bb575dc2318fac975571c4819",
+  "host_atoms": 16,
+  "Li_sites": 8,
+  "geometric_cutoff_definition": "Include every periodic Li-Li pair with ||(f_j+S-f_i)A|| < r_c; retain full periodic images, count reverse pairs once.",
+  "independent_enumeration": {
+    "maximum_radius_A": 5.0,
+    "integer_image_bounds_per_axis": [
+      3,
+      2,
+      2
+    ],
+    "complete_by_reciprocal_lattice_bound": true,
+    "agrees_with_ASE_neighbor_list": true,
+    "agrees_with_symmetry_enumeration_at_all_tested_radii": true
+  },
+  "first_ten_distance_shells": [
+    {
+      "distance_min_A": 2.6949581037973322,
+      "distance_max_A": 2.694958103797336,
+      "undirected_edges": 4
+    },
+    {
+      "distance_min_A": 2.9284742940935735,
+      "distance_max_A": 2.928474294093577,
+      "undirected_edges": 8
+    },
+    {
+      "distance_min_A": 2.9460025179823437,
+      "distance_max_A": 2.946002517982345,
+      "undirected_edges": 4
+    },
+    {
+      "distance_min_A": 3.053854582967422,
+      "distance_max_A": 3.0538545829674253,
+      "undirected_edges": 8
+    },
+    {
+      "distance_min_A": 4.2251006096728485,
+      "distance_max_A": 4.225100609672851,
+      "undirected_edges": 8
+    },
+    {
+      "distance_min_A": 4.623471817203569,
+      "distance_max_A": 4.623471817203573,
+      "undirected_edges": 4
+    },
+    {
+      "distance_min_A": 4.710315016079445,
+      "distance_max_A": 4.7103150160794485,
+      "undirected_edges": 8
+    },
+    {
+      "distance_min_A": 4.770964896287685,
+      "distance_max_A": 4.770964896287687,
+      "undirected_edges": 8
+    },
+    {
+      "distance_min_A": 4.842859825706581,
+      "distance_max_A": 4.842859825706585,
+      "undirected_edges": 8
+    },
+    {
+      "distance_min_A": 4.9983952879445885,
+      "distance_max_A": 4.998395287944591,
+      "undirected_edges": 8
+    }
+  ],
+  "four_baseline_orbits": [
+    {
+      "path_id": 0,
+      "Ni": 4,
+      "distance_min_A": 2.6949581037973322,
+      "distance_max_A": 2.694958103797336
+    },
+    {
+      "path_id": 1,
+      "Ni": 8,
+      "distance_min_A": 2.9284742940935735,
+      "distance_max_A": 2.928474294093577
+    },
+    {
+      "path_id": 2,
+      "Ni": 4,
+      "distance_min_A": 2.9460025179823437,
+      "distance_max_A": 2.946002517982345
+    },
+    {
+      "path_id": 3,
+      "Ni": 8,
+      "distance_min_A": 3.0538545829674217,
+      "distance_max_A": 3.0538545829674253
+    }
+  ],
+  "cutoff_sweep": [
+    {
+      "radius_A": 2.7,
+      "orbit_count": 1,
+      "undirected_edges": 4,
+      "same_edge_set_as_3p3_A": false,
+      "geometric_3d_connected": false,
+      "component_count": 4,
+      "component_translation_ranks": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "radius_A": 2.93,
+      "orbit_count": 2,
+      "undirected_edges": 12,
+      "same_edge_set_as_3p3_A": false,
+      "geometric_3d_connected": true,
+      "component_count": 1,
+      "component_translation_ranks": [
+        3
+      ]
+    },
+    {
+      "radius_A": 3.0,
+      "orbit_count": 3,
+      "undirected_edges": 16,
+      "same_edge_set_as_3p3_A": false,
+      "geometric_3d_connected": true,
+      "component_count": 1,
+      "component_translation_ranks": [
+        3
+      ]
+    },
+    {
+      "radius_A": 3.1,
+      "orbit_count": 4,
+      "undirected_edges": 24,
+      "same_edge_set_as_3p3_A": true,
+      "geometric_3d_connected": true,
+      "component_count": 1,
+      "component_translation_ranks": [
+        3
+      ]
+    },
+    {
+      "radius_A": 3.2,
+      "orbit_count": 4,
+      "undirected_edges": 24,
+      "same_edge_set_as_3p3_A": true,
+      "geometric_3d_connected": true,
+      "component_count": 1,
+      "component_translation_ranks": [
+        3
+      ]
+    },
+    {
+      "radius_A": 3.3,
+      "orbit_count": 4,
+      "undirected_edges": 24,
+      "same_edge_set_as_3p3_A": true,
+      "geometric_3d_connected": true,
+      "component_count": 1,
+      "component_translation_ranks": [
+        3
+      ]
+    },
+    {
+      "radius_A": 4.2,
+      "orbit_count": 4,
+      "undirected_edges": 24,
+      "same_edge_set_as_3p3_A": true,
+      "geometric_3d_connected": true,
+      "component_count": 1,
+      "component_translation_ranks": [
+        3
+      ]
+    },
+    {
+      "radius_A": 4.3,
+      "orbit_count": 5,
+      "undirected_edges": 32,
+      "same_edge_set_as_3p3_A": false,
+      "geometric_3d_connected": true,
+      "component_count": 1,
+      "component_translation_ranks": [
+        3
+      ]
+    },
+    {
+      "radius_A": 5.0,
+      "orbit_count": 10,
+      "undirected_edges": 68,
+      "same_edge_set_as_3p3_A": false,
+      "geometric_3d_connected": true,
+      "component_count": 1,
+      "component_translation_ranks": [
+        3
+      ]
+    }
+  ],
+  "last_included_shell_max_A": 3.0538545829674253,
+  "first_excluded_shell_min_A": 4.2251006096728485,
+  "gap_between_fourth_and_fifth_shell_A": 1.1712460267054232,
+  "lower_safety_margin_for_3p3_A": 0.24614541703257453,
+  "upper_safety_margin_for_3p3_A": 0.9251006096728487,
+  "first_geometrically_3d_connected_shell_distance_A": 2.928474294093577,
+  "historic_choice_status": "3.3 A is an explicitly adopted finite candidate radius. Historic scripts hard-code this value; no unique numerical derivation or paper-specified LiSi 3.3 A rule was recorded. This later audit supplies a geometric justification, not a reconstructed contemporaneous derivation.",
+  "old_4p2_control_interpretation": "Both 3.3 and 4.2 A stop before the fifth shell at about4.2251 A. The existing no-added-orbits check is correct, but does not test the first new shell or prove energetic mechanism completeness.",
+  "limits": [
+    "Short Li-site endpoint distance is not a proof of a low barrier or of an elementary hop.",
+    "Graph connectivity is not energetic pathway completeness.",
+    "The new4.3/5.0 A candidates have no new NEB validation and are not added to the admitted Ea/D model."
+  ],
+  "source_evidence_sha256": {
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\host_symmetry_projection\\POSCAR": "10a5d334124297b2f60ec21b4d6b3b8bdc3cef0bb575dc2318fac975571c4819",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\complete_orbit_connectivity_INTEGER.json": "b5ddd47332c4ba02346a079a54796441a370edd57cdc063f2229d055711e9cb8",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\analysis\\host_symmetry_projection\\projection_report.json": "b953d636796d9bfb698d346e6934ff60068d5f510315e116e158a80211f912a0",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\sources\\repository\\10.9research2\\文献与基准\\论文原文提取.txt": "5939e733576048379ed06d4ff7f495eb9b085f0ab806d9700a5f138978c5df30",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\sources\\repository\\高通量筛选、输运研究复刻\\工作流\\B分析.md": "70937186d970d8a04fd03faebe066e5c16ac3cc654daec519e76453d137da99a",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\scripts\\hop_geometry.py": "3748b17d570b320bc61f29ec507908eb6cf88942ca09346418fbd034d4aa14a8",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\scripts\\network_arrays.py": "deaaa4238e3fb3fc59c9fb54549feb399d4040979514596964b50a27b5261cc5",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\scripts\\periodic_topology.py": "e191190b79826dc5611c8a60905d8957afd927eef60c8da58bda80498c3292f5",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\scripts\\precheck_orbit_connectivity.py": "29973502fe7c2004d35a3b4d5c0dbed4c2cd8fc7e9d6da850a34707b3b090c74",
+    "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\scripts\\project_host.py": "caf97c059d650b38be7633710dc322e5f2c89932fc13f7e475596020d8620633"
+  },
+  "analyzer_path": "C:\\Users\\28307\\Documents\\复刻\\C阶段自主预验证\\round1\\supplements\\20261027_cutoff33\\verify_cutoff33_20261027.py",
+  "analyzer_sha256": "b1c1865615955f650d8dd42a8d1909f83780e5fb1d500a4c26617e1087200878",
+  "versions": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "ASE": "3.29.0",
+    "numpy": "2.5.4",
+    "spglib": "2.8.0"
+  },
+  "independent_edges_to_5A": [
+    {
+      "edge": [
+        0,
+        1,
+        0,
+        0,
+        -1
+      ],
+      "distance_A": 3.0538545829674253
+    },
+    {
+      "edge": [
+        0,
+        1,
+        0,
+        1,
+        -1
+      ],
+      "distance_A": 4.842859825706581
+    },
+    {
+      "edge": [
+        0,
+        2,
+        -1,
+        1,
+        0
+      ],
+      "distance_A": 4.842859825706583
+    },
+    {
+      "edge": [
+        0,
+        2,
+        0,
+        1,
+        -1
+      ],
+      "distance_A": 3.053854582967422
+    },
+    {
+      "edge": [
+        0,
+        3,
+        -1,
+        0,
+        -1
+      ],
+      "distance_A": 4.770964896287685
+    },
+    {
+      "edge": [
+        0,
+        3,
+        -1,
+        0,
+        0
+      ],
+      "distance_A": 2.9460025179823446
+    },
+    {
+      "edge": [
+        0,
+        3,
+        0,
+        0,
+        -1
+      ],
+      "distance_A": 4.770964896287686
+    },
+    {
+      "edge": [
+        0,
+        4,
+        -1,
+        1,
+        -1
+      ],
+      "distance_A": 2.6949581037973322
+    },
+    {
+      "edge": [
+        0,
+        4,
+        0,
+        0,
+        -1
+      ],
+      "distance_A": 4.623471817203573
+    },
+    {
+      "edge": [
+        0,
+        5,
+        -1,
+        0,
+        0
+      ],
+      "distance_A": 2.928474294093576
+    },
+    {
+      "edge": [
+        0,
+        5,
+        -1,
+        1,
+        0
+      ],
+      "distance_A": 4.9983952879445885
+    },
+    {
+      "edge": [
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "distance_A": 4.22510060967285
+    },
+    {
+      "edge": [
+        0,
+        6,
+        -1,
+        0,
+        0
+      ],
+      "distance_A": 2.9284742940935735
+    },
+    {
+      "edge": [
+        0,
+        6,
+        0,
+        0,
+        -1
+      ],
+      "distance_A": 4.9983952879445885
+    },
+    {
+      "edge": [
+        0,
+        6,
+        0,
+        0,
+        0
+      ],
+      "distance_A": 4.225100609672851
+    },
+    {
+      "edge": [
+        0,
+        7,
+        0,
+        0,
+        0
+      ],
+      "distance_A": 4.7103150160794485
+    },
+    {
+      "edge": [
+        0,
+        7,
+        0,
+        1,
+        -1
+      ],
+      "distance_A": 4.710315016079445
+    },
+    {
+      "edge": [
+        1,
+        2,
+        -1,
+        1,
+        0
+      ],
+      "distance_A": 4.770964896287686
+    },
+    {
+      "edge": [
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      "distance_A": 2.946002517982344
+    },
+    {
+      "edge": [
+        1,
+        2,
+        0,
+        1,
+        0
+      ],
+      "distance_A": 4.770964896287687
+    },
+    {
+      "edge": [
+        1,
+        3,
+        -1,
+        0,
+        0
+      ],
+      "distance_A": 3.053854582967423
+    },
+    {
+      "edge": [
+        1,
+        3,
+        -1,
+        0,
+        1
+      ],
+      "distance_A": 4.842859825706585
+    },
+    {
+      "edge": [
+        1,
+        4,
+        -1,
+        0,
+        0
+      ],
+      "distance_A": 2.928474294093575
+    },
+    {
+      "edge": [
+        1,
+        4,
+        -1,
+        1,
+        0
+      ],
+      "distance_A": 4.998395287944591
+    },
+    {
+      "edge": [
+        1,
+        4,
+        0,
+        0,
+        0
+      ],
+      "distance_A": 4.2251006096728485
+    },
+    {
+      "edge": [
+        1,
+        5,
+        -1,
+        0,
+        1
+      ],
+      "distance_A": 2.694958103797334
+    },
+    {
+      "edge": [
+        1,
+        5,
+        0,
+        0,
+        0
+      ],
+      "distance_A": 4.623471817203569
+    },
+    {
+      "edge": [
+        1,
+        6,
+        -1,
+        0,
+        1
+      ],
+      "distance_A": 4.7103150160794485
+    },
+    {
+      "edge": [
+        1,
+        6,
+        0,
+        -1,
+        0
+      ],
+      "distance_A": 4.710315016079447
+    },
+    {
+      "edge": [
+        1,
+        7,
+        0,
+        0,
+        0
+      ],
+      "distance_A": 2.9284742940935757
+    },
+    {
+      "edge": [
+        1,
+        7,
+        0,
+        0,
+        1
+      ],
+      "distance_A": 4.998395287944589
+    },
+    {
+      "edge": [
+        1,
+        7,
+        1,
+        0,
+        0
+      ],
+      "distance_A": 4.225100609672849
+    },
+    {
+      "edge": [
+        2,
+        3,
+        -1,
+        0,
+        0
+      ],
+      "distance_A": 4.842859825706583
+    },
+    {
+      "edge": [
+        2,
+        3,
+        0,
+        -1,
+        0
+      ],
+      "distance_A": 3.053854582967422
+    },
+    {
+      "edge": [
+        2,
+        4,
+        -1,
+        0,
+        0
+      ],
+      "distance_A": 2.9284742940935757
+    },
+    {
+      "edge": [
+        2,
+        4,
+        0,
+        0,
+        -1
+      ],
+      "distance_A": 4.99839528794459
+    },
+    {
+      "edge": [
+        2,
+        4,
+        0,
+        0,
+        0
+      ],
+      "distance_A": 4.225100609672849
+    },
+    {
+      "edge": [
+        2,
+        5,
+        -1,
+        0,
+        1
+      ],
+      "distance_A": 4.710315016079448
+    },
+    {
+      "edge": [
+        2,
+        5,
+        0,
+        -1,
+        0
+      ],
+      "distance_A": 4.710315016079448
+    },
+    {
+      "edge": [
+        2,
+        6,
+        0,
+        -1,
+        0
+      ],
+      "distance_A": 2.6949581037973327
+    },
+    {
+      "edge": [
+        2,
+        6,
+        0,
+        -1,
+        1
+      ],
+      "distance_A": 4.623471817203572
+    },
+    {
+      "edge": [
+        2,
+        7,
+        0,
+        0,
+        0
+      ],
+      "distance_A": 2.9284742940935744
+    },
+    {
+      "edge": [
+        2,
+        7,
+        1,
+        -1,
+        0
+      ],
+      "distance_A": 4.99839528794459
+    },
+    {
+      "edge": [
+        2,
+        7,
+        1,
+        0,
+        0
+      ],
+      "distance_A": 4.22510060967285
+    },
+    {
+      "edge": [
+        3,
+        4,
+        0,
+        0,
+        0
+      ],
+      "distance_A": 4.710315016079448
+    },
+    {
+      "edge": [
+        3,
+        4,
+        0,
+        1,
+        -1
+      ],
+      "distance_A": 4.710315016079447
+    },
+    {
+      "edge": [
+        3,
+        5,
+        0,
+        0,
+        0
+      ],
+      "distance_A": 2.928474294093577
+    },
+    {
+      "edge": [
+        3,
+        5,
+        0,
+        0,
+        1
+      ],
+      "distance_A": 4.998395287944589
+    },
+    {
+      "edge": [
+        3,
+        5,
+        1,
+        0,
+        0
+      ],
+      "distance_A": 4.225100609672849
+    },
+    {
+      "edge": [
+        3,
+        6,
+        0,
+        0,
+        0
+      ],
+      "distance_A": 2.928474294093574
+    },
+    {
+      "edge": [
+        3,
+        6,
+        1,
+        -1,
+        0
+      ],
+      "distance_A": 4.99839528794459
+    },
+    {
+      "edge": [
+        3,
+        6,
+        1,
+        0,
+        0
+      ],
+      "distance_A": 4.225100609672849
+    },
+    {
+      "edge": [
+        3,
+        7,
+        1,
+        0,
+        0
+      ],
+      "distance_A": 2.694958103797336
+    },
+    {
+      "edge": [
+        3,
+        7,
+        1,
+        1,
+        0
+      ],
+      "distance_A": 4.623471817203569
+    },
+    {
+      "edge": [
+        4,
+        5,
+        0,
+        -1,
+        1
+      ],
+      "distance_A": 4.842859825706582
+    },
+    {
+      "edge": [
+        4,
+        5,
+        0,
+        0,
+        1
+      ],
+      "distance_A": 3.053854582967424
+    },
+    {
+      "edge": [
+        4,
+        6,
+        0,
+        -1,
+        1
+      ],
+      "distance_A": 3.053854582967422
+    },
+    {
+      "edge": [
+        4,
+        6,
+        1,
+        -1,
+        0
+      ],
+      "distance_A": 4.842859825706583
+    },
+    {
+      "edge": [
+        4,
+        7,
+        0,
+        0,
+        1
+      ],
+      "distance_A": 4.770964896287686
+    },
+    {
+      "edge": [
+        4,
+        7,
+        1,
+        0,
+        0
+      ],
+      "distance_A": 2.9460025179823437
+    },
+    {
+      "edge": [
+        4,
+        7,
+        1,
+        0,
+        1
+      ],
+      "distance_A": 4.770964896287687
+    },
+    {
+      "edge": [
+        5,
+        6,
+        0,
+        -1,
+        0
+      ],
+      "distance_A": 4.770964896287685
+    },
+    {
+      "edge": [
+        5,
+        6,
+        0,
+        0,
+        0
+      ],
+      "distance_A": 2.946002517982345
+    },
+    {
+      "edge": [
+        5,
+        6,
+        1,
+        -1,
+        0
+      ],
+      "distance_A": 4.770964896287687
+    },
+    {
+      "edge": [
+        5,
+        7,
+        1,
+        0,
+        -1
+      ],
+      "distance_A": 4.842859825706583
+    },
+    {
+      "edge": [
+        5,
+        7,
+        1,
+        0,
+        0
+      ],
+      "distance_A": 3.053854582967423
+    },
+    {
+      "edge": [
+        6,
+        7,
+        0,
+        1,
+        0
+      ],
+      "distance_A": 3.053854582967423
+    },
+    {
+      "edge": [
+        6,
+        7,
+        1,
+        0,
+        0
+      ],
+      "distance_A": 4.842859825706583
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-13",
+  "status": "SAME_MODEL_EXTERNAL_MICROSCOPIC_Ea_COMPARISON_COMPLETED",
+  "Dou_Npath1_Ea_admitted_as_validation": false,
+  "strict_external_input": "Kirsch2025 three mapped NEB profiles",
+  "new_macro_Ea_measurement_found": false,
+  "new_results": {
+    "own3_Li_Ea_eV": 0.24984141347778044,
+    "Kirsch3_Li_Ea_eV": 0.2512528911035468,
+    "Li_difference_meV": 1.4114776257663775,
+    "own3_vacancy_local300_eV": 0.25026762698132643,
+    "Kirsch3_vacancy_local300_eV": 0.25041442457940377,
+    "vacancy_difference_meV": 0.14679759807734172,
+    "own4_exact_Li_Ea_eV": 0.25133380932963806,
+    "own4_original_KMC_Ea_eV": 0.2516111091680399
+  },
+  "scope": "Independent barrier input validation under common finite model, not independent macroscopic experiment or full external four-path model",
+  "production_files_changed": false,
+  "new_DFT_MD_or_KMC_trajectories": false
+}
