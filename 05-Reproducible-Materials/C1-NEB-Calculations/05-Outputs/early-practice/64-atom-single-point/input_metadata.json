@@ -1,0 +1,18 @@
+{
+  "structure": "C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\host_supercell64\\POSCAR",
+  "destination": "cases\\lisi-r1-pristine64-k4",
+  "k": [
+    4,
+    4,
+    4
+  ],
+  "ecut": 520,
+  "sigma": 0.1,
+  "relax": 0,
+  "isif": 2,
+  "fmax": 0.01,
+  "isym": 0,
+  "source_sha256": "ded490b8cdeeba8640bc235f8300fd0e7c2f9ba2b62fb3849c7fae1bc5bcb02e",
+  "nat": 64,
+  "status": "PREPARED_NOT_EXECUTED"
+}

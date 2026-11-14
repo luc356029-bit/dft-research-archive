@@ -1,0 +1,38 @@
+{
+  "material": "LiSi",
+  "mp_id": "mp-795",
+  "source_ref": "cece0cb20186de020d04f75822a8f97398a6f18b",
+  "mode": "relax",
+  "nat": 16,
+  "kmesh": [
+    5,
+    5,
+    5
+  ],
+  "cell_A": [
+    [
+      5.72687887,
+      0.0,
+      0.0
+    ],
+    [
+      2.8632019287471766,
+      6.579808189811975,
+      0.0
+    ],
+    [
+      2.865097757649431,
+      -0.0016667355019345147,
+      6.579220317174079
+    ]
+  ],
+  "volume_A3": 247.9166305254134,
+  "ENCUT_eV": 520,
+  "sigma_eV": 0.1,
+  "pseudopotentials": [
+    "PAW_PBE Li_sv 10Sep2004",
+    "PAW_PBE Si 05Jan2001"
+  ],
+  "status": "PREPARED_NOT_EXECUTED",
+  "note": "ISYM=0 retains input freedom; full lattice relaxation only after smoke gate"
+}

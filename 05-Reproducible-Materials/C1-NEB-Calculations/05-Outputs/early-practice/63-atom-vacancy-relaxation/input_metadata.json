@@ -1,0 +1,18 @@
+{
+  "structure": "C\u9636\u6bb5\u81ea\u4e3b\u9884\u9a8c\u8bc1\\round1\\analysis\\vacancy63_endpoints_k3\\POSCAR.A",
+  "destination": "cases\\lisi-r1-vacancy63-relax-k4",
+  "k": [
+    4,
+    4,
+    4
+  ],
+  "ecut": 520,
+  "sigma": 0.1,
+  "relax": 40,
+  "isif": 2,
+  "fmax": 0.01,
+  "isym": 0,
+  "source_sha256": "bfdcb6bc93a81588c8c02d07bbd5d3ec62ef75c4828fccbe5fa13bbf65d05009",
+  "nat": 63,
+  "status": "PREPARED_NOT_EXECUTED"
+}
