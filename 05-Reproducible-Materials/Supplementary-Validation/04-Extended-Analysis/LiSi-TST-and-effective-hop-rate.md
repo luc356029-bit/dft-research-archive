@@ -14,9 +14,9 @@
 
 【本轮只读核查】`round1/scripts/transport.py:12–21`计算
 
-\[
+```math
 k_{i,\mathrm{model}}=\nu_0\exp[-E_{m,i}^{\mathrm{NEB}}/(k_BT)] .
-\]
+```
 
 `analysis/transport_phase34_20261015/transport_model.json`明确保存：`attempt_frequency_s=10000000000000.0`，`frequency_origin="Assumed common constant, not calculated Vineyard frequencies"`。即Em来自既有DFT；ν并非由本项目四路径的振动频谱计算获得。
 
@@ -39,11 +39,11 @@ k_{i,\mathrm{model}}=\nu_0\exp[-E_{m,i}^{\mathrm{NEB}}/(k_BT)] .
 
 基本经典TST将分割面上的正向平衡通量除以反应物状态布居：
 
-\[
+```math
 k_{AB}^{\mathrm{TST}}=
 \frac{\langle\delta(s)\dot s\,\Theta(\dot s)\rangle}
      {\langle h_A\rangle} .
-\]
+```
 
 其中s=0是A/B分割面，hA表示A状态。这个定义含热运动速度的统计，不是单纯的“越过势垒概率”；但基本TST把正向过面当作成功事件，可能计入随后未承诺到B的短时再穿越。它没有输出最后离开A核心区到首次进入B核心区的真实transition-path time分布。局部速度/振动尺度也不等于该分布均值。
 
@@ -51,9 +51,9 @@ k_{AB}^{\mathrm{TST}}=
 
 【有条件的动力学修正】在相同PES、状态/分割面定义及可用速率平台下，可写
 
-\[
+```math
 k_{AB}^{\mathrm{eff}}(T)=\kappa_{AB}(T)k_{AB}^{\mathrm{TST}}(T).
-\]
+```
 
 这里TST指该PES上相应的平衡通量速率，**不能直接把当前“假定ν＋静态Em”的模型当成精确TST，再把所有差异都归于κ**。短时未承诺迁移的再穿越和已在B稳定、随后发生新的B→A跳跃不同；后者已有KMC回跳及Li示踪相关性，不能再次惩罚。
 
@@ -80,9 +80,9 @@ k_{AB}^{\mathrm{eff}}(T)=\kappa_{AB}(T)k_{AB}^{\mathrm{TST}}(T).
 
 对单通道、固定Em且恰好可表示为k=κ(T)ν(T)exp(−Em/kBT)时：
 
-\[
+```math
 E_{a,k}=E_m-k_B\frac{d\ln[\kappa(T)\nu(T)]}{d(1/T)} .
-\]
+```
 
 这是条件解析关系，不是本轮测得κ或ν。网络Li示踪Ea还包含通道竞争/相关性的响应；不能把单通道公式直接替代网络结果。若ν、κ有温变，则模型外的真实Ea也可能变化。
 
