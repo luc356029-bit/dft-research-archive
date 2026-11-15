@@ -14,7 +14,7 @@
 
 这几个问题相互影响，可以概括为：
 
-$$
+```math
 \begin{gathered}
 \begin{array}{ccc}
 \boxed{\text{结构不清晰}} & \boxed{\text{缺乏主次判断}} & \boxed{\text{任务拆分过大}} \\
@@ -26,7 +26,7 @@ $$
 \downarrow \\[4pt]
 \boxed{\text{知识零散、难以追溯，项目推进越来越困难}}
 \end{gathered}
-$$
+```
 
 ## 2. 建立在第一性原理和帕累托法则上的系统
 
