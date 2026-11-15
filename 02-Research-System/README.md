@@ -16,15 +16,29 @@
 
 ```math
 \begin{gathered}
-\begin{array}{ccc}
-\boxed{\text{结构不清晰}} & \boxed{\text{缺乏主次判断}} & \boxed{\text{任务拆分过大}} \\
-\downarrow & \downarrow & \downarrow \\
-\text{知识混杂、频繁切换} & \text{次要问题投入过多} & \text{理论与实践间隔过长} \\
-\searrow & \downarrow & \swarrow
-\end{array} \\[4pt]
-\boxed{\text{理解、实践与反馈的闭环变慢}} \\[4pt]
-\downarrow \\[4pt]
-\boxed{\text{知识零散、难以追溯，项目推进越来越困难}}
+\begin{gathered}
+\text{结构不清晰}\\[4pt]
+\downarrow\\[4pt]
+\text{知识混杂、频繁切换}\\[4pt]
+\searrow
+\end{gathered}
+\qquad
+\begin{gathered}
+\text{缺乏主次判断}\\[4pt]
+\downarrow\\[4pt]
+\text{次要问题投入过多}\\[4pt]
+\downarrow
+\end{gathered}
+\qquad
+\begin{gathered}
+\text{任务拆分过大}\\[4pt]
+\downarrow\\[4pt]
+\text{理论与实践间隔过长}\\[4pt]
+\swarrow
+\end{gathered}\\[8pt]
+\text{理解、实践与反馈的闭环变慢}\\[4pt]
+\downarrow\\[4pt]
+\text{知识零散、难以追溯，项目推进越来越困难}
 \end{gathered}
 ```
 
