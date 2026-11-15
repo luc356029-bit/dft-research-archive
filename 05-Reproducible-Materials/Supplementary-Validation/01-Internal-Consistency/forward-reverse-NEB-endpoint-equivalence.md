@@ -57,4 +57,4 @@ PBC本身不保证不同位点等价，也不要求它们只能通过纯平移�
 
 因此，在四对既定端态、四条既定通道的前提下，可列出八个方向势垒；通常仍由四条NEB得到。新增独立NEB应由新通道、端态、映射或寻路问题决定。反向另跑可作数值交叉检查，但没有仅因反向就必然新增独立物理势垒的规则。
 
-证据：[完整只读审计JSON](https://drive.google.com/file/d/1ils52EDQoiRp3flz9vGxV3DW2AgKxN2l/view?usp=drivesdk)、[审计脚本](https://drive.google.com/file/d/1OEPOYczDEXpiQPkR_UPpFFsfLLZ-NO_E/view?usp=drivesdk)。JSON绑定全部原始输出、原端点映射、网络模型、相关生产脚本的SHA及实际对称矩阵。审计开发时曾用过严于XML八位小数精度的晶格比较阈值；已通过核实原始输入晶格完全一致、XML差4.758×10⁻⁹ Å属于打印舍入来修正，仅调整审计的序列化精度判断，没有改变DFT或科学验收门槛。
+证据：[审计 JSON](forward_reverse_endpoint_audit.json)、[审计脚本](../03-Code/audit_forward_reverse.py)。JSON绑定全部原始输出、原端点映射、网络模型、相关生产脚本的SHA及实际对称矩阵。审计开发时曾用过严于XML八位小数精度的晶格比较阈值；已通过核实原始输入晶格完全一致、XML差4.758×10⁻⁹ Å属于打印舍入来修正，仅调整审计的序列化精度判断，没有改变DFT或科学验收门槛。

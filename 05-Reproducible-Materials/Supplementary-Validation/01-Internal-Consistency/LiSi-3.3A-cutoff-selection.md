@@ -71,9 +71,9 @@
 
 ## 6. 可追溯证据
 
-- 新审计结果：[LiSi_3p3A_cutoff_audit_20261027.json](https://drive.google.com/file/d/1W6tiH9sEUMc-aBzBMUTn2_gk41zp--sc/view?usp=drivesdk)。包含完整半径扫描、前十个距离壳、5 Å内独立枚举的点对、原始输入与脚本SHA。
-- 新复核脚本：[verify_cutoff33_20261027.py](https://drive.google.com/file/d/1nqI6u7T36y-F_cz6dt0of0Ew6bHruzzL/view?usp=drivesdk)。独立穷举的周期像范围由倒晶格界限确定，并与ASE邻居表逐边比较。
-- 原宿主：`C阶段自主预验证/round1/analysis/host_symmetry_projection/POSCAR`，SHA-256为`10a5d334124297b2f60ec21b4d6b3b8bdc3cef0bb575dc2318fac975571c4819`。
-- 原记录：`projection_report.json`、`complete_orbit_connectivity_INTEGER.json`；原脚本：`hop_geometry.py`、`project_host.py`、`precheck_orbit_connectivity.py`。这些文件的历史字节和原证据未改写。
+- 新审计结果：[LiSi_3p3A_cutoff_audit.json](LiSi_3p3A_cutoff_audit.json)。包含完整半径扫描、前十个距离壳、5 Å内独立枚举的点对、原始输入与脚本SHA。
+- 新复核脚本：[verify_cutoff33.py](../03-Code/verify_cutoff33.py)。独立穷举的周期像范围由倒晶格界限确定，并与ASE邻居表逐边比较。
+- 原宿主：[宿主 POSCAR](../../C1-NEB-Calculations/04-Execution/early-practice/16-atom-host/POSCAR)，SHA-256为`10a5d334124297b2f60ec21b4d6b3b8bdc3cef0bb575dc2318fac975571c4819`。
+- 原记录：[projection_report.json](../../C1-NEB-Calculations/05-Outputs/early-practice/candidate-paths/projection_report.json)、[complete_orbit_connectivity_INTEGER.json](../../C1-NEB-Calculations/05-Outputs/early-practice/periodic-network/complete_orbit_connectivity_INTEGER.json)；原脚本：`hop_geometry.py`、`project_host.py`、`precheck_orbit_connectivity.py`。这些文件的历史字节和原证据未改写。
 - 原论文：Dou等，*High-Throughput Screening Lithium Alloy Phases and Investigation of Ion Transport for Solid Electrolyte Interphase Layer*，Acta Phys.-Chim. Sin. 2024，40(3)，2305039，DOI：10.3866/PKU.WHXB202305039。已归档正文方法部分及B分析记录的SHA均包含在新审计JSON中。
-- [首轮原始资料包](https://drive.google.com/drive/folders/1owJdKL4KhiW4XY3HQj812t10UZLLILsU)。新脚本在解压资料的`C阶段自主预验证/round1/supplements/20261027_cutoff33/`层级下运行；复核应使用单独工作副本，避免覆盖既有审计输出。
+- 相关结构与运行记录见 [C1 计算材料](../../C1-NEB-Calculations/README.md)。

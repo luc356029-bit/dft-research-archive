@@ -19,7 +19,7 @@ VASP官方格式说明明确区分位置与可选速度部分：[POSCAR格式](h
 
 ## 检查范围与影响
 
-扫描 cases、hpc/staging、hpc/results 中的POSCAR，共找到112份含NaN的文件；逐一按原子数解析位置块，全部位置有限，NaN全部位于尾部。这112份包含工作副本、上传暂存和结果快照，不表示112次独立计算。
+扫描 cases、hpc/staging、hpc/results 中的POSCAR，共找到112份含NaN的文件；逐一按原子数解析位置块，全部位置有限，NaN全部位于尾部。这112份包含工作副本、中间副本和结果快照，不表示112次独立计算。
 
 这些证据排除了此次发现属于“原子坐标全NaN”的情形。它本身不能否定已验收NEB的能量与力，也不能单凭尾部问题重新证明势垒正确；科学结果仍应依据原有SCF、实际评估坐标、能量、力和输入关联证据。没有因此重算或修改Ea、D300。
 
@@ -35,6 +35,6 @@ VASP官方格式说明明确区分位置与可选速度部分：[POSCAR格式](h
 
 ## 附件
 
-- [审计脚本](https://drive.google.com/file/d/1RUxkP8HCW0vJ4BXlIddn9gn0rY2cDJ76/view)：此次扫描和ASE传递复现脚本（本地名audit.py）。
-- [审计JSON](https://drive.google.com/file/d/1exzwAGYXrOKqfJgt3_orMe77f8kgqwaH/view)：112份文件的路径、SHA256、位置/尾部分项结论及源CONTCAR的SHA256（本地名audit.json）。
+- [审计脚本](../03-Code/NEB_nan_velocity_audit.py)：扫描 POSCAR，并复现 ASE 对速度数据的传递。
+- 原始 `audit.json` 记录112份文件的路径、SHA256、位置与尾部分项结论及源 CONTCAR 的 SHA256，当前仓库未收录该逐文件明细。
 - 复核环境：Python3.14、ASE3.29.0、NumPy2.4.6；诊断复用已有结构文件。

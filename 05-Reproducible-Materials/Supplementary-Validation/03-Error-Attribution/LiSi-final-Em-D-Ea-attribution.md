@@ -179,7 +179,7 @@ Dou2024正文p5是路径扩散系数加权，再构造有效Ea；LiSi表1却只�
 
 原归档脚本：`p0_profiles.py`、`p1_single_controls.py`、`p1_external_prefactors.py`、`p2_ea_sensitivity.py`。前两者输出已有时拒绝覆盖/或核验SHA后复用；如需独立重算，先在独立副本保留已有结果。复现环境Python3.14.4、NumPy2.4.6、ASE、SciPy、PyMuPDF、Matplotlib；完整版本见原归档环境记录。不要重跑旧生产汇总脚本覆盖原验收文件。
 
-结果JSON均保存source_sha256和analyzer_path/analyzer_sha256；新KMC逐组原始分块见 `P1_only00_raw.json`、`P1_only01_raw.json`、`P1_only02_raw.json`、`P1_disable03_raw.json`。本轮核查和清单进一步绑定原始输入、脚本、输出及外部PDF；原始DFT输出入口仍为旧Drive引用资料/完整证据包和模型中的实际源路径。
+结果JSON均保存source_sha256和analyzer_path/analyzer_sha256；新KMC逐组原始分块见 `P1_only00_raw.json`、`P1_only01_raw.json`、`P1_only02_raw.json`、`P1_disable03_raw.json`。本轮核查和清单进一步绑定原始输入、脚本、输出及外部PDF；原始 DFT 输出通过[NEB 源文件索引](../../C1-NEB-Calculations/06-Validation/NEB-source-file-index.json)与模型记录关联。
 
 主要第一手来源（均复用已下载/已核验内容，本轮无重新检索）：
 
