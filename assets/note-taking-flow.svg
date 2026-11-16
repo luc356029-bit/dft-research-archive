@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="420" viewBox="0 0 1040 420" role="img" aria-labelledby="title desc">
+  <title id="title">笔记法：输入、内化与记录</title>
+  <desc id="desc">主流程从知识输入到理解内化，再到电子记录。理解顺畅时直接内化；理解吃力或忘记前文关系时，先用纸笔勾画、重组信息，再内化。仍有疑问时返回材料或补充讲解，无疑问后将有价值的信息简洁记录到电脑上。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L9 4.5 L0 9 Z" fill="#63796d"/>
+    </marker>
+    <marker id="return-arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 L9 4.5 L0 9 Z" fill="#9b713e"/>
+    </marker>
+    <style>
+      text { font-family: 'Noto Sans CJK SC', 'Microsoft YaHei', 'PingFang SC', sans-serif; }
+      .heading { font-size: 26px; font-weight: 650; fill: #27372f; }
+      .body { font-size: 18px; fill: #56675e; }
+      .label { font-size: 18px; fill: #53685b; }
+      .return-label { font-size: 18px; fill: #8a612e; }
+      .flow { fill: none; stroke: #63796d; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; marker-end: url(#arrow); }
+      .feedback { fill: none; stroke: #9b713e; stroke-width: 2; stroke-dasharray: 6 6; stroke-linecap: round; stroke-linejoin: round; marker-end: url(#return-arrow); }
+    </style>
+  </defs>
+  <rect width="1040" height="420" fill="#ffffff"/>
+
+  <path class="feedback" d="M520 112 V54 Q520 40 506 40 H158 Q144 40 144 54 V110"/>
+  <text x="332" y="26" text-anchor="middle" class="return-label">仍有疑问：回看或补充讲解</text>
+
+  <path class="flow" d="M264 167 H398"/>
+  <text x="332" y="150" text-anchor="middle" class="label">理解顺畅</text>
+  <path class="flow" d="M640 167 H774"/>
+  <text x="708" y="150" text-anchor="middle" class="label">无疑问</text>
+
+  <path class="flow" d="M144 222 V328 Q144 342 158 342 H398"/>
+  <text x="272" y="326" text-anchor="middle" class="label">理解吃力 / 忘记前文关系</text>
+  <path class="flow" d="M520 292 V224"/>
+
+  <rect x="24" y="112" width="240" height="110" rx="12" fill="#f0f5f8" stroke="#a6bdc8" stroke-width="1.2"/>
+  <text x="144" y="156" text-anchor="middle" class="heading">输入当前知识</text>
+  <text x="144" y="190" text-anchor="middle" class="body">课程材料 / LLM 讲解</text>
+
+  <rect x="400" y="112" width="240" height="110" rx="12" fill="#f0f5ef" stroke="#a1b69f" stroke-width="1.2"/>
+  <text x="520" y="156" text-anchor="middle" class="heading">理解、内化</text>
+  <text x="520" y="190" text-anchor="middle" class="body">理清这一部分知识</text>
+
+  <rect x="776" y="112" width="240" height="110" rx="12" fill="#f8f3ea" stroke="#bfad8e" stroke-width="1.2"/>
+  <text x="896" y="156" text-anchor="middle" class="heading">电子记录</text>
+  <text x="896" y="190" text-anchor="middle" class="body">简洁保存有价值的信息</text>
+
+  <rect x="400" y="292" width="240" height="100" rx="12" fill="#ffffff" stroke="#a1b69f" stroke-width="1.2"/>
+  <text x="520" y="332" text-anchor="middle" class="heading">纸笔辅助</text>
+  <text x="520" y="366" text-anchor="middle" class="body">勾画、重组信息</text>
+</svg>
