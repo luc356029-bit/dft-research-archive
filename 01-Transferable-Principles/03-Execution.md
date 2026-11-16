@@ -12,21 +12,17 @@
 \begin{array}{ccccc}
 && \hspace{0.5em}\text{知识输入}\hspace{0.5em} && \\[4pt]
 & \swarrow && \searrow & \\[4pt]
-\hspace{3em}\text{理解顺畅}\hspace{3em} &&&&
-\begin{array}{c}
-\hspace{2em}\text{理解吃力，或}\hspace{2em} \\[0pt]
-\hspace{2em}\text{忘记前文关系}\hspace{2em}
-\end{array} \\[4pt]
-\hspace{4.75em}\downarrow\hspace{4.75em} &&&& \hspace{4.75em}\downarrow\hspace{4.75em} \\[4pt]
-\hspace{3em}\text{直接梳理}\hspace{3em} &&&& \hspace{1.5em}\text{纸笔勾画、重组}\hspace{1.5em} \\[4pt]
+\hspace{2em}\hspace{1.5em}\text{理解顺畅}\hspace{2em}\hspace{1.5em} &&&& \text{理解吃力或忘记前文关系} \\[4pt]
+\hspace{2em}\hspace{2em}\hspace{1.25em}\downarrow\hspace{2em}\hspace{2em}\hspace{1.25em} &&&& \hspace{2em}\hspace{2em}\hspace{1.25em}\downarrow\hspace{2em}\hspace{2em}\hspace{1.25em} \\[4pt]
+\hspace{2em}\hspace{1.5em}\text{直接梳理}\hspace{2em}\hspace{1.5em} &&&& \hspace{2em}\text{纸笔勾画、重组}\hspace{2em} \\[4pt]
 & \searrow && \swarrow & \\[4pt]
 && \text{理解、内化} && \\[4pt]
 & \swarrow && \searrow & \\[4pt]
-\hspace{3em}\text{仍有疑问}\hspace{3em} &&&& \hspace{3em}\text{没有疑问}\hspace{3em} \\[4pt]
-\hspace{4.75em}\downarrow\hspace{4.75em} &&&& \hspace{4.75em}\downarrow\hspace{4.75em} \\[4pt]
-\hspace{1.5em}\text{回看或补充讲解}\hspace{1.5em} &&&& \hspace{1em}\text{按自己的思路压缩}\hspace{1em} \\[4pt]
-\hspace{4.75em}\downarrow\hspace{4.75em} &&&& \hspace{4.75em}\downarrow\hspace{4.75em} \\[4pt]
-\hspace{2em}\text{返回知识输入}\hspace{2em} &&&& \text{简洁记录有价值的信息}
+\hspace{2em}\hspace{1.5em}\text{仍有疑问}\hspace{2em}\hspace{1.5em} &&&& \hspace{2em}\hspace{1.5em}\text{没有疑问}\hspace{2em}\hspace{1.5em} \\[4pt]
+\hspace{2em}\hspace{2em}\hspace{1.25em}\downarrow\hspace{2em}\hspace{2em}\hspace{1.25em} &&&& \hspace{2em}\hspace{2em}\hspace{1.25em}\downarrow\hspace{2em}\hspace{2em}\hspace{1.25em} \\[4pt]
+\hspace{2em}\text{回看或补充讲解}\hspace{2em} &&&& \hspace{1.5em}\text{按自己的思路压缩}\hspace{1.5em} \\[4pt]
+\hspace{2em}\hspace{2em}\hspace{1.25em}\downarrow\hspace{2em}\hspace{2em}\hspace{1.25em} &&&& \hspace{2em}\hspace{2em}\hspace{1.25em}\downarrow\hspace{2em}\hspace{2em}\hspace{1.25em} \\[4pt]
+\hspace{2em}\hspace{0.5em}\text{返回知识输入}\hspace{2em}\hspace{0.5em} &&&& \hspace{0.5em}\text{简洁记录有价值的信息}\hspace{0.5em}
 \end{array}
 ```
 
