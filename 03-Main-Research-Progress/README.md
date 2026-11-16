@@ -12,3 +12,5 @@
 学习与推进方法见 [A · 初筛（方法论示范）](../04-Learning-Notes/01-Research-Workflow/A初筛（方法论示范）.md)：从符合验收条件的方案出发，围绕核心知识完成局部理解、实践和反馈。各研究主题下的学习记录与计算依据保留具体过程。
 
 [04 · 原始学习记录](../04-Learning-Notes/README.md) · [05 · 代码与计算材料](../05-Reproducible-Materials/README.md)
+
+[返回仓库首页](../README.md)
