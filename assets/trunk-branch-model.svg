@@ -42,18 +42,18 @@
 
   <path class="link" d="M684 572 V494 H519 V426"/>
   <path class="link" d="M684 572 V494 H849 V426"/>
-  <path class="link" d="M519 354 V278 H404 V232"/>
-  <path class="link" d="M519 354 V278 H564 V232"/>
+  <path class="link" d="M519 354 V278 H439 V232"/>
+  <path class="link" d="M519 354 V278 H599 V232"/>
   <path class="link" d="M849 354 V278 H769 V232"/>
   <path class="link" d="M849 354 V278 H929 V232"/>
 
   <g>
-    <rect x="338" y="156" width="132" height="76" rx="10" fill="#fff" stroke="#91afbf"/>
-    <text x="404" y="187" text-anchor="middle" class="node">任务 A1</text>
-    <text x="404" y="213" text-anchor="middle" class="small">执行 · 检验</text>
-    <rect x="498" y="156" width="132" height="76" rx="10" fill="#fff" stroke="#91afbf"/>
-    <text x="564" y="187" text-anchor="middle" class="node">任务 A2</text>
-    <text x="564" y="213" text-anchor="middle" class="small">执行 · 检验</text>
+    <rect x="373" y="156" width="132" height="76" rx="10" fill="#fff" stroke="#91afbf"/>
+    <text x="439" y="187" text-anchor="middle" class="node">任务 A1</text>
+    <text x="439" y="213" text-anchor="middle" class="small">执行 · 检验</text>
+    <rect x="533" y="156" width="132" height="76" rx="10" fill="#fff" stroke="#91afbf"/>
+    <text x="599" y="187" text-anchor="middle" class="node">任务 A2</text>
+    <text x="599" y="213" text-anchor="middle" class="small">执行 · 检验</text>
     <rect x="703" y="156" width="132" height="76" rx="10" fill="#fff" stroke="#91afbf"/>
     <text x="769" y="187" text-anchor="middle" class="node">任务 B1</text>
     <text x="769" y="213" text-anchor="middle" class="small">执行 · 检验</text>
