@@ -9,21 +9,26 @@
 阅读网课或 LLM 讲解时，以一部分知识为单位，按下面的过程理解和记录：
 
 ```math
-\begin{array}{ccccc}
-&& \hspace{0.5em}\text{知识输入}\hspace{0.5em} && \\[4pt]
-& \swarrow && \searrow & \\[4pt]
-\hspace{2em}\hspace{1.5em}\text{理解顺畅}\hspace{2em}\hspace{1.5em} &&&& \text{理解吃力或忘记前文关系} \\[4pt]
-\hspace{2em}\hspace{2em}\hspace{1.25em}\downarrow\hspace{2em}\hspace{2em}\hspace{1.25em} &&&& \hspace{2em}\hspace{2em}\hspace{1.25em}\downarrow\hspace{2em}\hspace{2em}\hspace{1.25em} \\[4pt]
-\hspace{2em}\hspace{1.5em}\text{直接梳理}\hspace{2em}\hspace{1.5em} &&&& \hspace{2em}\text{纸笔勾画、重组}\hspace{2em} \\[4pt]
-& \searrow && \swarrow & \\[4pt]
-&& \text{理解、内化} && \\[4pt]
-& \swarrow && \searrow & \\[4pt]
-\hspace{2em}\hspace{1.5em}\text{仍有疑问}\hspace{2em}\hspace{1.5em} &&&& \hspace{2em}\hspace{1.5em}\text{没有疑问}\hspace{2em}\hspace{1.5em} \\[4pt]
-\hspace{2em}\hspace{2em}\hspace{1.25em}\downarrow\hspace{2em}\hspace{2em}\hspace{1.25em} &&&& \hspace{2em}\hspace{2em}\hspace{1.25em}\downarrow\hspace{2em}\hspace{2em}\hspace{1.25em} \\[4pt]
-\hspace{2em}\text{回看或补充讲解}\hspace{2em} &&&& \hspace{1.5em}\text{按自己的思路压缩}\hspace{1.5em} \\[4pt]
-\hspace{2em}\hspace{2em}\hspace{1.25em}\downarrow\hspace{2em}\hspace{2em}\hspace{1.25em} &&&& \hspace{2em}\hspace{2em}\hspace{1.25em}\downarrow\hspace{2em}\hspace{2em}\hspace{1.25em} \\[4pt]
-\hspace{2em}\hspace{0.5em}\text{返回知识输入}\hspace{2em}\hspace{0.5em} &&&& \hspace{0.5em}\text{简洁记录有价值的信息}\hspace{0.5em}
-\end{array}
+\begin{aligned}
+&\text{知识组块}\\[3pt]
+&\downarrow\\[3pt]
+&\text{输入：刚学过的内容持续占用思维带宽}\\[3pt]
+&\downarrow\\[3pt]
+&\text{是否有“上下文遗忘”或理解吃力的情况？}\\[3pt]
+&\begin{cases}
+\text{是：纸笔勾画、圈写、重构，释放缓存、理解内化}\\[3pt]
+\text{否：往下}
+\end{cases}\\[3pt]
+&\downarrow\\[3pt]
+&\text{理解内化的过程中是否有疑问？}\\[3pt]
+&\begin{cases}
+\text{是：返回输入}\\[3pt]
+\text{否：往下}
+\end{cases}\\[3pt]
+&\downarrow\\[3pt]
+&\text{将有价值的信息清晰简洁地记录在电脑上}\\[3pt]
+&\text{（也是理解内化的过程）}
+\end{aligned}
 ```
 
 **纸笔辅助即时思考，电子笔记负责长期保存、检索和构建知识库**。纸笔记录不宜过密，以免增加负担；整理成电子笔记也是进一步内化的过程。
