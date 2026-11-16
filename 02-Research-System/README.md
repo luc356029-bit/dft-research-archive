@@ -84,4 +84,4 @@
 
 在 A 初筛中，这体现为理解筛选依据、查询并筛选材料、保存清单与结构，再将论文差异追溯到具体材料条目和筛选条件。该记录中的斜体文字说明工作流，[05 · A 阶段](../05-Reproducible-Materials/A-High-Throughput-Screening/README.md)提供对应代码与输出。
 
-**工作流随具体问题调整**。[C1 2.6](../04-Learning-Notes/02-Stepwise-Learning/C1/C1%202.6处理、对比.md)以数据处理、受控对照和差异分析为主，就围绕这些问题组织推进。
+**工作流随具体问题调整**。如，[C1 2.6](../04-Learning-Notes/02-Stepwise-Learning/C1/C1%202.6处理、对比.md)以数据处理、受控对照和差异分析为主，就围绕这些问题组织推进。
