@@ -9,18 +9,24 @@
 阅读网课或 LLM 讲解时，以一部分知识为单位，按下面的过程理解和记录：
 
 ```math
-\begin{array}{ll}
-\text{理解顺畅：}
-& \text{知识输入}\longrightarrow\text{理解、内化}
-\\[8pt]
-\text{理解吃力或忘记前文关系：}
-& \text{纸笔勾画、重组}\longrightarrow\text{理解、内化}
-\\[8pt]
-\text{仍有疑问：}
-& \text{回看或补充讲解}\longrightarrow\text{知识输入}
-\\[8pt]
-\text{没有疑问：}
-& \text{简洁记录有价值的信息}
+\begin{array}{ccccc}
+&& \text{知识输入} && \\[4pt]
+& \swarrow && \searrow & \\[4pt]
+\text{理解顺畅} &&&&
+\begin{array}{c}
+\text{理解吃力，或}\\
+\text{忘记前文关系}
+\end{array} \\[4pt]
+\downarrow &&&& \downarrow \\[4pt]
+\text{直接梳理} &&&& \text{纸笔勾画、重组} \\[4pt]
+& \searrow && \swarrow & \\[4pt]
+&& \text{理解、内化} && \\[4pt]
+& \swarrow && \searrow & \\[4pt]
+\text{仍有疑问} &&&& \text{没有疑问} \\[4pt]
+\downarrow &&&& \downarrow \\[4pt]
+\text{回看或补充讲解} &&&& \text{按自己的思路压缩} \\[4pt]
+\downarrow &&&& \downarrow \\[4pt]
+\text{返回知识输入} &&&& \text{简洁记录有价值的信息}
 \end{array}
 ```
 
