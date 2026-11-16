@@ -8,7 +8,27 @@
 
 阅读网课或 LLM 讲解时，以一部分知识为单位，按下面的过程理解和记录：
 
-![笔记法流程：知识输入、理解内化与电子记录，包含纸笔辅助和疑问反馈](../assets/note-taking-flow.svg?v=63c28f6bd7e0)
+```math
+\begin{array}{rclcl}
+\text{知识输入}
+& \xrightarrow{\text{理解顺畅}}
+& \text{理解、内化}
+& \xrightarrow{\text{无疑问}}
+& \text{电子记录}
+\\[8pt]
+\text{知识输入}
+& \xrightarrow{\text{理解吃力或忘记前文关系}}
+& \text{纸笔勾画、重组}
+& \longrightarrow
+& \text{理解、内化}
+\\[8pt]
+\text{理解、内化}
+& \xrightarrow{\text{仍有疑问}}
+& \text{回看或补充讲解}
+& \longrightarrow
+& \text{知识输入}
+\end{array}
+```
 
 **纸笔辅助即时思考，电子笔记负责长期保存、检索和构建知识库**。纸笔记录不宜过密，以免增加负担；整理成电子笔记也是进一步内化的过程。
 
