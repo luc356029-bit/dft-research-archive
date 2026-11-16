@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="760" viewBox="0 0 1160 760" role="img" aria-labelledby="title desc">
+  <title id="title">主干—分支模型</title>
+  <desc id="desc">核心驱动确定项目根本目标。目标向上展开为阶段目标与推进方法，再分为具体任务。现实反馈返回方法，必要时重新审视目标。五步法、第一性原理和帕累托原则贯穿三个层面。</desc>
+  <defs>
+    <marker id="up" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#61756a"/></marker>
+    <marker id="feedback" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#9b6b39"/></marker>
+    <style>
+      text { font-family: 'Noto Sans CJK SC', 'Microsoft YaHei', 'PingFang SC', sans-serif; fill: #27352f; }
+      .title { font-size: 27px; font-weight: 700; }
+      .layer { font-size: 24px; font-weight: 700; }
+      .method { font-size: 17px; fill: #4d5d56; }
+      .tag { font-size: 14px; letter-spacing: 2px; fill: #65766e; }
+      .node { font-size: 20px; font-weight: 600; }
+      .small { font-size: 16px; fill: #4d5d56; }
+      .feedback-label { font-size: 16px; fill: #85582b; }
+      .link { fill: none; stroke: #61756a; stroke-width: 2.4; stroke-linejoin: round; marker-end: url(#up); }
+      .return { fill: none; stroke: #9b6b39; stroke-width: 2; stroke-dasharray: 7 6; stroke-linejoin: round; marker-end: url(#feedback); }
+    </style>
+  </defs>
+  <rect width="1160" height="760" fill="#ffffff"/>
+  <text x="32" y="46" class="title">主干—分支模型</text>
+  <text x="32" y="75" class="small">目标逐层展开，反馈逐层修正。</text>
+
+  <rect x="24" y="102" width="1112" height="190" rx="14" fill="#f0f5f8"/>
+  <rect x="24" y="308" width="1112" height="198" rx="14" fill="#f0f5ef"/>
+  <rect x="24" y="522" width="1112" height="194" rx="14" fill="#f8f3ea"/>
+
+  <text x="48" y="137" class="tag">03 · 叶</text>
+  <text x="48" y="171" class="layer">具体执行</text>
+  <text x="48" y="207" class="method">笔记法 · 休息原则</text>
+  <text x="48" y="234" class="method">思路存储</text>
+
+  <text x="48" y="343" class="tag">02 · 分支</text>
+  <text x="48" y="377" class="layer">系统架构</text>
+  <text x="48" y="413" class="method">方法论先行 · 快速反馈</text>
+  <text x="48" y="440" class="method">系统一般可用原则 · 拆分法</text>
+
+  <text x="48" y="557" class="tag">01 · 主干</text>
+  <text x="48" y="591" class="layer">核心驱动</text>
+  <text x="48" y="627" class="method">五步法 · 第一性原理</text>
+  <text x="48" y="654" class="method">帕累托原则</text>
+
+  <path class="link" d="M684 572 V494 H519 V426"/>
+  <path class="link" d="M684 572 V494 H849 V426"/>
+  <path class="link" d="M519 354 V278 H404 V232"/>
+  <path class="link" d="M519 354 V278 H564 V232"/>
+  <path class="link" d="M849 354 V278 H769 V232"/>
+  <path class="link" d="M849 354 V278 H929 V232"/>
+
+  <g>
+    <rect x="338" y="156" width="132" height="76" rx="10" fill="#fff" stroke="#91afbf"/>
+    <text x="404" y="187" text-anchor="middle" class="node">任务 A1</text>
+    <text x="404" y="213" text-anchor="middle" class="small">执行 · 检验</text>
+    <rect x="498" y="156" width="132" height="76" rx="10" fill="#fff" stroke="#91afbf"/>
+    <text x="564" y="187" text-anchor="middle" class="node">任务 A2</text>
+    <text x="564" y="213" text-anchor="middle" class="small">执行 · 检验</text>
+    <rect x="703" y="156" width="132" height="76" rx="10" fill="#fff" stroke="#91afbf"/>
+    <text x="769" y="187" text-anchor="middle" class="node">任务 B1</text>
+    <text x="769" y="213" text-anchor="middle" class="small">执行 · 检验</text>
+    <rect x="863" y="156" width="132" height="76" rx="10" fill="#fff" stroke="#91afbf"/>
+    <text x="929" y="187" text-anchor="middle" class="node">任务 B2</text>
+    <text x="929" y="213" text-anchor="middle" class="small">执行 · 检验</text>
+  </g>
+  <g>
+    <rect x="414" y="354" width="210" height="72" rx="10" fill="#fff" stroke="#8ea88d"/>
+    <text x="519" y="383" text-anchor="middle" class="node">分支 A</text>
+    <text x="519" y="409" text-anchor="middle" class="small">阶段目标与推进方法</text>
+    <rect x="744" y="354" width="210" height="72" rx="10" fill="#fff" stroke="#8ea88d"/>
+    <text x="849" y="383" text-anchor="middle" class="node">分支 B</text>
+    <text x="849" y="409" text-anchor="middle" class="small">阶段目标与推进方法</text>
+  </g>
+  <rect x="569" y="572" width="230" height="72" rx="10" fill="#fff" stroke="#b4a07e"/>
+  <text x="684" y="601" text-anchor="middle" class="node">主干 · 项目根本目标</text>
+  <text x="684" y="627" text-anchor="middle" class="small">与长期价值追求相联系</text>
+
+  <path class="return" d="M995 194 H1092 V390 H956"/>
+  <path class="return" d="M1092 390 V608 H801"/>
+  <text x="1048" y="260" text-anchor="middle" class="feedback-label">现实反馈</text>
+  <text x="1020" y="378" text-anchor="middle" class="feedback-label">修正方法</text>
+  <text x="937" y="596" text-anchor="middle" class="feedback-label">必要时重审目标</text>
+
+  <text x="32" y="743" class="small">三层按主要功能划分；核心驱动贯穿全程，拆分也用于具体执行。</text>
+</svg>
