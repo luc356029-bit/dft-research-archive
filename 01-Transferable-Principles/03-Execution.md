@@ -9,26 +9,26 @@
 阅读网课或 LLM 讲解时，以一部分知识为单位，按下面的过程理解和记录：
 
 ```math
-\begin{aligned}
-&\text{知识组块}\\[3pt]
-&\downarrow\\[3pt]
-&\text{输入：刚学过的内容持续占用思维带宽}\\[3pt]
-&\downarrow\\[3pt]
-&\text{是否有“上下文遗忘”或理解吃力的情况？}\\[3pt]
-&\begin{cases}
+\begin{gathered}
+\text{知识组块}\\[3pt]
+\downarrow\\[3pt]
+\text{输入：刚学过的内容持续占用思维带宽}\\[3pt]
+\downarrow\\[3pt]
+\text{是否有“上下文遗忘”或理解吃力的情况？}\\[3pt]
+\begin{cases}
 \text{是：纸笔勾画、圈写、重构，释放缓存、理解内化}\\[3pt]
 \text{否：往下}
 \end{cases}\\[3pt]
-&\downarrow\\[3pt]
-&\text{理解内化的过程中是否有疑问？}\\[3pt]
-&\begin{cases}
+\downarrow\\[3pt]
+\text{理解内化的过程中是否有疑问？}\\[3pt]
+\begin{cases}
 \text{是：返回输入}\\[3pt]
 \text{否：往下}
 \end{cases}\\[3pt]
-&\downarrow\\[3pt]
-&\text{将有价值的信息清晰简洁地记录在电脑上}\\[3pt]
-&\text{（也是理解内化的过程）}
-\end{aligned}
+\downarrow\\[3pt]
+\text{将有价值的信息清晰简洁地记录在电脑上}\\[3pt]
+\text{（也是理解内化的过程）}
+\end{gathered}
 ```
 
 **纸笔辅助即时思考，电子笔记负责长期保存、检索和构建知识库**。纸笔记录不宜过密，以免增加负担；整理成电子笔记也是进一步内化的过程。
